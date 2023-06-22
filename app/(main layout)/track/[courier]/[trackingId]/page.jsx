@@ -2,10 +2,9 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import Form from "@/components/Form";
-import { courierProviders } from "@/Utility/CourierProviders";
+import { courierProviders } from "@/utility/CourierProviders";
 import styles from "../courierresult.module.css";
-import { keywords } from "@/Utility/MetaKeyword";
-import { courierUrls } from "@/Utility/CourierUrls";
+import { keywords } from "@/utility/MetaKeyword";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courier, trackingId } = params;
@@ -20,27 +19,9 @@ export async function generateMetadata({ params, searchParams }) {
       ``
     )} package with ease on trackcourier.co. Get real-time updates on the status of your shipment, delivery date, and estimated arrival time. Our dedicated ${courierName} page is the perfect tool to help you stay informed about your package. Discover the latest updates about your shipment, including any delays or issues that may affect its delivery`,
     keywords: keywords.courierProviderPage.map(
-      (keyword) => {
-        if (courierName.includes("Courier")) {
-          return `${courierName
-            .replace("Courier Tracking", "")
-            .toLowerCase()}${keyword}`;
-        } else {
-          return `${courierName
-            .replace("Tracking", "")
-            .toLowerCase()}${keyword}`;
-        }
-      }
-
-      // courierName.replace("Tracking", "") + keyword
+      (keyword) => courierName.replace("Tracking", "") + keyword
     ),
-    alternates: {
-      canonical: `http:localhost.com/courier/${courier}`,
-      // languages: {
-      //   'en-US': '/en-US',
-      //   'de-DE': '/de-DE',
-      // },
-    },
+    canonical: `http:localhost.com/courier/${courier}`,
   };
 }
 
@@ -91,11 +72,7 @@ const CourierResult = ({ params }) => {
           </div>
           <div className={styles["live-tracking-info"]}>
             <span className={styles["live-tracking"]}>Live Tracking -</span>
-            <Link
-              href={courierUrls[courier]}
-              className={styles["click-here"]}
-              target="blank"
-            >
+            <Link href={"/"} className={styles["click-here"]}>
               Click here
             </Link>
           </div>

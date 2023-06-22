@@ -1,9 +1,9 @@
 import React from "react";
 import Form from "@/components/Form";
 import { redirect } from "next/navigation";
-import { courierProviders } from "@/Utility/CourierProviders";
+import { courierProviders } from "@/utility/CourierProviders";
 import styles from "./courierProvider.module.css";
-import { keywords } from "@/Utility/MetaKeyword";
+import { keywords } from "@/utility/MetaKeyword";
 import Link from "next/link";
 
 export async function generateMetadata({ params, searchParams }) {

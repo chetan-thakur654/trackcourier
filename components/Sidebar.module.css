@@ -19,6 +19,10 @@
   border: none;
 }
 
+.arrow-icon {
+  display: none;
+}
+
 .sidebar h2 {
   /* text-align: center; */
   color: #002244;
@@ -100,9 +104,11 @@
   .sidebar button {
     pointer-events: auto;
     justify-content: flex-start;
+    cursor: pointer;
   }
 
   .arrow-icon {
+    display: block;
     font-weight: 600;
     font-size: 25px;
   }

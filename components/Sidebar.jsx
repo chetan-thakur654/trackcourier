@@ -1,10 +1,9 @@
 "use client";
 import React, { useState, useEffect, lazy, Suspense, useRef } from "react";
-import { FaAngleDown } from "react-icons/fa";
 import { FiChevronRight } from "react-icons/fi";
 import Link from "next/link";
 import styles from "./Sidebar.module.css";
-import { courierProviders } from "@/Utility/CourierProviders";
+import { courierProviders } from "@/utility/CourierProviders";
 // const CourierList = lazy(() => import('./CourierList').then(module => ({ default: module.CourierList })));
 
 const Sidebar = () => {
@@ -15,7 +14,6 @@ const Sidebar = () => {
     Math.ceil(courierProviders.length / chunkSize)
   );
   const [showCourierProviders, setShowCourierProviders] = useState([]);
-
   useEffect(() => {
     const startIndex = chunksLoaded * chunkSize;
     const endIndex = (chunksLoaded + 1) * chunkSize;
@@ -50,31 +48,26 @@ const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
       <button onClick={toggleDropdown}>
-        {window.innerWidth < 768 ? (
-          <FiChevronRight className={styles["arrow-icon"]} />
-        ) : null}
+        {/* {window.innerWidth < 768 ? ( */}
+        <FiChevronRight className={styles["arrow-icon"]} />
+        {/* // ) : null} */}
         Couriers
       </button>
-      <Suspense fallback={<div>Loading...</div>}>
-        <ul
-          ref={ulRef}
-          className={`${styles.sidebar__list} ${
-            isOpen ? styles["sidebar__list__open"] : ""
-          }`}
-        >
-          {showCourierProviders.map((provider, index) => (
-            <li key={index}>
-              <Link href={`/courier/${provider.link}`}>{provider.name}</Link>
-            </li>
-          ))}
-        </ul>
-        {isOpen && (
-          <div
-            className={styles.sidebar__overlay}
-            onClick={toggleDropdown}
-          ></div>
-        )}
-      </Suspense>
+      <ul
+        ref={ulRef}
+        className={`${styles.sidebar__list} ${
+          isOpen ? styles["sidebar__list__open"] : ""
+        }`}
+      >
+        {showCourierProviders.map((provider, index) => (
+          <li key={index}>
+            <Link href={`/courier/${provider.link}`}>{provider.name}</Link>
+          </li>
+        ))}
+      </ul>
+      {isOpen && (
+        <div className={styles.sidebar__overlay} onClick={toggleDropdown}></div>
+      )}
     </aside>
   );
 };

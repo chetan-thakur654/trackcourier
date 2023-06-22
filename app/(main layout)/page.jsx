@@ -1,6 +1,6 @@
 // 'use client';
 import Form from "../../components/Form";
-import { keywords } from "@/Utility/MetaKeyword";
+import { keywords } from "@/utility/MetaKeyword";
 import styles from "../page.module.css";
 import Head from "next/head";
 
