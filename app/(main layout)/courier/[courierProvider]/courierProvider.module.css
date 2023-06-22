@@ -1,0 +1,19 @@
+.hero {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero h1 {
+    color: #002244;
+  
+  }
+  
+  .description {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .description p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
