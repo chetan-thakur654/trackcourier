@@ -40,9 +40,9 @@ const Sidebar = () => {
 
   const toggleDropdown = () => {
     console.log("clicked on  button");
-    if (window.innerWidth < 768) {
+    // if (window.innerWidth < 768) {
       setIsOpen(!isOpen);
-    }
+    // }
   };
 
   return (
