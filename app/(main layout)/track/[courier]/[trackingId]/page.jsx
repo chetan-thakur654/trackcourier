@@ -5,6 +5,7 @@ import Form from "@/components/Form";
 import { courierProviders } from "@/utility/CourierProviders";
 import styles from "../courierresult.module.css";
 import { keywords } from "@/utility/MetaKeyword";
+import { courierUrls } from "@/utility/CourierUrls";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courier, trackingId } = params;
@@ -19,9 +20,11 @@ export async function generateMetadata({ params, searchParams }) {
       ``
     )} package with ease on trackcourier.co. Get real-time updates on the status of your shipment, delivery date, and estimated arrival time. Our dedicated ${courierName} page is the perfect tool to help you stay informed about your package. Discover the latest updates about your shipment, including any delays or issues that may affect its delivery`,
     keywords: keywords.courierProviderPage.map(
-      (keyword) => courierName.replace("Tracking", "") + keyword
+      (keyword) => courierName.replace("Tracking", "").toLowerCase() + keyword
     ),
-    canonical: `http:localhost.com/courier/${courier}`,
+    alternates: {
+      canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/courier/${courier}`,
+    },
   };
 }
 
@@ -72,7 +75,11 @@ const CourierResult = ({ params }) => {
           </div>
           <div className={styles["live-tracking-info"]}>
             <span className={styles["live-tracking"]}>Live Tracking -</span>
-            <Link href={"/"} className={styles["click-here"]}>
+            <Link
+              href={courierUrls[courier]}
+              target="blank"
+              className={styles["click-here"]}
+            >
               Click here
             </Link>
           </div>

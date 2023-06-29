@@ -14,7 +14,7 @@ export const metadata = {
     icon: "/icon.ico",
   },
   alternates: {
-    canonical: `http:localhost.com`,
+    canonical: process.env.NEXT_PUBLIC_BASE_PATH,
     // languages: {
     //   'en-US': '/en-US',
     //   'de-DE': '/de-DE',

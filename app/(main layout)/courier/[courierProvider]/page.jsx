@@ -28,7 +28,7 @@ export async function generateMetadata({ params, searchParams }) {
       }
     }),
     alternates: {
-      canonical: `http:localhost.com/courier/${courierProvider}`,
+      canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/courier/${courierProvider}`,
       // languages: {
       //   'en-US': '/en-US',
       //   'de-DE': '/de-DE',

@@ -3,7 +3,9 @@ import React from "react";
 export const metadata = {
   title: "About Us | TrackCourier.co",
   description: "About Us page of trackcourier.co",
-  cononical: "http:localhost.com/about-us",
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/about-us`,
+  },
 };
 
 const AboutUs = () => {

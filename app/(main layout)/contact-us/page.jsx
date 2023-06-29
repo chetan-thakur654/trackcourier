@@ -5,7 +5,9 @@ import styles from "./contact-us.module.css";
 export const metadata = {
   title: "Contact Us | TrackCourier.co",
   description: "Contace Us page of trackcourier.co",
-  cononical: "http:localhost.com/contact-us",
+  alternates: {
+    canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/contact-us`,
+  },
 };
 
 const ContactUs = () => {
