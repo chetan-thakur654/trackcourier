@@ -1,9 +1,5 @@
 export const courierProviders = [
   {
-    name: "4px ",
-    link: "4px-tracking",
-  },
-  {
     name: "Abf Freight ",
     link: "abf-freight-tracking",
   },
@@ -14,10 +10,6 @@ export const courierProviders = [
   {
     name: "Ace Courier ",
     link: "ace-courier-tracking",
-  },
-  {
-    name: "Afl Courier ",
-    link: "afl-courier-tracking",
   },
   {
     name: "Airpak Express ",
@@ -78,10 +70,6 @@ export const courierProviders = [
   {
     name: "Better Trucks ",
     link: "better-trucks-tracking",
-  },
-  {
-    name: "Blazeflash Courier ",
-    link: "blazeflash-courier-tracking",
   },
   {
     name: "Blue Dart Courier ",
@@ -492,10 +480,6 @@ export const courierProviders = [
     link: "pafex-courier-tracking",
   },
   {
-    name: "Palande Courier ",
-    link: "palande-courier-tracking",
-  },
-  {
     name: "Pcs Express Courier ",
     link: "pcs-express-courier-tracking",
   },
@@ -534,10 +518,6 @@ export const courierProviders = [
   {
     name: "Poste Italiane ",
     link: "poste-italiane-tracking",
-  },
-  {
-    name: "Procure Logistics ",
-    link: "procure-logistics-tracking",
   },
   {
     name: "Professional Courier ",

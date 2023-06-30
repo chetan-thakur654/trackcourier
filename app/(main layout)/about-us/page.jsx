@@ -4,7 +4,7 @@ export const metadata = {
   title: "About Us | TrackCourier.co",
   description: "About Us page of trackcourier.co",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/about-us`,
+    canonical: `https://trackcourier.co//about-us`,
   },
 };
 

@@ -1,12 +1,12 @@
 import React from "react";
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
-import styles from "./contact-us.module.css";
+import styles from "@/style/contact-us.module.css";
 
 export const metadata = {
   title: "Contact Us | TrackCourier.co",
   description: "Contace Us page of trackcourier.co",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/contact-us`,
+    canonical: `https://trackcourier.co//contact-us`,
   },
 };
 
@@ -23,20 +23,6 @@ const ContactUs = () => {
         </div>
         <div className="contact-us-page__content">
           <div className="contact-us-page__info">
-            <div className="contact-us-page__info-box">
-              <FaMapMarkerAlt />
-              <h3>Location</h3>
-              <p>
-                1234 Main Street
-                <br />
-                Anytown, USA 12345
-              </p>
-            </div>
-            <div className="contact-us-page__info-box">
-              <FaPhoneAlt />
-              <h3>Phone</h3>
-              <p>(123) 456-7890</p>
-            </div>
             <div className="contact-us-page__info-box">
               <FaEnvelope />
               <h3>Email</h3>

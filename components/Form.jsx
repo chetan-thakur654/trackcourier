@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { courierProviders } from "@/utility/CourierProviders";
 import { FaTruck, FaMapMarkerAlt } from "react-icons/fa";
-import styles from "./Form.module.css";
+import styles from "@/style/Form.module.css";
 
 const Form = ({
   showSelect,
@@ -26,7 +26,7 @@ const Form = ({
         <input
           type="text"
           name="trackingId"
-          placeholder={placeholderText || "Enter Tracking Number"}
+          placeholder={placeholderText || "Enter Tracking ID"}
           value={trackingId}
           onChange={(e) => setTrackingId(e.target.value)}
           required

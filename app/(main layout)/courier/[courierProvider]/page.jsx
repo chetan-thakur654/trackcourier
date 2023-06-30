@@ -2,7 +2,7 @@ import React from "react";
 import Form from "@/components/Form";
 import { redirect } from "next/navigation";
 import { courierProviders } from "@/utility/CourierProviders";
-import styles from "./courierProvider.module.css";
+import styles from "@/style/courierProvider.module.css";
 import { keywords } from "@/utility/MetaKeyword";
 import Link from "next/link";
 
@@ -70,7 +70,7 @@ const CourierProvider = ({ params }) => {
         placeholderText={`Enter ${courierName.replace(
           "Tracking",
           ""
-        )}Tracking Number`}
+        )}Tracking ID`}
       />
       <div className={styles.description}>
         <p>

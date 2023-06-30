@@ -5,9 +5,10 @@ import {
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
-import Navbar from "../../components/Navbar";
-import styles from "./layout.module.css";
-import Sidebar from "../../components/Sidebar";
+import Navbar from "@/components/Navbar";
+import styles from "@/style/layout.module.css";
+import Sidebar from "@/components/Sidebar";
+import Link from "next/link";
 
 const PrimaryLayout = ({ children }) => {
   return (
@@ -28,24 +29,28 @@ const PrimaryLayout = ({ children }) => {
             <div className={styles["col-md-6"]}>
               <ul className={styles["social-media"]}>
                 <li>
-                  <a href="#">
+                  <Link
+                    href="https://www.facebook.com/profile.php?id=100093927715098"
+                    target="blank"
+                  >
                     <FaFacebookF />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link
+                    href="https://www.instagram.com/trackcourier.co/"
+                    target="blank"
+                  >
                     <FaInstagram />
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link
+                    href="https://twitter.com/trackcourier_co"
+                    target="blank"
+                  >
                     <FaTwitter />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <FaLinkedinIn />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

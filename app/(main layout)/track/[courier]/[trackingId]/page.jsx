@@ -3,7 +3,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import Form from "@/components/Form";
 import { courierProviders } from "@/utility/CourierProviders";
-import styles from "../courierresult.module.css";
+import styles from "@/style/courierresult.module.css";
 import { keywords } from "@/utility/MetaKeyword";
 import { courierUrls } from "@/utility/CourierUrls";
 

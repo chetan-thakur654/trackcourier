@@ -4,7 +4,7 @@ export const metadata = {
   title: "Privacy Policy | TrackCourier.co",
   description: "Privacy policy page of trackcourier.co",
   alternates: {
-    canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/privacy-policy`,
+    canonical: `https://trackcourier.co//privacy-policy`,
   },
 };
 

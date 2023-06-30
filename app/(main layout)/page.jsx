@@ -1,7 +1,7 @@
 // 'use client';
-import Form from "../../components/Form";
+import Form from "@/components/Form";
 import { keywords } from "@/utility/MetaKeyword";
-import styles from "../page.module.css";
+import styles from "@/style/page.module.css";
 import Head from "next/head";
 
 export const metadata = {
@@ -14,7 +14,7 @@ export const metadata = {
     icon: "/icon.ico",
   },
   alternates: {
-    canonical: process.env.NEXT_PUBLIC_BASE_PATH,
+    canonical: "https://trackcourier.co/",
     // languages: {
     //   'en-US': '/en-US',
     //   'de-DE': '/de-DE',
