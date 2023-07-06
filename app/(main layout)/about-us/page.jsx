@@ -15,7 +15,7 @@ const AboutUs = () => {
         <h1>About TrackCourier.co</h1>
         <p>
           Welcome to TrackCourier.co – Your one-stop solution for tracking
-          couriers from over 200 courier providers.
+          couriers from over 500 courier providers.
         </p>
         <p>
           At TrackCourier.co, we understand that tracking your courier can be a

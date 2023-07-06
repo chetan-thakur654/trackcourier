@@ -9,7 +9,7 @@ import { courierProviders } from "@/utility/CourierProviders";
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [chunksLoaded, setChunksLoaded] = useState(0);
-  const [chunkSize, setChunkSize] = useState(40);
+  const [chunkSize, setChunkSize] = useState(20);
   const [totalChunks, setTotalChunks] = useState(
     Math.ceil(courierProviders.length / chunkSize)
   );

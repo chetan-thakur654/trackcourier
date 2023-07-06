@@ -33,6 +33,9 @@ const Navbar = () => {
           <Link href="/privacy-policy">Privacy Policy</Link>
         </li>
       </ul>
+      {showMenu && (
+        <div className={styles["navbar-overlay"]} onClick={toggleMenu}></div>
+      )}
     </nav>
   );
 };

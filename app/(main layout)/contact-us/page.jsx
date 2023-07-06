@@ -6,7 +6,7 @@ export const metadata = {
   title: "Contact Us | TrackCourier.co",
   description: "Contace Us page of trackcourier.co",
   alternates: {
-    canonical: `https://trackcourier.co//contact-us`,
+    canonical: `https://trackcourier.co/contact-us`,
   },
 };
 
