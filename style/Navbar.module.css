@@ -1,47 +1,24 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: #002244;
+
   padding: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 1;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-logo a {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bold;
   text-decoration: none;
 }
 
 .navbar-logo a:hover {
   color: #cccccc;
-}
-
-.navbar-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-item {
-  margin-left: 1rem;
-}
-
-.navbar-item a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.navbar-item a:hover {
-  color: #cccccc;
-  /* text-decoration: underline; */
 }
 
 .navbar-toggle {
@@ -71,40 +48,70 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-left: 1rem;
+}
+
+.navbar-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar-item a:hover {
+  color: #cccccc;
+}
+
 @media screen and (max-width: 768px) {
-  .navbar-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #002244;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    transition: all 1s ease-in-out;
+  .navbar {
+    padding: 0.5rem;
   }
 
-  .navbar-menu.active {
-    display: flex;
-  }
-  .navbar-overlay {
+  .navbar-menu {
     position: fixed;
-    background-color: black;
-    opacity: 0.4;
-    top: 32.5%;
-    bottom: 0;
-    left: 0;
+    top: 43px;
     right: 0;
-    z-index: 0;
+    width: 200px;
+    /* left: 0; */
+    bottom: 0;
+    background-color: #002244;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: translatex(140%);
+    transition: transform 0.3s ease-in-out;
+    /* z-index: -1; */
   }
+
+  .navbar.active .navbar-menu {
+    transform: translatex(0);
+    z-index: 100;
+    transition: transform 0.3s ease-in-out;
+  }
+
   .navbar-item {
-    margin-left: 1rem;
-    margin-top: 1rem;
-    padding: 0.5rem;
-    border-left: 1px solid #ffffff;
+    margin-left: 0;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
   }
 
   .navbar-toggle {
     display: block;
+  }
+  .navbar-overlay {
+    position: fixed;
+    top: 43px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 98;
   }
 }

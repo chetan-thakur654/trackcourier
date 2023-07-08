@@ -1,6 +1,5 @@
 .sidebar {
-  /* width: 15%; */
-  flex-basis: 15%;
+  /* background-color: #fff; */
   border-right: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
 }
@@ -34,7 +33,7 @@
   padding: 0;
   margin: 0px;
   overflow-y: auto;
-  max-height: calc(100vh - 140px);
+  max-height: 82vh;
 }
 
 /* Set the width and height of the scrollbar */
@@ -93,18 +92,17 @@
     flex-direction: column;
   }
 
-  .sidebar {
-    width: 100%;
-    order: -1;
-    margin-right: 0;
-    margin-bottom: 1rem;
-    /* border: 2px solid red; */
-  }
-
   .sidebar button {
     pointer-events: auto;
     justify-content: flex-start;
+    background: #fff;
     cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 43px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #e1e1e1;
   }
 
   .arrow-icon {
@@ -114,30 +112,17 @@
   }
 
   .sidebar__list {
-    position: fixed;
+    /* position: fixed; */
     top: 129px;
     bottom: 0;
     left: -100%;
-    width: 45%;
+    /* width: 45%; */
     padding: 0;
     margin: 0;
     list-style: none;
     background-color: #fff;
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
     transition: left 0.3s ease-out;
-  }
-
-  .sidebar__list__open {
-    left: 0;
-  }
-
-  .sidebar__overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 45%;
-    right: 0;
-    z-index: 0;
   }
 
   .sidebar li {

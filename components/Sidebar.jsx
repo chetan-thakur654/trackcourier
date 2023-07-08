@@ -6,8 +6,7 @@ import styles from "@/style/Sidebar.module.css";
 import { courierProviders } from "@/utility/CourierProviders";
 // const CourierList = lazy(() => import('./CourierList').then(module => ({ default: module.CourierList })));
 
-const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const Sidebar = ({ isOpen, toggleDropdown }) => {
   const [chunksLoaded, setChunksLoaded] = useState(0);
   const [chunkSize, setChunkSize] = useState(20);
   const [totalChunks, setTotalChunks] = useState(
@@ -38,37 +37,22 @@ const Sidebar = () => {
     return () => ulRef.current.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const toggleDropdown = () => {
-    console.log("clicked on  button");
-    // if (window.innerWidth < 768) {
-    setIsOpen(!isOpen);
-    // }
-  };
-
   return (
-    <aside className={styles.sidebar}>
+    <div className={styles.sidebar}>
       <button onClick={toggleDropdown}>
         {/* {window.innerWidth < 768 ? ( */}
         <FiChevronRight className={styles["arrow-icon"]} />
         {/* // ) : null} */}
         Couriers
       </button>
-      <ul
-        ref={ulRef}
-        className={`${styles.sidebar__list} ${
-          isOpen ? styles["sidebar__list__open"] : ""
-        }`}
-      >
+      <ul ref={ulRef} className={`${styles.sidebar__list}`}>
         {showCourierProviders.map((provider, index) => (
           <li key={index}>
             <Link href={`/courier/${provider.link}`}>{provider.name}</Link>
           </li>
         ))}
       </ul>
-      {isOpen && (
-        <div className={styles.sidebar__overlay} onClick={toggleDropdown}></div>
-      )}
-    </aside>
+    </div>
   );
 };
 
