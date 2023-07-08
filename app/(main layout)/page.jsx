@@ -5,7 +5,7 @@ import styles from "@/style/page.module.css";
 import Head from "next/head";
 
 export const metadata = {
-  title: "TrackCourier.co",
+  title: "TrackCourier.co | Courier Tracking",
   description:
     "Track your courier with ease on our website. We support over 500 courier providers including FedEx, DHL, USPS, Delhivery, and Blue Dart. Simply enter your tracking number and courier provider to get real-time updates on the delivery status. Our streamlined tracking process ensures you stay informed every step of the way.",
   keywords: keywords.homepage,
