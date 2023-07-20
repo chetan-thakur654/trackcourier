@@ -108,11 +108,11 @@
   .sidebar-container {
     margin-top: 88px;
     width: 0;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.1s ease-in-out;
   }
   .sidebar-container-open {
     width: 200px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
   }
 
   .sidebar__overlay {
