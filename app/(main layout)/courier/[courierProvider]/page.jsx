@@ -17,7 +17,11 @@ export async function generateMetadata({ params, searchParams }) {
     description: `Track your ${courierName.replace(
       " Tracking",
       ``
-    )} package with ease on trackcourier.co. Get real-time updates on the status of your shipment, delivery date, and estimated arrival time. Our dedicated ${courierName} page is the perfect tool to help you stay informed about your package. Discover the latest updates about your shipment, including any delays or issues that may affect its delivery`,
+    )} package with ease on trackcourier.co. Just enter your ${courierName
+      .replace(" Tracking", ``)
+      .toLowerCase()} tracking number and get real-time updates of ${courierName
+      .replace(" Tracking", ``)
+      .toLowerCase()} shipment, delivery date, and estimated arrival time. Our dedicated ${courierName.toLowerCase()} page is the perfect tool to help you stay informed about your package. Discover the latest updates about your shipment, including any delays or issues that may affect its delivery`,
     keywords: keywords.courierProviderPage.map((keyword) => {
       if (courierName.includes("Courier")) {
         return `${courierName

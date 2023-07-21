@@ -7,7 +7,7 @@ import Head from "next/head";
 export const metadata = {
   title: "TrackCourier.co | Courier Tracking",
   description:
-    "Track your courier with ease on our website. We support over 500 courier providers including FedEx, DHL, USPS, Delhivery, and Blue Dart. Simply enter your tracking number and courier provider to get real-time updates on the delivery status. Our streamlined tracking process ensures you stay informed every step of the way.",
+    "Track your Fedex, DHL, USPS and 500+ couriers with ease using trackcourier.co's online courier tracking system. Enter your tracking id, select your courier provider and get real time delivery status, real time updates, and tracking information all in one place. We support package tracking, courier tracking, shipment tracking, cargo tracking and parcel tracking for various courier providers. Use our tracking tool for hassle-free courier tracking",
   keywords: keywords.homepage,
 
   icons: {
@@ -27,7 +27,7 @@ const Homepage = () => {
     <>
       <div className={styles.hero}>
         <h1>
-          500+ Couriers, One Tracker: The Fastest Way to Track Your Packages
+          500+ Couriers, One Tracker: The Fastest Way to Track Your Courier
           Online
         </h1>
       </div>
@@ -35,12 +35,26 @@ const Homepage = () => {
       <Form showSelect={true} />
       <div className={styles.description}>
         <p>
-          "Track your 'FedEx', 'DHL','USPS' and 500+ shipments with ease using
-          TrackCourier.co's online tracking system. We support package tracking,
-          shipment tracking, and parcel tracking for various courier providers.
-          Get delivery status, courier real-time updates, and tracking
-          information all in one place. Use our tracking tool for hassle-free
-          courier tracking."
+          "Welcome to TrackCourier.co - Your One-Stop Destination for Seamless
+          Courier Tracking!
+        </p>
+        <p>
+          At TrackCourier.co, we offer a comprehensive online courier tracking
+          system that allows you to effortlessly track your FedEx, DHL, USPS,
+          and over 500 other couriers. With our user-friendly platform, you can
+          access real-time updates, delivery status, and tracking information
+          all in one convenient place.
+        </p>
+        <p>
+          Whether you're waiting for an important package or managing multiple
+          shipments, our tracking tool provides hassle-free courier tracking at
+          your fingertips. Stay informed, stay connected, and never miss a
+          delivery again. Join thousands of satisfied users who rely on
+          TrackCourier.co for reliable package tracking.
+        </p>
+        <p>
+          Let us simplify your shipping experience and make tracking your
+          parcels a breeze."
         </p>
       </div>
     </>
