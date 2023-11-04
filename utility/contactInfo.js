@@ -824,4 +824,132 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "4px-courier-tracking",
+    contact_info: [
+      {
+        city: "Shenzhen City",
+        contact_no: ["86-755-23508000"],
+        email: "",
+        address:
+          "201-221, Domestic Air Cargo Terminal, Airport Fourth Road, Bao'an District, Shenzhen City, Guangdong Province, China - 518128",
+      },
+      {
+        city: "Preston",
+        contact_no: ["+61 3 9416 8777"],
+        email: "",
+        address: "84-88 Chifley Drive, Preston, Victoria, Australia - 3072",
+      },
+      {
+        city: "Regents Park",
+        contact_no: ["+61（02）9644 1851", "+61（02）9743 7098"],
+        email: "",
+        address: "G2/391 Park Rd, Regents Park, NSW, Australia - 2143",
+      },
+    ],
+  },
+  {
+    name: "abf-freight-tracking",
+    contact_info: [
+      {
+        city: "Fort Smith",
+        contact_no: ["(800) 610-5544", "(479) 785-8701"],
+        email: "customersolutions@arcb.com",
+        address:
+          "ABF Freight System, P.O. Box 10048, Fort Smith, Arkansas, United States - 72917",
+      },
+    ],
+  },
+  {
+    name: "accurate-freight-carrier-tracking",
+    contact_info: [
+      {
+        city: "Bawal",
+        contact_no: ["+ 91 9414333077"],
+        email: "delhi@accuratefreight.in",
+        address:
+          "Village Jaliawas Bawal Rewari Road, Near PNB Bank, Bawal, Haryana, India - 123501",
+      },
+      {
+        city: "Bhiwadi",
+        contact_no: ["+91 1493 221777", "+91 1493 220129", "+91 9351228547"],
+        email: "bhiwadi@accuratefreight.in",
+        address:
+          "H-44, RIICO Indl Area, Phase-1, Near Nagina Shoe Factory, Bhiwadi, Rajasthan, India",
+      },
+      {
+        city: "Faridabad",
+        contact_no: ["+91 129 4021819", "+91 9911742688", "+91 9911742688"],
+        email: "faridabad@accuratefreight.in",
+        address:
+          "D-420, Sector-15A, Ajronda, Faridabad, Haryana, Faridabad, Haryana, India - 121001",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: ["+91 120 4541819", "+91 9650290233"],
+        email: "ghaziabad@accuratefreight.in",
+        address:
+          "20/1, Patel Marg, BONZA BEHIND PELICON HOTAL, Ghaziabad, Uttar Pradesh, India - 201001",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: ["+91 123 6511819", "+91 9891711819"],
+        email: "delhi@accuratefreight.in",
+        address:
+          "N.H. 8, Hero Honda Chowk, Near Rose Land Public School, Opposite Hyundai Showroom, Gurgaon, Haryana, India - 122001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["+91 141 4031919", "+91 8741861819"],
+        email: "jaipur@accuratefreight.in",
+        address:
+          "Road No. 1, Near electric power house, Jaipur, Rajasthan, India - 302013",
+      },
+      {
+        city: "Neemrana",
+        contact_no: ["+91 9887589122", "+91 9314627327", "+91 7737005927"],
+        email: "neemrana@accuratefreight.in",
+        address:
+          "EPIP Industrial Area, Bichpuri Road, Neemrana, Rajasthan, India - 301705",
+      },
+      {
+        city: "New Delhi",
+        contact_no: [
+          "+91 11 23218586",
+          "+91 11 23231819",
+          "+91 9350204755",
+          "+91 9350116437",
+        ],
+        email: "delhi@accuratefreight.in",
+        address:
+          "Shop No: 205, Kamla Market, Ajmeri Gate, New Delhi, Delhi, India - 110002",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 25459407", "+91 9312323647", "+91 9540412627"],
+        email: "delhi@accuratefreight.in",
+        address:
+          "76, Chara Mandi, Near Malik Dharam Kanta, Zakhira, New Delhi, Delhi, India - 110015",
+      },
+      {
+        city: "Noida",
+        contact_no: ["+91 120 4970300", "+91 9911521819"],
+        email: "delhi@accuratefreight.in",
+        address:
+          "Plot No. C-114, Sector-10, Noida, Uttar Pradesh, India - 201301",
+      },
+    ],
+  },
+  {
+    name: "airpak-express-courier-tracking",
+    contact_info: [
+      {
+        city: "Petaling Jaya",
+        contact_no: ["+60 3 7861 2323"],
+        email: "info@airpak-express.com",
+        address:
+          "Lot 5,Jalan 243, Section 51A, Petaling Jaya, Selangor, Malaysia - 46100",
+      },
+    ],
+  },
 ];
