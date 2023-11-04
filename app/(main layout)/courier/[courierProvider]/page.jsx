@@ -4,6 +4,7 @@ import { redirect } from "next/navigation";
 import { courierProviders } from "@/utility/CourierProviders";
 import styles from "@/style/courierProvider.module.css";
 import { keywords } from "@/utility/MetaKeyword";
+import { couriers } from "@/utility/contactInfo";
 import Link from "next/link";
 
 export async function generateMetadata({ params, searchParams }) {
@@ -62,6 +63,11 @@ const CourierProvider = ({ params }) => {
     return null; // Return null to prevent rendering the component
   }
 
+  //get the Contact information about a particular courier provider
+  const contactInfo = couriers.find(
+    (courier) => courier.name === courierProvider
+  );
+
   return (
     <div>
       <div className={styles.hero}>
@@ -76,7 +82,7 @@ const CourierProvider = ({ params }) => {
           ""
         )}Tracking ID`}
       />
-      <div className={styles.description}>
+      <div className={`${styles.description} ${styles.section}`}>
         <p>
           Track your <strong>{courierName.replace("Tracking", "")}</strong>{" "}
           packages, shipments, parcels, courier and consignments with ease using{" "}
@@ -88,6 +94,69 @@ const CourierProvider = ({ params }) => {
           valuable shipments again.
         </p>
       </div>
+      {contactInfo && (
+        <div className={styles.section}>
+          <h2 title={`${courierName.replace("Tracking", "")}Contact Detail`}>
+            {courierName.replace("Tracking", "")} Customer Care Information
+          </h2>
+          <p>
+            Discover {courierName.replace("Tracking", "")}'s customer care
+            information for different cities, featuring essential information
+            such as {courierName.replace("Tracking", "")} contact numbers, email
+            addresses, and office locations.
+          </p>
+          <div className={styles.table}>
+            <table>
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>Contact Numbers</th>
+                  <th>Emails</th>
+                  <th>Address</th>
+                </tr>
+              </thead>
+              <tbody>
+                {contactInfo.contact_info.map((courier) => (
+                  <tr>
+                    <td>{courier.city}</td>
+                    <td>
+                      {courier.contact_no.map((contact) => (
+                        <Link
+                          title={`${courierName.replace(
+                            "Tracking",
+                            ""
+                          )}Customer Care Number ${courier.city}`}
+                          href={`tel:${contact}`}
+                        >
+                          {contact}
+                        </Link>
+                      ))}
+                    </td>
+                    <td>
+                      <Link
+                        title={`${courierName.replace(
+                          "Tracking",
+                          ""
+                        )} Email Address ${courier.city}`}
+                        href={`mailto:${courier.email}`}
+                      >
+                        {courier.email}
+                      </Link>
+                    </td>
+                    <td>{courier.address}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
+      {/* <div className={styles.section}>
+        <h2>About Fedex</h2>
+      </div>
+      <div className={styles.section}>
+        <h2>Frequently Asked Questions</h2>
+      </div> */}
     </div>
   );
 };
