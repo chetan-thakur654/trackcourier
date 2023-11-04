@@ -1,19 +1,19 @@
 .hero {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .hero h1 {
   color: #002244;
-
+  margin-top: 30px;
 }
 
 .description {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .description p {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.8;
 }
