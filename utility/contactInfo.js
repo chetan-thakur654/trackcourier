@@ -952,4 +952,1181 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "aramex-australia-courier-tracking",
+    contact_info: [
+      {
+        city: "Sydney",
+        contact_no: ["1300 3278 929"],
+        email: "",
+        address: "56A Anzac St, Chullora, Sydney, NSW, Australia - 2190",
+      },
+      {
+        city: "Melbourne",
+        contact_no: ["03 9320 8100"],
+        email: "",
+        address:
+          "2/62 Salmon St, Port Melbourne Industrial Estate, Melbourne, VIC, Australia - 3207",
+      },
+    ],
+  },
+  {
+    name: "aramex-courier-tracking",
+    contact_info: [
+      {
+        city: "Abu Dhabi",
+        contact_no: ["+971 (2) 5551911"],
+        email: "UAECare@Aramex.Com",
+        address:
+          "Mussafah Industrial Area, M-2, Sanaiya Near Lifeline Hospital, Abu Dhabi, UAE",
+      },
+      {
+        city: "New York City",
+        contact_no: ["+1 (718) 5538740"],
+        email: "",
+        address:
+          "182-21 150th avenue. Springfield Gardens, New York City, New York, United States",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 (22) 39419900"],
+        email: "",
+        address:
+          "821, Solitaire Corporate Park, Andheri /Ghatkopar Link Road, (Near Hotel Mirador), Chakala, Andheri (East), Mumbai, Maharashtra, India - 400093",
+      },
+      {
+        city: "Singapore",
+        contact_no: ["+65 (65) 430300"],
+        email: "SINExpress@Aramex.Com",
+        address:
+          "Aramex International Logistics Pte Ltd, 3 Changi South Street 1, #01-01, Santa United International Building, Singapore, Singapore - 486795",
+      },
+    ],
+  },
+  {
+    name: "arc-carrier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 79 25321567"],
+        email: "ahmd@arclimited.com",
+        address:
+          "Radhe Kishan Villa Complex, III Floor, B-304, Near Jaimala Bus Stand, Isanpur, Ahmedabad, Gujarat, India - 382443",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["+91 80 22224337", "+91 80 22226911", "+91 80 22276119"],
+        email: "bng@arclimited.com",
+        address:
+          "S.J. Towers, 1st Floor, 30/1, Mission Road, Post Box No. 2749, Bengaluru, Karnataka, India - 560027",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 40 30607762", "+91 40 23387762", "+91 44 23387861"],
+        email: "hyd@arclimited.com",
+        address:
+          "Brindavan Commercial Complex, 201, II Floor, 5-9-191, Chirag Ali Lane, Abids, Hyderabad, Telangana, India - 500001",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 33 22111545", "+91 22 40161500", "+91 33 22119185"],
+        email: "cal@arclimited.com",
+        address:
+          "4th Floor, 27, Weston Street, Kolkata, West Bengal, India - 700012",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 61233000", "+91 22 61233060", "+91 22 61233005"],
+        email: "bby@arclimited.com",
+        address:
+          "D - 901/902, Lotus Corp. Park, Western Express Highway, Nr. Jay Coach Signal / Flyover, Goregaon East, Mumbai, Maharashtra, India - 400063",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 43590000", "+91 11 43590001", "+91 11 43590099"],
+        email: "dlh@arclimited.com",
+        address:
+          "1202-A-1203, Plot No. A1, Mega Shopping D Mall, Netaji Subhas Place, Pitampura, New Delhi, Delhi, India - 110034",
+      },
+      {
+        city: "Secunderabad",
+        contact_no: ["+91 40 27845400", "+91 40 32125400"],
+        email: "sbd@arclimited.com",
+        address:
+          "Surya Towers, 3rd Floor, 105, Sardar Patel Road, Secunderabad, Telangana, India - 500003",
+      },
+    ],
+  },
+  {
+    name: "asendia-usa-courier-tracking",
+    contact_info: [
+      {
+        city: "Bern",
+        contact_no: ["0080088877700", "+41586676220"],
+        email: "info.com@asendia.com",
+        address: "Wankdorfallee 4, Bern, Switzerland - 3030",
+      },
+      {
+        city: "Paris",
+        contact_no: [],
+        email: "",
+        address: "9 Rue Du Colonel Pierre Avia, Paris, France - 75015",
+      },
+    ],
+  },
+  {
+    name: "australia-express-post-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+61 3 8847 9045"],
+        email: "",
+        address: "Australia",
+      },
+    ],
+  },
+  {
+    name: "better-trucks-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+7732178810"],
+        email: "info@bettertrucks.com",
+        address:
+          "2478 Wisconsin Ave., Downers Grove, Illinois, United States - 60515",
+      },
+    ],
+  },
+  {
+    name: "brazil-correios-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+55 3003-0100"],
+        email: "",
+        address: "Brazil",
+      },
+    ],
+  },
+  {
+    name: "blue-dart-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["1860 233 1234", "+91 79 6586195"],
+        email: "customerservice@bluedart.com",
+        address:
+          "Shalimar Co-Op Hsg Soc, Near Embassy Market, Off Ashram Road, Ahmedabad, Gujarat, India - 380008",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["1860 233 1234", "+91 80 25229856"],
+        email: "customerservice@bluedart.com",
+        address:
+          "Ground Floor, Connection Point, Airport Exit Road, Bengaluru, Maharashtra, India - 569999",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["1860 233 1234", "+91 33 22881894"],
+        email: "customerservice@bluedart.com",
+        address:
+          "Kanak Building, 3rd Floor, Jawaharlal Nehru Road, (Old Chowringhee Road), Kolkata, West Bengal, India - 700071",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["1860 233 1234", "+91 44 28252280"],
+        email: "customerservice@bluedart.com",
+        address:
+          "11(Old No.38), State of Quo Building, Sterling Road, Nungambakkam, Chennai, Tamil Nadu, India - 600034",
+      },
+      {
+        city: "Coimbatore",
+        contact_no: [
+          "1860 233 1234",
+          "+91 422 2243383",
+          "+91 422 2248071",
+          "+91 422 2246832",
+          "+91 422 2243647",
+        ],
+        email: "customerservice@bluedart.com",
+        address:
+          "Paga Towers, 8/128 TO 132, Kattoor Street, P.N.Palayam, Coimbatore, Tamil Nadu, India - 641037",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["1860 233 1234", "+91 11 40575281"],
+        email: "customerservice@bluedart.com",
+        address:
+          "Plot 8, 4th Floor, Elegance Tower, Non-Hierarchical Commercial Centre, Jasola District Centre, New Delhi, Delhi, India - 110076",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["1860 233 1234", "+91 40 66323030"],
+        email: "customerservice@bluedart.com",
+        address:
+          "H.NO.1-8-450/1/a/159 and 160, 1st Floor, Victoria Castle, Prakash Nagar, Begumpet, Hyderabad, Andhra Pradesh, India - 500016",
+      },
+      {
+        city: "Mumbai",
+        contact_no: [
+          "1860 233 1234",
+          "+91 22 28396444",
+          "+91 22 28244098",
+          "+91 22 28244131",
+        ],
+        email: "customerservice@bluedart.com",
+        address:
+          "Blue Dart Centre, Sahar Airport Road, Andheri East, Mumbai, Maharashtra, India - 400099",
+      },
+    ],
+  },
+  {
+    name: "canada-post-tracking",
+    contact_info: [
+      {
+        city: "Ottawa",
+        contact_no: ["1-866-607-6301"],
+        email: "",
+        address:
+          "Canada Post Customer Service, Po Box 90022, 2701 Riverside Drive, Ottawa, Ontario, Canada - K1V 1J8",
+      },
+      {
+        city: "",
+        contact_no: ["416-979-3033"],
+        email: "",
+        address: "United States",
+      },
+    ],
+  },
+  {
+    name: "city-link-express-courier-tracking",
+    contact_info: [
+      {
+        city: "Shah Alam",
+        contact_no: [
+          "+60 603 5565 8399",
+          "1300-88-2489",
+          "+603-5033 3800",
+          "+603-5565 9999",
+        ],
+        email: "customerservice@citylinkexpress.com.my",
+        address:
+          "City-Link Express (M) Sdn Bhd (64844-A) No.3A, Jalan Akitek U1/22,Seksyen U1, Hicom Glenmarie Industrial Park, Shah Alam, Selangor, UAE - 40150",
+      },
+      {
+        city: "Singapore",
+        contact_no: ["+65-63443377"],
+        email: "",
+        address:
+          "1004 Toa Payoh North#02-08/09/10, Singapore, Singapore, Singapore - 318995",
+      },
+      {
+        city: "Jakarta Barat",
+        contact_no: [
+          "+6221-29518521",
+          "+6221-29518523",
+          "+6221-29518526",
+          "+6221-29518529",
+          "+6221-29518531",
+        ],
+        email: "",
+        address:
+          "Rukan City Garden Boulevard Blok F10 & F11, Jalan Raya Kamal Tengah Cengkareng, Jakarta Barat, Jakarta Barat, Indonesia - 11730",
+      },
+    ],
+  },
+  {
+    name: "cma-cgm-courier-tracking",
+    contact_info: [
+      {
+        city: "NSW",
+        contact_no: ["+ 61 2 9325 7320", "+ 61 2 9325 7329"],
+        email: "mbe.exports@cma-cgm.com",
+        address:
+          "Jones Bay Wharf, Suite 134, Upper Ground 26 - 32 Pirrama Road, NSW, Sydney, Australia - 2009",
+      },
+      {
+        city: "Miami",
+        contact_no: ["1 3053983600", "1 3053983638"],
+        email: "Regional.Office.Miami@cma-cgm.com",
+        address:
+          "One Biscayne Tower 2 South Biscayne Blvd. Suite 1400, Miami, Florida, United States - 33131",
+      },
+      {
+        city: "Dubai",
+        contact_no: ["+971 4 3138300", "+971 4 3596412"],
+        email: "",
+        address:
+          "Rais Hassan Saadi Building, Mankhool Road, 3rd Floor, Dubai, UAE - 33131",
+      },
+      {
+        city: "Montreal",
+        contact_no: ["1-800-784-1457", "1-514-908-7001", "1-514-908-7142"],
+        email: "cda.genmbox@usa.cma-cgm.com",
+        address:
+          "740 Notre-Dame Street West, Suite 1330, Montreal, Quebec, Canada - H3C 3X6",
+      },
+    ],
+  },
+  {
+    name: "con-way-freight-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["800 426 6929"],
+        email: "customercaregroup@con-way.com",
+        address: "United States",
+      },
+    ],
+  },
+  {
+    name: "cj-packet-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+86 13867150135"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "delhivery-courier-tracking",
+    contact_info: [
+      {
+        city: "Bangalore",
+        contact_no: ["+91 8046522916"],
+        email: "customer.support@delhivery.com",
+        address:
+          "104, Infantry Techno Park, Third Floor, Infantry Road, Shivaji Nagar, Bangalore, Karnataka, India - 560001",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["+91 8041160012"],
+        email: "customer.support@delhivery.com",
+        address:
+          "No.83, Prestige Copper Arch, Ground Floor, Unit No.17, Behind Safina Plaza, Infantry Road, Bangalore, Karnataka, India - 560001",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 44 45574261", "+91 9003186669"],
+        email: "customer.support@delhivery.com",
+        address:
+          "Door No 449, MKN Road, Near Police Quarters, Alandur-St Thomas Mount, Chennai, Tamil Nadu, India - 600016",
+      },
+      {
+        city: "Coimbatore",
+        contact_no: ["+91 422 4212336"],
+        email: "customer.support@delhivery.com",
+        address:
+          "No 15 A, Stv Nagar, 2nd Cross, East Nava India, Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu, India - 641004",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: ["+91 124 4718900"],
+        email: "customer.support@delhivery.com",
+        address:
+          "1st Floor, Plot 82, Sector 44, Gurgaon, Haryana, India - 122002",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: ["+91 124 6719500"],
+        email: "contact@delhivery.com",
+        address: "Plot 5, Sector 44, Gurgaon, Haryana, India - 122002",
+      },
+      {
+        city: "Mangalore",
+        contact_no: ["+91 824 4253222"],
+        email: "customer.support@delhivery.com",
+        address:
+          "Crystal Arc Building, Ground Floor, Near To Hotel Rupa, Balmatta, Mangalore, Mangalore, Karnataka, India - 560001",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 124 6719500"],
+        email: "customer.support@delhivery.com",
+        address:
+          "Indiabulls Finance Center, K.G.Marg, Babasaheb Ambedkar Nagar, Lower Parel, Mumbai, Maharashtra, India - 400013",
+      },
+      {
+        city: "Noida",
+        contact_no: ["+91 120 4243396"],
+        email: "customer.support@delhivery.com",
+        address:
+          "Opposite C 81, Noida Sector 53, Noida, Uttar Pradesh, India - 201301",
+      },
+      {
+        city: "Vishakhapatnam",
+        contact_no: ["+91 8686467786"],
+        email: "customer.support@delhivery.com",
+        address:
+          "Door No. 43-11-54/B/1, Near State Bank Of Hyderabad, Backside of Petrol Bunk, Railway New Colony Rd, Subbalakshmi Nagar, Railway New Colony, Vishakhapatnam, Andhra Pradesh, India - 530016",
+      },
+      {
+        city: "Vishakhapatnam",
+        contact_no: ["+91 9030557198"],
+        email: "customer.support@delhivery.com",
+        address:
+          "Opposite Road To State Bank Of India, Dondapathy, Railway New Colony Road, Railway New Colony, Vishakhapatnam, Andhra Pradesh, India - 530016",
+      },
+    ],
+  },
+  {
+    name: "delex-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 9904950160"],
+        email: "",
+        address:
+          "Nasib Warehouse, Block/survey no. 150, Near.Bakrol Circle, Sardar patel ring road, Post. Fatehwadi, Taluka. Dashkroi, Dist., Ahmedabad, Gujrat, India - 382210",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 29264999"],
+        email: "",
+        address:
+          "F5, 5th Floor-4&5, Pinnacle Business Park, Mahakali Caves Road, Andheri (E), Mumbai, Maharashtra, India - 400093",
+      },
+      {
+        city: "Patna",
+        contact_no: ["+91 8809068494", "+91 7875886051"],
+        email: "",
+        address:
+          "Delex Cargo India Private Limited, East of Krishna Niketan School, Opp.- Zero Mile, At.- Jakariyapur, PO- Bari Pahari, PS- Ramkrishna Nagar, Patna, Bihar, India - 800007",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 9810825992"],
+        email: "",
+        address:
+          "Delex Cargo India Private Limited,Khasra No-433, Westend Greens Farm House Road,Nr. Shiv Murti, Rangpuri, New Delhi, New Delhi, Delhi, India - 110037",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 8939705962"],
+        email: "",
+        address:
+          "Delex Cargo India Private Limited, No.9/5,Thirumalai Street,Inner Ring Rd, Vanuvampet,Adambakkam, Chennai, Tamil Nadu, India - 600091",
+      },
+    ],
+  },
+  {
+    name: "deutsche-post-dhl-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: [
+          "+ 49 (0) 180 6 345 300-1",
+          "+ 49 (0) 180 6 345 300-3",
+          "+ 49 (0) 228 4333112",
+        ],
+        email: "",
+        address: "Germany",
+      },
+    ],
+  },
+  {
+    name: "dhl-active-tracing-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+1 2400 3388"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "dhl-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+49 228 92 95 95 95"],
+        email: "",
+        address: "UAE",
+      },
+      {
+        city: "",
+        contact_no: ["+91 22 61985101", "+91 22 61985102", "+9122 61985103"],
+        email: "cs-ecom.in@dhl.com",
+        address: "India",
+      },
+      {
+        city: "Weston",
+        contact_no: ["1 800 805 9306"],
+        email: "gmus-askcustomerservice@dhl.com",
+        address:
+          "2700, South Commerce Parkway, Suite 300, Weston, Florida, United States - 33331",
+      },
+    ],
+  },
+  {
+    name: "dhl-ecommerce-asia-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["000800-0501009"],
+        email: "",
+        address: "India",
+      },
+      {
+        city: "",
+        contact_no: ["800 6011 470"],
+        email: "",
+        address: "Singapore",
+      },
+      {
+        city: "",
+        contact_no: ["10 800 2600 727 (South)", "10 800 6000 143 (North)"],
+        email: "",
+        address: "China",
+      },
+      {
+        city: "",
+        contact_no: ["0078036015247"],
+        email: "",
+        address: "Indonesia",
+      },
+      {
+        city: "",
+        contact_no: ["1 800 220027"],
+        email: "",
+        address: "Malaysia",
+      },
+    ],
+  },
+  {
+    name: "dhl-express-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+49 228 92 95 95 95"],
+        email: "",
+        address: "UAE",
+      },
+      {
+        city: "",
+        contact_no: ["+91 22 61985101", "+91 22 61985102", "+9122 61985103"],
+        email: "cs-ecom.in@dhl.com",
+        address: "India",
+      },
+      {
+        city: "Weston",
+        contact_no: ["1 800 805 9306"],
+        email: "gmus-askcustomerservice@dhl.com",
+        address:
+          "2700, South Commerce Parkway, Suite 300, Weston, Florida, United States - 33331",
+      },
+    ],
+  },
+  {
+    name: "dhl-express-pieceid-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+49 228 92 95 95 95"],
+        email: "",
+        address: "UAE",
+      },
+      {
+        city: "",
+        contact_no: ["+91 22 61985101", "+91 22 61985102", "+9122 61985103"],
+        email: "cs-ecom.in@dhl.com",
+        address: "India",
+      },
+      {
+        city: "Weston",
+        contact_no: ["1 800 805 9306"],
+        email: "gmus-askcustomerservice@dhl.com",
+        address:
+          "2700, South Commerce Parkway, Suite 300, Weston, Florida, United States - 33331",
+      },
+    ],
+  },
+  {
+    name: "dhl-global-forwarding-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 111 345", "1 800 200 1345"],
+        email: "",
+        address: "",
+      },
+      {
+        city: "",
+        contact_no: ["+91 (22) 6678 9001", "+91 (22) 6678 9000"],
+        email: "",
+        address: "India",
+      },
+    ],
+  },
+  {
+    name: "dhl-global-mail-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 111 345", "1 800 200 1345"],
+        email: "",
+        address: "",
+      },
+      {
+        city: "",
+        contact_no: ["+91 (22) 6678 9001", "+91 (22) 6678 9000"],
+        email: "",
+        address: "India",
+      },
+    ],
+  },
+  {
+    name: "diacom-canada-tracking",
+    contact_info: [
+      {
+        city: "Dorval",
+        contact_no: ["1-888-463-4266"],
+        email: "assistance@dicom.com",
+        address: "10500 Avenue Ryan, Dorval, Canada - H9P 2T7",
+      },
+    ],
+  },
+  {
+    name: "dotzot-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["080 33004444", "1800532077"],
+        email: "",
+        address: "India",
+      },
+    ],
+  },
+  {
+    name: "dpd-uk-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["0121 275 0500"],
+        email: "",
+        address: "London",
+      },
+    ],
+  },
+  {
+    name: "dpd-us-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+49 01806 373 200"],
+        email: "",
+        address: "United States",
+      },
+    ],
+  },
+  {
+    name: "dtdc-courier-tracking",
+    contact_info: [
+      {
+        city: "Bangalore",
+        contact_no: [
+          "+91 80 25361410",
+          "+91 80 25361411",
+          "+91 80 25361412",
+          "+91 80 25361413",
+        ],
+        email: "customersupport@dtdc.com",
+        address:
+          "#269, Lahari Towers, 1st Main, Albert Victor Road, Chamrajpet,, Bangalore, Karnataka, India - 560018",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 33 40329819", "+91 33 33004444"],
+        email: "customersupport@dtdc.com",
+        address:
+          "404/405,Kaji Nazrul Islam Sarani Vip Road, Raghunathpur, Kolkata, West Bengal, India - 700059",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 33004444", "+91 22 30803300"],
+        email: "customersupport@dtdc.com",
+        address:
+          "Plot No. 14, Vijay Nagar, Western Express Highway Near Virvani Estate, Mumbai, Maharashtra, India - 400057",
+      },
+    ],
+  },
+  {
+    name: "dtdc-express-global-tracking",
+    contact_info: [
+      {
+        city: "Bangalore",
+        contact_no: [
+          "+91 80 25361410",
+          "+91 80 25361411",
+          "+91 80 25361412",
+          "+91 80 25361413",
+        ],
+        email: "customersupport@dtdc.com",
+        address:
+          "#269, Lahari Towers, 1st Main, Albert Victor Road, Chamrajpet,, Bangalore, Karnataka, India - 560018",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 33 40329819", "+91 33 33004444"],
+        email: "customersupport@dtdc.com",
+        address:
+          "404/405,Kaji Nazrul Islam Sarani Vip Road, Raghunathpur, Kolkata, West Bengal, India - 700059",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 33004444", "+91 22 30803300"],
+        email: "customersupport@dtdc.com",
+        address:
+          "Plot No. 14, Vijay Nagar, Western Express Highway Near Virvani Estate, Mumbai, Maharashtra, India - 400057",
+      },
+    ],
+  },
+  {
+    name: "dtdc-australia-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+1300 658 775"],
+        email: "sales@dtdcaustralia.com.au",
+        address:
+          "Unit 9 / 10 Ferngrove Place, Chester Hill, NSW, Australia - 2162",
+      },
+      {
+        city: "",
+        contact_no: ["02 9896 8595"],
+        email: "",
+        address: "21 Joyce St, Pendle Hill, NSW, Australia - 2145",
+      },
+      {
+        city: "",
+        contact_no: ["+61 03 9077 1533"],
+        email: "picklesandpappads@gmail.com",
+        address:
+          "SHOP 10, 101-111 BURGUNDY STREET , HEIDELBERG, VIC, Australia - 3084",
+      },
+      {
+        city: "",
+        contact_no: ["+61 04 3366 4595"],
+        email: "perth@dtdcaustralia.com.au",
+        address: "Unit 6/2 Scroop Way, Spearwood, WA, Australia - 6163",
+      },
+    ],
+  },
+  {
+    name: "dtdc-singapore-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+65 6294 8098", "+65 9835 5618", "+65 6543 7787"],
+        email: "yogeshb@dtdc.com\ncss.sg@dtdc.com",
+        address: "32, Sam Leong Road, Singapore - 207922",
+      },
+    ],
+  },
+  {
+    name: "dtdc-uae-tracking",
+    contact_info: [
+      {
+        city: "Deira",
+        contact_no: ["+97142629408"],
+        email: "expresscare@dtdc.com\ndtdcuae@eim.ae",
+        address:
+          "DTDC EUROSTAR COURIER & CARGO LLC, P.O. Box 118519, Salahuddin Street, Deira, Dubai, UAE",
+      },
+    ],
+  },
+  {
+    name: "dtdc-usa-tracking",
+    contact_info: [
+      {
+        city: "New York",
+        contact_no: ["+1 212-268-2727", "+1 866-383-6606", "+1 212-268-0525"],
+        email: "css.usa@dtdc.com",
+        address:
+          "Head Office, DTDC Express Inc., 545, 8Th Ave, Suite 17SW, New York, New York, United States - 10018",
+      },
+      {
+        city: "Queens",
+        contact_no: ["+1 212 2682727"],
+        email: "css.usa@dtdc.com",
+        address:
+          "JFK Location/ Warehouse, Dtdc Express Inc. 167-43, 148Th Street, Jamaica, Queens, New York, United States - 11434",
+      },
+      {
+        city: "Iselin",
+        contact_no: ["+1 732 549 3664", "+1 212 268 2727"],
+        email: "css.usa@dtdc.com",
+        address:
+          "New Jersey Office, Dtdc Express Inc., 66 Middlesex Avenue, Suite 106, Iselin, New Jersey, United States - 08830",
+      },
+      {
+        city: "Brea",
+        contact_no: ["+1 657 341 8909"],
+        email: "dtdc.lax@dtdc.com",
+        address:
+          "US West Coast Franchisee Office, Pace Global Logistics Llc, 1350 W Lambert Road, Ste A, Brea, California, United States - 92821",
+      },
+    ],
+  },
+  {
+    name: "ecom-express-courier-tracking",
+    contact_info: [
+      {
+        city: "Gurugram",
+        contact_no: ["+91-8376 888888"],
+        email: "",
+        address:
+          "10th Floor, Ambience Tower II, Ambience Island, Gurugram, Haryana, India - 122002",
+      },
+    ],
+  },
+  {
+    name: "ekart-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 208 9898", "1800 208 1888", "+91 80 6798 2222"],
+        email: "cs@ekartcourier.com\nsupport@ekartlogistics.com",
+        address: "India",
+      },
+    ],
+  },
+  {
+    name: "fedex-india-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 419 4343"],
+        email: "india@fedex.com",
+        address: "India",
+      },
+    ],
+  },
+  {
+    name: "fedex-tracking",
+    contact_info: [
+      {
+        city: "Memphis",
+        contact_no: ["1800 463 3339", "1800 419 4343"],
+        email: "",
+        address:
+          "3875 Airways, Module H3 Department 4634, Memphis, Tennessee, United States - 38116",
+      },
+    ],
+  },
+  {
+    name: "fedex-freight-tracking",
+    contact_info: [
+      {
+        city: "Memphis",
+        contact_no: ["1 866 393 4585", "1 888 465 5646", "1 800 435 7949"],
+        email: "",
+        address:
+          "Fedex Freight Headquarters, Renaissance Center 1715 Aaron Brenner Drive, Suite 600, Memphis, Tennessee, United States - 38120",
+      },
+      {
+        city: "Harrison",
+        contact_no: ["1 870 741 9000", "1 800 874 4723", "1 870 741 3003"],
+        email: "",
+        address:
+          "2200 Forward Drive, Harrison, Arkansas, United States - 72601",
+      },
+      {
+        city: "Lakeland",
+        contact_no: [],
+        email: "",
+        address: "333 E. Lemon St., Lakeland, Florida, United States - 33801",
+      },
+    ],
+  },
+  {
+    name: "first-flight-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 79 39444444"],
+        email: "ahdcsd@firstflight.net",
+        address:
+          "103/104, Premium House, Opp. Gandhigram Railway Station, Off Ashram Road, Ahmedabad, Gujarat, India - 380006",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["+91 80 33799999"],
+        email: "baecsd@firstflight.net",
+        address:
+          "89, I & II Floor, South Wing, A M Plaza, Airport Main Road, Vimanapura, Bangalore, Maharashtra, India - 560017",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: ["+91 172 3944444"],
+        email: "chhcsd@firstflight.net",
+        address:
+          "Plot No.406-A Phase II, Ind. Area, Chandigarh, Chandigarh, Punjab, India - 160002",
+      },
+      {
+        city: "Coimbatore",
+        contact_no: ["+91 422 3218565"],
+        email: "coimbatore@firstflight.net",
+        address:
+          "332, Vignesh Mahal Compound, Puliyakulam Main Road, Sungam, Coimbatore, Tamil Nadu, India - 641045",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 30936666"],
+        email: "deicsd@firstflight.net",
+        address:
+          "408, Vishal Bhavan, 95 Nehru Place, New Delhi, Delhi, India - 110019",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: ["+91 124 3944444"],
+        email: "guncsd@firstflight.net",
+        address:
+          "Plot No. 895, Udyog Vihar, Phase -1, Gurgaon, Haryana, India - 122002",
+      },
+      {
+        city: "Guwahati",
+        contact_no: ["+91 361 2608547"],
+        email: "guicsd@firstflight.net",
+        address:
+          "Piyali Phukan Road, Rehabari, Guwahati, Assam, India - 781008",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 9533619048", "+91 9014551281"],
+        email: "hydcsd@firstflight.net",
+        address:
+          "Door No.505/507 Babukhan Estate, 5th Floor Basheerbagh, Hyderabad, Telangana, India - 500001",
+      },
+      {
+        city: "Indore",
+        contact_no: ["+91 731 3944444"],
+        email: "inecsd@firstflight.net",
+        address:
+          "G-1, Radhakrishna Complex, Opp MPFC, Getha Bhawan Square, A.B.Road, Indore, Madhya Pradesh, India - 452001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["+91 141 3944444"],
+        email: "jarcsd@firstflight.net",
+        address:
+          "309, Shalimar Complex, Church Lane, M. I. Road, Jaipur, Rajasthan, India - 831001",
+      },
+      {
+        city: "Jamshedpur",
+        contact_no: ["+91 657 3944444"],
+        email: "jamshedpur@firstflight.net",
+        address:
+          "76-B, 4th Floor, Shreeji Archade, Pennar Road, Sakchi, Jamshedpur, Jharkhand, India - 831001",
+      },
+      {
+        city: "Kochi",
+        contact_no: ["+91 484 3944444"],
+        email: "concsd@firstflight.net",
+        address: "XL/986, T. D. Road, Kochi, Kerala, India - 682011",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 33 39444444"],
+        email: "caacsd@firstflight.net",
+        address:
+          "IB-192,Sector-III, Saltlake, Kolkata, West Bengal, India - 700106",
+      },
+      {
+        city: "Lucknow",
+        contact_no: ["+91 522 3944444"],
+        email: "upcsde@firstflight.net",
+        address:
+          "Unit No. 414/415, Second Floor, Sahara Trade Centre, Faizabad Road, Lucknow, Uttar Pradesh, India - 226016",
+      },
+      {
+        city: "Ludhiana",
+        contact_no: ["+91 161 3944444"],
+        email: "luacsd@firstflight.net",
+        address:
+          "1-2-3-4, 2nd Floor, Jandu Tower, Miller Ganj, G.T Road, Ludhiana, Punjab, India - 141003",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 39546666"],
+        email: "boycsd@firstflight.net",
+        address:
+          "D - 1001/02, 10th Floor, Lotus Corporate Park, Off Jay Coach Flyover, Western Express Highway, Goregaon (E), Mumbai, Maharashtra, India - 400063",
+      },
+      {
+        city: "Noida",
+        contact_no: ["+91 120 3944444"],
+        email: "upcsdw@firstflight.net",
+        address: "B 116, Sector 2, Noida, Noida, Uttar Pradesh, India - 201301",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 20 39444444"],
+        email: "puecsd@firstflight.net",
+        address:
+          "427/8, Gultekdi Industrial Estate, Opp. Chandrashekhar Agashe College, Near Prabhat Printing Press, Pune, Maharashtra, India - 411037",
+      },
+      {
+        city: "Salem",
+        contact_no: ["+91 427 3944444", "+91 44 33799999"],
+        email: "tncsd@firstflight.net",
+        address:
+          "N.S.S. Building, 1st Floor Door no: 19/2 AB, Gandhinager, Behind Chennai Silks, Annapuram, Salem, Chennai, India - 636004",
+      },
+      {
+        city: "Kathmandu",
+        contact_no: ["00977 14486239", "00977 14463142", "001 212 997 0021"],
+        email: "sales@firstflightusa.com",
+        address:
+          "Gaushala Road, Near Kathmandu Airport,, Kathmandu, Kathmandu, Nepal",
+      },
+      {
+        city: "New York",
+        contact_no: ["001 212 382 1741", "001 212 997 0021"],
+        email: "sales@firstflightusa.com",
+        address:
+          "Suite Number: 500, 42 West, 38th Street, New York, New York, United States - 10018",
+      },
+    ],
+  },
+  {
+    name: "flyking-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 28372020", "+91 22 40050263"],
+        email: "kld@flyking.co.in",
+        address:
+          "204, Unique House, Cardinal Gracious Road, Chakala, Andheri East, Mumbai, Maharashtra, India - 400099",
+      },
+      {
+        city: "Mumbai",
+        contact_no: [
+          "+91 22 40120720",
+          "+91 22 40120721",
+          "+91 22 22413308",
+          "+91 22 22411016",
+        ],
+        email: "kld@flyking.co.in",
+        address:
+          "No. 188, 2nd Floor, Ambalal Building, Opposite Cotton Exchange Building, Kalbadevi Road, Kalbadevi, Mumbai, Maharashtra, India - 400002",
+      },
+    ],
+  },
+  {
+    name: "garudavega-courier-tracking",
+    contact_info: [
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 905 995 8342", "+91 40455 55055"],
+        email: "care@garudavega.com",
+        address:
+          "Head Office, 1-8-308/1/1, Patigadda Road, Begumpet, Hyderabad, Telangana, India - 500016",
+      },
+      {
+        city: "",
+        contact_no: ["+1 267 855 8342", "+1 855 855 8342"],
+        email: "care@garudavega.com",
+        address: "United States",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["+91-7022870224"],
+        email: "Email:kaops@garudavega.com",
+        address:
+          "Regional Office, No:93 & 94(Old No:84 & 85), Kanterava Studio Main Road, Devraj Urs Truck Terminal Limited, Yeswanthpur, Bangalore, Karnataka, India - 560022",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["044-45512900", "044-49533988", "+917358035901"],
+        email: "murthy.nlr@garudavega.com\ntnops@garudavega.com",
+        address:
+          "Regional Office, Mr.Dasaradha Rama Murthy - Regional Manager, ***Old No :9 *** New No: 16/1 Varadappan Street, West Mambalam, Chennai, Tamilnadu, India - 600033",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 95531 95535"],
+        email: "",
+        address:
+          "Regional Office, Rz-A-135, Ground Floor, Hall No: 2, Near Grand Shobha Hotel, Mahipalpur, New Delhi, Delhi, India - 110037",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 905 995 8342"],
+        email: "operations@garudavega.com",
+        address:
+          "Regional Office, H.No: 1-8-3-8/1/1, Patigadda Road, Begumpet, Hyderabad, Telangana, India - 500016",
+      },
+    ],
+  },
+  {
+    name: "gati-kwe-courier-tracking",
+    contact_info: [
+      {
+        city: "Alwar",
+        contact_no: ["+91 9001162563"],
+        email: "alw_ccco@gati.com",
+        address:
+          "Gati-Kintetsu Express Pvt Ltd, Near Hanuman Circle Beside Jhankar Hotel, Alwar Agra Highway, Alwar, Rajasthan, India - 301001",
+      },
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 7600061469"],
+        email: "amde_ccco@gati.com\nprahlad.mishra@gati.com",
+        address:
+          "GATIKWE-AMDE, Ratan estate, Near Indian oil petrol pump, Pirana piplaj road, Ahmedabad, Gujrat, India - 382405",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 8800229531"],
+        email: "shrey.s@gati.com",
+        address:
+          "B 19 Okhla Industrial Area, Phase 1, New Delhi, Delhi, India - 110020",
+      },
+      {
+        city: "Renigunta",
+        contact_no: ["+91 7337341671"],
+        email: "rahul.pandey@gati.com",
+        address:
+          "Dno: 9-14746, Opposite Sri Vari Temple, Near Narayanadri Hospital, Renigunta Road, Renigunta, Andhra Pradesh, India - 517520",
+      },
+    ],
+  },
+  {
+    name: "gdex-courier-tracking",
+    contact_info: [
+      {
+        city: "Petaling Jaya",
+        contact_no: ["03-6419 5003", "03-7787 2222", "03-7785 6818"],
+        email: "helpdesk@gdexpress.com",
+        address:
+          "GD Express Sdn Bhd, No 19 Jalan Tandang, Petaling Jaya, Selangor Darul Ehsan, Malaysia - 46050",
+      },
+    ],
+  },
+  {
+    name: "gls-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["01 8606200"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "gls-czech-republic-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+420 567 771 111"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
 ];

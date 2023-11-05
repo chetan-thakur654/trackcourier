@@ -427,7 +427,7 @@ export const courierProviders = [
     name: "Dg Global Forwarding Courier",
     link: "dg-global-forwarding-courier-tracking",
   },
-  { name: "DHL Active", link: "dhl-active-tracking" },
+  { name: "DHL Active Tracing", link: "dhl-active-tracing-tracking" },
   { name: "DHL Courier", link: "dhl-courier-tracking" },
   { name: "DHL Ecommerce Asia", link: "dhl-ecommerce-asia-tracking" },
   { name: "DHL Express", link: "dhl-express-tracking" },
@@ -436,7 +436,7 @@ export const courierProviders = [
     link: "dhl-global-forwarding-tracking",
   },
   { name: "DHL Global Mail", link: "dhl-global-mail-tracking" },
-  { name: "DHL Pieceid", link: "dhl-pieceid-tracking" },
+  { name: "DHL Express PieceId", link: "dhl-express-pieceid-tracking" },
   { name: "Diacom Canada", link: "diacom-canada-tracking" },
   { name: "Digital Courier ", link: "digital-courier-tracking" },
   { name: "Dinland Courier", link: "dinland-courier-tracking" },
@@ -459,9 +459,9 @@ export const courierProviders = [
     link: "dohrn-transfer-company-courier-tracking",
   },
   { name: "Dotzot Courier ", link: "dotzot-courier-tracking" },
-  { name: "DPD  Uk", link: "dpd-uk-tracking" },
+  { name: "DPD  UK", link: "dpd-uk-tracking" },
   { name: "DPD Courier", link: "dpd-courier-tracking" },
-  { name: "DPD Us", link: "dpd-us-tracking" },
+  { name: "DPD US", link: "dpd-us-tracking" },
   { name: "DPE Express Courier", link: "dpe-express-courier-tracking" },
   {
     name: "Dpe South Africa Courier",
@@ -598,7 +598,6 @@ export const courierProviders = [
     link: "flash-freight-logistics-courier-tracking",
   },
   { name: "Flyking Courier", link: "flyking-courier-tracking" },
-  { name: "Flyking Courier ", link: "flyking-courier-tracking" },
   {
     name: "Flyt Express Courier",
     link: "flyt-express-courier-tracking",
@@ -1189,4 +1188,3 @@ export const courierProviders = [
   { name: "Yun Express ", link: "yun-express-tracking" },
   { name: "ZTO Express", link: "zto-express-tracking" },
 ];
-
