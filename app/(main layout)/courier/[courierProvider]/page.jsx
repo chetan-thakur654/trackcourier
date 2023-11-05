@@ -100,10 +100,10 @@ const CourierProvider = ({ params }) => {
             {courierName.replace("Tracking", "")} Customer Care Information
           </h2>
           <p>
-            Discover {courierName.replace("Tracking", "")}'s customer care
-            information for different cities, featuring essential information
-            such as {courierName.replace("Tracking", "")} contact numbers, email
-            addresses, and office locations.
+            {courierName.replace("Tracking", "")}'s customer care information
+            and contact detail for different cities, featuring essential
+            information such as {courierName.replace("Tracking", "")} contact
+            numbers, email addresses, and office locations.
           </p>
           <div className={styles.table}>
             <table>
