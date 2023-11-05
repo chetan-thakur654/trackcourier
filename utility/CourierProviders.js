@@ -655,7 +655,6 @@ export const courierProviders = [
   { name: "GMS Courier", link: "gms-courier-tracking" },
   { name: "GMS Express Courier", link: "gms-express-courier-tracking" },
   { name: "GMS Worldwide", link: "gms-worldwide-tracking" },
-  { name: "GmsṢ Worldwide ", link: "gms-worldwide-tracking" },
   { name: "Go shop", link: "go-shop-order-tracking" },
   { name: "Gofly Courier", link: "gofly-courier-tracking" },
   { name: "Gojavas Courier ", link: "gojavas-courier-tracking" },
@@ -781,7 +780,6 @@ export const courierProviders = [
   },
   { name: "Kylie cosmetics", link: "kylie-cosmetics-order-tracking" },
   { name: "La Poste", link: "la-poste-tracking" },
-  { name: "La Poste ", link: "la-poste-tracking" },
   {
     name: "Lakeside collection",
     link: "lakeside-collection-order-tracking",
@@ -827,13 +825,10 @@ export const courierProviders = [
   },
   { name: "Mainfreight Courier", link: "mainfreight-courier-tracking" },
   {
-    name: "Malaysia Post Flexipack",
-    link: "malaysia-post-flexipack-tracking",
+    name: "Malaysia Post",
+    link: "malaysia-post-tracking",
   },
-  {
-    name: "Malaysia Post Flexipack ",
-    link: "malaysia-post-flexipack-tracking",
-  },
+
   { name: "Malta post ems", link: "malta-post-ems-tracking" },
   { name: "Marudhar Courier", link: "marudhar-courier-tracking" },
   { name: "Maruti Courier", link: "maruti-courier-tracking" },
@@ -875,13 +870,12 @@ export const courierProviders = [
     link: "network-express-courier-tracking",
   },
   { name: "New zealand post", link: "new-zealand-post-tracking" },
-  { name: "New Zealand Post", link: "new-zealand-post-tracking" },
   { name: "Nextsmartship ", link: "nextsmartship-tracking" },
   { name: "Nfl shop", link: "nfl-shop-order-tracking" },
   { name: "Nigeria nipost", link: "nigeria-nipost-tracking" },
   { name: "Nine Star Courier", link: "nine-star-courier-tracking" },
   { name: "Ninjavan Courier", link: "ninjavan-courier-tracking" },
-  { name: "Nitco Courier ", link: "nitco-courier-tracking" },
+  { name: "NITCO Logistics ", link: "nitco-logistics-tracking" },
   {
     name: "North Eastern NECC Courier",
     link: "north-eastern-necc-courier-tracking",
@@ -978,6 +972,10 @@ export const courierProviders = [
   {
     name: "Professional Courier USA",
     link: "professional-courier-usa-tracking",
+  },
+  {
+    name: "Procure Logistics",
+    link: "procure-logistics-tracking",
   },
   { name: "Purolator Courier", link: "purolator-courier-tracking" },
   { name: "Pushpak Courier ", link: "pushpak-courier-tracking" },

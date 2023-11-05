@@ -2129,4 +2129,3120 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "gms-worldwide-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["07940069655", "07940069654"],
+        email: "csdamd@gmsworldwide.com",
+        address:
+          "A/2, Vasupujya Chambers, B/H Navdeep Building, Near Income Tax Circle Ashram Road, Ahmedabad, Gujarat, India - 380014",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["08026941250", "08026941259"],
+        email: "corp@gmsworldwide.com",
+        address:
+          "No. 189/1, 3rd Main, 6th Cross, Chamrajpet, Bangalore, Karnataka, India - 560018",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["02265613870"],
+        email: "prakash.k@gmsworldwide.co",
+        address: "Mumbai, Maharashtra, India - 400099",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["09818646144", "09210000263"],
+        email: "csddel@gmsworldwide.com",
+        address:
+          "No.F -139, Mayapuri Indl Area, Phase -2, New Delhi, Delhi, India - 110064",
+      },
+      {
+        city: "Secunderabad",
+        contact_no: ["9246572350", "04040024493"],
+        email: "ravinder@gmsworldwide.com",
+        address:
+          "No. 2-11-30, Plot No. 04, Paigh Colony, S.P.Road, Secunderabad, Telangana, India - 500003",
+      },
+    ],
+  },
+  {
+    name: "hermes-germany-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+49 1806-311211"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "hermes-world-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+44 844 543 7000"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "india-post-domestic-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["079-25505424", "25505275"],
+        email: "cpmg_guj@indiapost.gov.in",
+        address: "Khanpur, Ahmedabad, Gujarat, India - 380001",
+      },
+      {
+        city: "Ambala",
+        contact_no: ["0171-2603100", "2603736"],
+        email: "cpmg_hry@indiapost.gov.in",
+        address:
+          "107, The Mall Road, Ambala Cant, Ambala, Haryana, India - 133001",
+      },
+      {
+        city: "Bhubaneswar",
+        contact_no: ["0674-2392000", "2394790"],
+        email: "cpmg_ori@indiapost.gov.in",
+        address: "Bhubaneswar, Orissa, India - 751001",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["080-22392523", "22202607"],
+        email: "cpmg_kar@indiapost.gov.in​",
+        address: "Beaulieu, Palace Road, Bengaluru, Karnataka, India - 560001",
+      },
+      {
+        city: "Bhopal",
+        contact_no: ["0755-2550838", "2556547"],
+        email: "cpmg_mp@indiapost.gov.in",
+        address: "Bhopal, Madhya Pradesh, India - 462012",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: ["0172-2706700", "2721670"],
+        email: "cpmg_pun@indiapost.gov.in",
+        address:
+          "Sandesh Bhawan, Sector - 17/E, Chandigarh, Punjab, India - 160017",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["044-28520367", "285221199"],
+        email: "cpmg_tn@indiapost.gov.in",
+        address: "Anna Road, Chennai, Tamil Nadu, India - 600002",
+      },
+      {
+        city: "Dehradun",
+        contact_no: ["0135-2658396", "2650065"],
+        email: "cpmg_utr@indiapost.gov.in",
+        address: "Dehradun, Uttarakhand, India - 248001",
+      },
+      {
+        city: "Guwahati",
+        contact_no: ["9435503177", "2544838"],
+        email: "cpmg_asm@indiapost.gov.in",
+        address:
+          "4th Floor, Meghdoot Bhawan, Panbazar, Guwahati, Assam, India - 781001",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["040-23463636"],
+        email: "cpmg_tlg@indiapost.gov.in",
+        address: "Dak Sadan, Abids, Hyderabad, Telangana, India - 500001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["0141-2372020", "2366151"],
+        email: "cpmg_raj@indiapost.gov.in",
+        address: "Sardar Patel Marg, Jaipur, Rajasthan, India - 302007",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["033-22120070", "22120811"],
+        email: "cpmg_wb@indiapost.gov.in",
+        address:
+          "Yogayog Bhawan, P-36, C.R. Avenue, Kolkata, West Bengal, India - 700012",
+      },
+      {
+        city: "Lucknow",
+        contact_no: ["0522-2622000", "2616855"],
+        email: "cpmg_up@indiapost.gov.in",
+        address: "4, Hazratganj, Lucknow, Uttar Pradesh, India - 226001",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["1800 228 030", "22620829"],
+        email: "cpmg_mah@indiapost.gov.in",
+        address: "Mumbai, Maharashtra, India - 400001",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["011-23620144", "23627114"],
+        email: "cpmg_del@indiapost.gov.in",
+        address: "Meghdoot Bhawan, Link Road, New Delhi, Delhi, India - 110001",
+      },
+      {
+        city: "Patna",
+        contact_no: ["0612-2230082", "2220207", "2225011"],
+        email: "cpmg_bhr@indiapost.gov.in",
+        address: "Patna GPO Complex, Patna, Bihar, India - 800001",
+      },
+      {
+        city: "Raipur",
+        contact_no: ["0771-2233400", "2233194"],
+        email: "cpmg_chh@indiapost.gov.in",
+        address: "Raipur, Chhattisgarh, India - 492001",
+      },
+      {
+        city: "Ranchi",
+        contact_no: ["0651-2482345", "2480153"],
+        email: "cpmg_jha@indiapost.gov.in",
+        address: "Doranda Ho Complex, Ranchi, Jharkhand, India - 834019",
+      },
+      {
+        city: "Shillong",
+        contact_no: ["0364-2223800", "2223034"],
+        email: "cpmg_ne@indiapost.gov.in",
+        address: "Shillong, Meghalaya, India - 793001",
+      },
+      {
+        city: "Shimla",
+        contact_no: ["0177-2629000", "2620351"],
+        email: "cpmg_hpr@indiapost.gov.in",
+        address: "Kaithu, Shimla, Himachal Pradesh, India - 171009",
+      },
+      {
+        city: "Srinagar",
+        contact_no: [
+          "0191-2542878",
+          "0194-2452528",
+          "0191-2561746",
+          "0194-2452036",
+        ],
+        email: "cpmg_jnk@indiapost.gov.in",
+        address:
+          "Gpo Complex, Residency Road, Srinagar, Jammu & Kashmir, India - 190001",
+      },
+      {
+        city: "Thiruvananthapuram",
+        contact_no: ["0471-2308300", "2306500"],
+        email: "cpmg_ker@indiapost.gov.in",
+        address: "Thiruvananthapuram, Kerala, India - 695033",
+      },
+      {
+        city: "Vijayawada",
+        contact_no: ["0866-2429854", "24747282"],
+        email: "cpmg_apr@indiapost.gov.in",
+        address:
+          "O/O Cpmg, AP Circle, PSD Complex, Besides Door Darshan Quarters, Krishnalanka, Vijayawada,​Andhra Pradesh, India - 520013",
+      },
+    ],
+  },
+  {
+    name: "india-post-international-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["079-25505424", "25505275"],
+        email: "cpmg_guj@indiapost.gov.in",
+        address: "Khanpur, Ahmedabad, Gujarat, India - 380001",
+      },
+      {
+        city: "Ambala",
+        contact_no: ["0171-2603100", "2603736"],
+        email: "cpmg_hry@indiapost.gov.in",
+        address:
+          "107, The Mall Road, Ambala Cant, Ambala, Haryana, India - 133001",
+      },
+      {
+        city: "Bhubaneswar",
+        contact_no: ["0674-2392000", "2394790"],
+        email: "cpmg_ori@indiapost.gov.in",
+        address: "Bhubaneswar, Orissa, India - 751001",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["080-22392523", "22202607"],
+        email: "cpmg_kar@indiapost.gov.in​",
+        address: "Beaulieu, Palace Road, Bengaluru, Karnataka, India - 560001",
+      },
+      {
+        city: "Bhopal",
+        contact_no: ["0755-2550838", "2556547"],
+        email: "cpmg_mp@indiapost.gov.in",
+        address: "Bhopal, Madhya Pradesh, India - 462012",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: ["0172-2706700", "2721670"],
+        email: "cpmg_pun@indiapost.gov.in",
+        address:
+          "Sandesh Bhawan, Sector - 17/E, Chandigarh, Punjab, India - 160017",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["044-28520367", "285221199"],
+        email: "cpmg_tn@indiapost.gov.in",
+        address: "Anna Road, Chennai, Tamil Nadu, India - 600002",
+      },
+      {
+        city: "Dehradun",
+        contact_no: ["0135-2658396", "2650065"],
+        email: "cpmg_utr@indiapost.gov.in",
+        address: "Dehradun, Uttarakhand, India - 248001",
+      },
+      {
+        city: "Guwahati",
+        contact_no: ["9435503177", "2544838"],
+        email: "cpmg_asm@indiapost.gov.in",
+        address:
+          "4th Floor, Meghdoot Bhawan, Panbazar, Guwahati, Assam, India - 781001",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["040-23463636"],
+        email: "cpmg_tlg@indiapost.gov.in",
+        address: "Dak Sadan, Abids, Hyderabad, Telangana, India - 500001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["0141-2372020", "2366151"],
+        email: "cpmg_raj@indiapost.gov.in",
+        address: "Sardar Patel Marg, Jaipur, Rajasthan, India - 302007",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["033-22120070", "22120811"],
+        email: "cpmg_wb@indiapost.gov.in",
+        address:
+          "Yogayog Bhawan, P-36, C.R. Avenue, Kolkata, West Bengal, India - 700012",
+      },
+      {
+        city: "Lucknow",
+        contact_no: ["0522-2622000", "2616855"],
+        email: "cpmg_up@indiapost.gov.in",
+        address: "4, Hazratganj, Lucknow, Uttar Pradesh, India - 226001",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["1800 228 030", "22620829"],
+        email: "cpmg_mah@indiapost.gov.in",
+        address: "Mumbai, Maharashtra, India - 400001",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["011-23620144", "23627114"],
+        email: "cpmg_del@indiapost.gov.in",
+        address: "Meghdoot Bhawan, Link Road, New Delhi, Delhi, India - 110001",
+      },
+      {
+        city: "Patna",
+        contact_no: ["0612-2230082", "2220207", "2225011"],
+        email: "cpmg_bhr@indiapost.gov.in",
+        address: "Patna GPO Complex, Patna, Bihar, India - 800001",
+      },
+      {
+        city: "Raipur",
+        contact_no: ["0771-2233400", "2233194"],
+        email: "cpmg_chh@indiapost.gov.in",
+        address: "Raipur, Chhattisgarh, India - 492001",
+      },
+      {
+        city: "Ranchi",
+        contact_no: ["0651-2482345", "2480153"],
+        email: "cpmg_jha@indiapost.gov.in",
+        address: "Doranda Ho Complex, Ranchi, Jharkhand, India - 834019",
+      },
+      {
+        city: "Shillong",
+        contact_no: ["0364-2223800", "2223034"],
+        email: "cpmg_ne@indiapost.gov.in",
+        address: "Shillong, Meghalaya, India - 793001",
+      },
+      {
+        city: "Shimla",
+        contact_no: ["0177-2629000", "2620351"],
+        email: "cpmg_hpr@indiapost.gov.in",
+        address: "Kaithu, Shimla, Himachal Pradesh, India - 171009",
+      },
+      {
+        city: "Srinagar",
+        contact_no: [
+          "0191-2542878",
+          "0194-2452528",
+          "0191-2561746",
+          "0194-2452036",
+        ],
+        email: "cpmg_jnk@indiapost.gov.in",
+        address:
+          "Gpo Complex, Residency Road, Srinagar, Jammu & Kashmir, India - 190001",
+      },
+      {
+        city: "Thiruvananthapuram",
+        contact_no: ["0471-2308300", "2306500"],
+        email: "cpmg_ker@indiapost.gov.in",
+        address: "Thiruvananthapuram, Kerala, India - 695033",
+      },
+      {
+        city: "Vijayawada",
+        contact_no: ["0866-2429854", "24747282"],
+        email: "cpmg_apr@indiapost.gov.in",
+        address:
+          "O/O Cpmg, AP Circle, PSD Complex, Besides Door Darshan Quarters, Krishnalanka, Vijayawada,​Andhra Pradesh, India - 520013",
+      },
+    ],
+  },
+  {
+    name: "jaipur-golden-courier-tracking",
+    contact_info: [
+      {
+        city: "Jaipur",
+        contact_no: [
+          "+91 141 2611767, +91 141 2604290, +91 141 3295784, +91 9314509524",
+          "+91 141 2606880",
+        ],
+        email: "jpr@jaipurgolden.in",
+        address:
+          "Agra Road, Opp. Telephone Exchange, Jaipur, Rajasthan, India - 302003",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: [
+          "+91 172 5000378, +91 172 5000379, +91 172 5006777",
+          "+91 172 5086390",
+        ],
+        email: "cdh@jaipurgolden.in",
+        address:
+          "Tauru Road, Near Birla Readymix, Sector-78, Chandigarh, Punjab, India - 160019",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: [
+          "+91 124 2678009, +91 124 2678013, +91 124 2678014",
+          "+91 172 5086390",
+        ],
+        email: "customercare@jaipurgolden.in",
+        address:
+          "Tauru Road, Near Birla Readymix, Sector-78, Gurgaon, Haryana, India - 122001",
+      },
+      {
+        city: "Ahmedabad",
+        contact_no: [
+          "+91 792 6891903, +91 792 26890689, +91 792 22175853, +91 792 22163984, +91 9327004221, +91 9327006697",
+          "+91 792 6890295",
+        ],
+        email: "skj@jaipurgolden.in",
+        address:
+          "Sarkhej Gandhi Nagar Highway Near Bawla Crossing, Sarkhej, Ahmedabad, Gujarat, India - 382210",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 206 6209121, +91 206 66209126, +91 32943888"],
+        email: "pna@jaipurgolden.in",
+        address:
+          "Ganesh Park, Pune Nagar Road, Opposite Talera Ford, Near TVS Warehouse, Wagholi, Pune, Maharashtra, India - 411014",
+      },
+      {
+        city: "Bangalore",
+        contact_no: [
+          "+91 80 26704863, +91 80 26704622, +91 80 32921718, +91 80 32429270, +91 80 32429271, +91 43520000, +91 9342828882",
+          "+91 80 26703293",
+        ],
+        email: "bng@jaipurgolden.in",
+        address:
+          "35/A, IInd Cross, Kalasipalyam New Extn., Kalasipalyam, Bangalore, Karnataka, India - 560002",
+      },
+    ],
+  },
+  {
+    name: "janco-ecommerce-tracking",
+    contact_info: [
+      {
+        city: "New Jersey",
+        contact_no: ["+1 201 282 5110"],
+        email: "info@jancoecommerce.com",
+        address:
+          "70 Carter Dr. Edison, New Jersey, New Jersey, United States - 08817",
+      },
+      {
+        city: "City Of Industry",
+        contact_no: ["+1 626 400 6630"],
+        email: "",
+        address: "City Of Industry, California, United States - 91748",
+      },
+    ],
+  },
+  {
+    name: "jt-express-malaysia-tracking",
+    contact_info: [
+      {
+        city: "Kuala Lumpur",
+        contact_no: ["+60 03-91716382"],
+        email: "support@jtexpress.my",
+        address:
+          "No.9, Jalan 4/118C, Desa Tun Razak, Kuala Lumpur, Selangor, Malaysia - 56000",
+      },
+      {
+        city: "Petaling",
+        contact_no: ["+60 03-58797870"],
+        email: "support@jtexpress.my",
+        address:
+          "No.26, Jalan Puteri 4/2, Bandar Puteri, Puchong, Petaling, Selangor, Malaysia - 47100",
+      },
+    ],
+  },
+  {
+    name: "la-poste-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["00 33 810 82 18 21"],
+        email: "",
+        address: "France",
+      },
+    ],
+  },
+  {
+    name: "lasership-courier-tracking",
+    contact_info: [
+      {
+        city: "Vienna",
+        contact_no: ["+1 800 527-3764", "+1 804 414 2490"],
+        email: "",
+        address: "1912 Woodford Road, Vienna, VA, United States - 22182",
+      },
+    ],
+  },
+  {
+    name: "leopard-courier-tracking",
+    contact_info: [
+      {
+        city: "Faisalabad",
+        contact_no: ["+92 041 8732162", "+92 041 8732162", "+92 041 8732562"],
+        email: "fsd@leopardscourier.com",
+        address: "37-W-1, Madina Town, Faisalabad, Pakistan",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+92 022 3817060", "+92 022 3817061", "+92 022 3817700"],
+        email: "hyderabad@leopardscourier.com",
+        address: "B-168/A, Block D, Unit No. 7, Latifabad, Hyderabad, Pakistan",
+      },
+      {
+        city: "Islamabad",
+        contact_no: [
+          "+92 051 2824743",
+          "+92 051 2801267",
+          "+92 057 2801268",
+          "+920512825044",
+        ],
+        email: "islamabad@leopardscourier.com",
+        address:
+          "Leopards House, Raja Nizam Uddin Road, Iqbal Town, Islamabad, Pakistan",
+      },
+      {
+        city: "Karachi",
+        contact_no: [
+          "+92 021 4548041",
+          "+92 021 4548042",
+          "+92 021 4548043",
+          "+92 021 4532063",
+          "+92 021 4552376",
+        ],
+        email: "karachi@leopardscourier.com",
+        address: "19-F, Block 6, P.E.C.H.S. Karachi, Karachi, Pakistan",
+      },
+      {
+        city: "Lahore",
+        contact_no: [
+          "+92 042 35714810",
+          "+92 042 35759621",
+          "+92 042 35759646",
+          "+92 042 5761775",
+          "+92 042 35710312",
+        ],
+        email: "lahore@leopardscourier.com",
+        address: "20-K Gullberg III, Lahore, Pakistan",
+      },
+      {
+        city: "Multan",
+        contact_no: ["+92 061 4511434", "+92 061 4511594"],
+        email: "mux@leopardscourier.com",
+        address: "516- Railway Road, Near Chowk Aziz Hotel, Multan, Pakistan",
+      },
+      {
+        city: "Peshawar",
+        contact_no: ["+92 091 2216450", "+92 091 2217725", "+92 091 2217725"],
+        email: "peshawar@leopardscourier.com",
+        address: "Gul Bahar Main Chowk No.1, Peshawar, Peshawar, Pakistan",
+      },
+      {
+        city: "Quetta",
+        contact_no: ["+92 081 2829250", "+92 081 2821423", "+92 081 2821423"],
+        email: "quetta@leopardscourier.com",
+        address: "2, Hassan Plaza Patial Bagh, Quetta, Pakistan",
+      },
+      {
+        city: "Rawalpindi",
+        contact_no: ["+92 051 5500876", "+92 051 5504968", "+92 051 5598933"],
+        email: "rawalpindi@leopardscourier.com",
+        address:
+          "Leopards House, N-E 4, Behind Moti Mahal Cinema, Saddar, Rawalpindi, Pakistan",
+      },
+    ],
+  },
+  {
+    name: "lexship-courier-tracking",
+    contact_info: [
+      {
+        city: "Bengaluru",
+        contact_no: ["+91 844 8444 097"],
+        email: "connect@lexship.com",
+        address:
+          "2nd K Cross Rd,1st Block, HRBR Layout, Banaswadi, Bengaluru, Karnataka, India - 560043",
+      },
+    ],
+  },
+  {
+    name: "madhur-courier-tracking",
+    contact_info: [
+      {
+        city: "Bhopal",
+        contact_no: ["+91 755 4700131", "+91 755 4700132"],
+        email: "",
+        address:
+          "6 Rajdev Colony Near Haryana Dairy, Berasia Road, Bhopal, Madhya Pradesh, India - 462001",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: ["0172-2706700", "2721670"],
+        email: "cpmg_pun@indiapost.gov.in",
+        address:
+          "Sandesh Bhawan, Sector – 17/E, Chandigarh, Punjab, India - 160017",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: ["+91 124 4228589", "+91 9313671226"],
+        email: "",
+        address:
+          "Old RAILWAY ROAD, SHIVPURI MORE, ADDJOING ARYA Coching, CENTER GURGAON, Gurgaon, Haryana, India - 122001",
+      },
+      {
+        city: "Solan",
+        contact_no: ["+91 1965 220005", "+91 9418048427"],
+        email: "",
+        address:
+          "NEAR D.C. OFFICE SOLAN, Solan, Himachal Pradesh, India - 160125",
+      },
+    ],
+  },
+  {
+    name: "malaysia-post-tracking",
+    contact_info: [
+      {
+        city: "Kuala Lumpur",
+        contact_no: ["+1 300 300 300", "+03 7626 1900"],
+        email: "care@pos.com.my",
+        address:
+          "Level 6, Dayabumi Complex, Kuala Lumpur, Kuala Lumpur, Malaysia - 50670",
+      },
+    ],
+  },
+  {
+    name: "shree-maruti-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 9712 666 666"],
+        email: "customercare@shreemaruticourier.com",
+        address:
+          "B/1101, Kanakia Wall Street, Chakala, Andheri-Kurla Road, Andheri (East), Mumbai, Maharashtra, India - 400093",
+      },
+      {
+        city: "Secunderabad",
+        contact_no: ["9393134610", "09885399918", "09885399918"],
+        email: "jayesh.lagdhir@shreemaruticourier.com",
+        address:
+          "Plot No 9, Bhel Colony, Opp British Paints, Near Swaminarayan Temple, Rasoolpur, Begumpet, Secunderabad, Telangana, India - 500003",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["9689032912", "9322632580", "9689032912"],
+        email: "bhiwandi@shreemaruticourier.com",
+        address:
+          "Shop No.2, Wafekar Bldg, opp. Purna Bus Stop, Purna Bhiwandi, Mumbai, Maharastra, India - 421302",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["7042500863", "9315073109", "7042500863"],
+        email: "gandhinagar.delhi@shreemaruticourier.com",
+        address:
+          "9/6142 G.F. Shivaji Gali Gandhinagar, New Delhi, Delhi, India - 100031",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: ["01202790680", "9310120695", "9868486194"],
+        email: "ghaziabad@shreemaruticourier.com",
+        address:
+          "52, Basement, Opp.Ambedkar Park, Navyug Market,, Ghaziabad, Uttar Pradesh, India - 201001",
+      },
+      {
+        city: "Latur",
+        contact_no: ["02382240224", "7020655800", "9823036836"],
+        email: "latur@shreemaruticourier.com",
+        address:
+          "Gogamgun Complex, Opp. Iddc Bank, Nanded Road, Old Gul Market Chowk, Latur, Maharashtra, India - 413517",
+      },
+      {
+        city: "Pune",
+        contact_no: ["7359891918", "7359891918", "8380800023"],
+        email: "divyaraj@shreemaruticourier.com",
+        address:
+          "F1 Parmar Trade Center, Sadhu Wasvani Chowk, Pune, Maharashtra, India - 411001",
+      },
+    ],
+  },
+  {
+    name: "maruti-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 9712 666 666"],
+        email: "customercare@shreemaruticourier.com",
+        address:
+          "B/1101, Kanakia Wall Street, Chakala, Andheri-Kurla Road, Andheri (East), Mumbai, Maharashtra, India - 400093",
+      },
+      {
+        city: "Secunderabad",
+        contact_no: ["9393134610", "09885399918", "09885399918"],
+        email: "jayesh.lagdhir@shreemaruticourier.com",
+        address:
+          "Plot No 9, Bhel Colony, Opp British Paints, Near Swaminarayan Temple, Rasoolpur, Begumpet, Secunderabad, Telangana, India - 500003",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["9689032912", "9322632580", "9689032912"],
+        email: "bhiwandi@shreemaruticourier.com",
+        address:
+          "Shop No.2, Wafekar Bldg, opp. Purna Bus Stop, Purna Bhiwandi, Mumbai, Maharastra, India - 421302",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["7042500863", "9315073109", "7042500863"],
+        email: "gandhinagar.delhi@shreemaruticourier.com",
+        address:
+          "9/6142 G.F. Shivaji Gali Gandhinagar, New Delhi, Delhi, India - 100031",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: ["01202790680", "9310120695", "9868486194"],
+        email: "ghaziabad@shreemaruticourier.com",
+        address:
+          "52, Basement, Opp.Ambedkar Park, Navyug Market,, Ghaziabad, Uttar Pradesh, India - 201001",
+      },
+      {
+        city: "Latur",
+        contact_no: ["02382240224", "7020655800", "9823036836"],
+        email: "latur@shreemaruticourier.com",
+        address:
+          "Gogamgun Complex, Opp. Iddc Bank, Nanded Road, Old Gul Market Chowk, Latur, Maharashtra, India - 413517",
+      },
+      {
+        city: "Pune",
+        contact_no: ["7359891918", "7359891918", "8380800023"],
+        email: "divyaraj@shreemaruticourier.com",
+        address:
+          "F1 Parmar Trade Center, Sadhu Wasvani Chowk, Pune, Maharashtra, India - 411001",
+      },
+    ],
+  },
+  {
+    name: "shree-nandan-courier-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 9350817798"],
+        email: "snclsadarbazar@gmail.com",
+        address:
+          "1000, Chhabra Centre, Pan Mandi, New Delhi, Delhi, India - 110006",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: ["+91 120 279423", "+91 9818759371"],
+        email: "",
+        address:
+          "B-5, Yamunotri Complex, Ambedkar Road, Ghaziabad, Uttar Pradesh, India - 201001",
+      },
+      {
+        city: "Allahabad",
+        contact_no: ["+91 532 2400563", "+91 9415267305"],
+        email: "rajansrivastava2@gmail.com",
+        address:
+          "G-5, Bihari Bhawan, 3 Sardar Patel Civil Lines, Opposite Uco Bank, Allahabad, Uttar Pradesh, India - 211001",
+      },
+      {
+        city: "Noida",
+        contact_no: ["+91 8130915669"],
+        email: "sncsnoida@gmail.com",
+        address:
+          "Indira Market, Opposite F 55 , Sector 27, Noida, Uttar Pradesh, India - 201301",
+      },
+      {
+        city: "Varanasi",
+        contact_no: ["+91 542 2405474", "+91 8112831274"],
+        email: "manish_khetan76@rediffmail.com",
+        address:
+          "Mahamandal Katra, Lahurabir Chauraha, Lahurabir, Varanasi, Uttar Pradesh, India - 221002",
+      },
+      {
+        city: "Katni",
+        contact_no: ["+91 9755777501", "+91 8871051893"],
+        email: "milansony46@gmail.com",
+        address:
+          "10, 2nd Flr, Chandra Prabhu Market, Opposite Mangal Market, Katni, Madhya Pradesh, India - 248501",
+      },
+      {
+        city: "Ratlam",
+        contact_no: ["+91 8602726855"],
+        email: "seth.capital@yahoo.in",
+        address:
+          "58,Stadium Market , 1st Fioor, Dobatti, Ratlam, Madhya Pradesh, India - 452001",
+      },
+      {
+        city: "Indore",
+        contact_no: ["+91 9374459595"],
+        email: "vijaypagi29@gmail.com",
+        address:
+          "Lg - 56, Trade Centre, 18, South Tuko Gunji, B/H. Hukamchand, Indore, Madhya Pradesh, India - 452001",
+      },
+      {
+        city: "Bhopal",
+        contact_no: ["+91 755 4928799", "+91 9375059595"],
+        email: "sncsbhopalro2016@gmail.com",
+        address:
+          "261, Rachana Nagar, B/H Press Complex, Near Relway Under Brige Bhopal, Bhopal, Madhya Pradesh, India - 462023",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 9790008877"],
+        email: "deepakodedara01@gmail.com",
+        address:
+          "No.16, Vgp Murphy Square, Gst Road, Nearhotel Mount Manor, Chennai, Tamil Nadu, India - 600016",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 8939921122"],
+        email: "shivakrubaenterprises@gmail.com",
+        address:
+          "No 24, Kannappan Nagar Ext, Thiruvanmiyur, Chennai, Tamil Nadu, India - 600041",
+      },
+      {
+        city: "Coimbatore",
+        contact_no: ["+91 42 24520333", "+91 9047055244"],
+        email: "",
+        address:
+          "240/1, Multy Complex, New Scheme Main Road, Near Kaikari Bus Stop, P N Palayam, Coimbatore, Tamil Nadu, India - 641037",
+      },
+      {
+        city: "Hosur",
+        contact_no: ["+91 43 44246475", "+91 9361031614"],
+        email: "",
+        address:
+          "25 / B, Vemala Complex, Krishnagiri Byepass Road, Hosur, Tamil Nadu, India - 635109",
+      },
+      {
+        city: "Aurangabad",
+        contact_no: ["+91 240 2347967", "+91 9370030771"],
+        email: "akarangia@yahoo.in",
+        address:
+          "Banjara Colony, Shivaji High School Road, Near Amrapali Gen. Store, Aurangabad, Maharashtra, India - 431001",
+      },
+      {
+        city: "Solapur",
+        contact_no: ["+91 9422380481", "+91 9371324182"],
+        email: "ashokcouriersolapur@gmail.com",
+        address:
+          "Mallappa, Dhanshetti Road, Barshi, Solapur, Maharashtra, India - 413401",
+      },
+      {
+        city: "Hinganghat",
+        contact_no: ["+91 9423421920", "+91 715 3246692"],
+        email: "s23labhe@rediffmail.com",
+        address:
+          "Ram Mandir Ward, Near Punjab National Bank, Shani Mandir Road, Hinganghat, Maharashtra, India - 442301",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 9833499534", "+91 22 49718510"],
+        email: "surbhivaiyata89@gmail.com",
+        address:
+          "C-97 Station Plaza, Nr Railway Station, Bhandup (W), Mumbai, Maharashtra, India - 400078",
+      },
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 7228854657"],
+        email: "jignesh.saija@yahoo.com",
+        address:
+          "9, Tirupati Complex, Opposite Akhbarnagar Brts Bus Stop, New Wadaj, Ahmedabad, Gujarat, India - 380013",
+      },
+    ],
+  },
+  {
+    name: "new-zealand-post-tracking",
+    contact_info: [
+      {
+        city: "Auckland",
+        contact_no: ["0800 501 501", "+64 9 367 9710"],
+        email: "",
+        address:
+          "National Contact Centre, Highbrook, Auckland, New Zealand - 208038",
+      },
+    ],
+  },
+  {
+    name: "nextsmartship-tracking",
+    contact_info: [
+      {
+        city: "Shenzhen",
+        contact_no: ["+1 800 261 3009"],
+        email: "sales@nextsmartship.com",
+        address:
+          "Room 608, Building A, Lianchengfa Smart Industrial Park, Gushu, Bao'An District, Shenzhen, China",
+      },
+    ],
+  },
+  {
+    name: "nitco-logistics-tracking",
+    contact_info: [
+      {
+        city: "Bengaluru",
+        contact_no: ["+91 80 32965832"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "Rajaram Mansion, Journalist Colony, Malvalli Tank Bund Road, Mavalli, Bengaluru, Karnataka, India - 560002",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 9382830636"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "1, Subbaraya Mudali Street, Balaji Nagar, Pudupet, Komaleeswaranpet, Chennai, Tamil Nadu, India - 600002",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 9391378640"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "20, T.S. Industrial Area, Near Mahatma Gandhi Nagar, West Marredpally, Seshachala Colony, Hyderabad, Telangana, India - 500077",
+      },
+      {
+        city: "Jammu",
+        contact_no: [
+          "+91 191 2554414",
+          "+91 191 2554228",
+          "+91 191 2553849",
+          "+91 9906029334",
+          "+91 9419182147",
+        ],
+        email: "marketing@nitcoroadways.com\nqualityservice@nitcoroadways.com",
+        address:
+          "Nitco House, Nitco Lane, Talab Tillo, Jammu, J&K, India - 180002",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 9831063270"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "30, Phears Lane, Tarahatti Area, Poddar Court, Tiretti, Kolkata, West Bengal, India - 700073",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 9324576065"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "Unit No. 34, Ground floor, Fir G. Building, Saki Vihar Road, Bandi Bazaar, Mumbai, Maharashtra, India - 400072",
+      },
+      {
+        city: "Nagpur",
+        contact_no: ["+91 9419158424"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "Shop no 67, Near Railway Station, Nagpur, Maharashtra, India - 440023",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 9310472932"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "21062107, Main, Bahadurgarh Road, Pahari Dhiraj, Sadar Bazaar, New Delhi, Delhi, India - 110006",
+      },
+      {
+        city: "Ranchi",
+        contact_no: ["+91 651 2284675"],
+        email: "qualityservice@nitcoroadways.com",
+        address: "H.B.Road, Dipatoli, Ranchi, Jharkhand, India - 834001",
+      },
+      {
+        city: "Vishakhapatnam",
+        contact_no: ["+91 9866039171"],
+        email: "qualityservice@nitcoroadways.com",
+        address:
+          "30/12/11, Debagardens, Vishakhapatnam, Andhra Pradesh, India - 530020",
+      },
+    ],
+  },
+  {
+    name: "nova-poshta-international-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+380 50-4-500-609"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "old-dominion-tracking",
+    contact_info: [
+      {
+        city: "Thomasville",
+        contact_no: [
+          "1-800-235-5569",
+          "1-877-562-3875",
+          "1-800-432-6335",
+          "+1 336 889 5000",
+        ],
+        email: "",
+        address:
+          "Old Dominion Freight Line, Inc., 500 Old Dominion Way, Thomasville, North Carolina, United States - 27360",
+      },
+    ],
+  },
+  {
+    name: "om-logistics-courier-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 45970200"],
+        email: "binola_ops@omlogistics.co.in",
+        address:
+          "130, Transport Center, Ring Road, Punjabi Bagh, New Delhi, Delhi, India - 110035",
+      },
+      {
+        city: "Gurgaon",
+        contact_no: ["+91 9811121899", "+91 9310362801"],
+        email: "binola_ops@omlogistics.co.in",
+        address:
+          "Plot No. 1, Binola Industrial Area Near Terrysoft, Gurgaon, Haryana, India - 122001",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 9881777001"],
+        email: "pune_hrd@omlogistics.co.in",
+        address:
+          "Gate No. 113, Chimbli Phata, Near Indryani River Nasik Pune Highway Chakan, Pune, Maharashtra, India - 410501",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 9282170456", "+91 9282170457"],
+        email: "chennai_am@omlogistics.co.in",
+        address:
+          "Echoor Village & Post Thenneri, Via Behind Samsung India Electronics Sunguvachatram, Sripermbudur Taluk, Chennai, Tamil Nadu, India - 631604",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["+91 80 29720142", "+91 80 29730142"],
+        email: "bngnm_am@omlogistics.co.in",
+        address:
+          "No 8/1, 2nd Floor, 2nd Main Road, Raghavendra Layout, Next to RNS Motors, Behind Hotel Marks Grandeur, Yeshwanthpur, Bengaluru, Karnataka, India - 560022",
+      },
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 9714502053", "+91 9714502015"],
+        email: "ahmedabad@omlogistics.co.in",
+        address:
+          "Survey No 862, Behind Kankavati Hotel Village Rajoda, Sarkhej Bavla Highway, Ahmedabad, Gujarat, India - 382220",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 42280606", "+91 22 42280516"],
+        email: "ro_mumbai@omlogistics.co.in",
+        address:
+          "Shop No. 3, East Bharat Kunj Society, Shraddhanand Road, Vileparle East, Mumbai, Maharashtra, India - 400057",
+      },
+    ],
+  },
+  {
+    name: "overnite-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 79 25621895"],
+        email: "oel@amd.overnite-mail.com",
+        address: "Ahmedabad, Gujarat, India",
+      },
+      {
+        city: "Bangalore",
+        contact_no: [
+          "+91 80 22133271",
+          "+91 80 22133272",
+          "+91 80 22133273",
+          "+91 80 22133274",
+          "+91 80 22133276",
+          "+91 8884435944",
+        ],
+        email: "oel@blr.overnite-mail.com",
+        address: "Bangalore, Karnataka, India",
+      },
+      {
+        city: "Baroda",
+        contact_no: [
+          "+91 265 3004100",
+          "+91 265 3004111",
+          "+91 265 3004112",
+          "+91 265 2354585",
+          "+91 9638778407",
+          "+91 9712904435",
+        ],
+        email: "oel@bdq.overnite-mail.com",
+        address: "Baroda, Gujarat, India",
+      },
+      {
+        city: "Bhopal",
+        contact_no: ["+91 755 3917500", "+91 755 3917501", "+91 8370013507"],
+        email: "oel@bpl.overnite-mail.com",
+        address: "Bhopal, Madhya Pradesh, India",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: [
+          "+91 172 3071300",
+          "+91 172 3071326",
+          "+91 172 3071335",
+          "+91 172 3071336",
+          "+91 172 2632972",
+          "+91 8558836531",
+          "+91 8558836532",
+          "+91 8558836543",
+        ],
+        email: "oel@chd.overnite-mail.com",
+        address: "Chandigarh, Chandigarh, India",
+      },
+      {
+        city: "Chennai",
+        contact_no: [
+          "+91 44 24331609",
+          "+91 8939835319",
+          "+91 8939830171",
+          "+91 8939830172",
+        ],
+        email: "oel@che.overnite-mail.com",
+        address: "Chennai, Tamil Nadu, India",
+      },
+      {
+        city: "Coimbatore",
+        contact_no: ["+91 422 2319014"],
+        email: "oel@cjb.overnite-mail.com",
+        address: "Coimbatore, Tamil Nadu, India",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: [
+          "+91 120 2855606",
+          "+91 120 2855607",
+          "+91 120 2855562",
+          "+91 120 2855620",
+          "+91 120 3985900",
+          "+91 8588822887",
+        ],
+        email: "oel@amd.overnite-mail.com",
+        address: "Ghaziabad, Uttar Pradesh, India",
+      },
+      {
+        city: "Guwahati",
+        contact_no: [
+          "+91 361 2207081",
+          "+91 361 2207082",
+          "+91 361 2207083",
+          "+91 9127068008",
+        ],
+        email: "oel@ghy.overnite-mail.com",
+        address: "Guwahati, Assam, India",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 40 27846141", "+91 40 27846242", "+91 8886611536"],
+        email: "oel@hyd.overnite-mail.com",
+        address: "Hyderabad, Telangana, India",
+      },
+      {
+        city: "Jaipur",
+        contact_no: [
+          "+91 141 3018394",
+          "+91 141 3018395",
+          "+91 141 4011061",
+          "+91 9610053395",
+        ],
+        email: "oel@jpr.overnite-mail.com",
+        address: "Jaipur, Rajasthan, India",
+      },
+      {
+        city: "Kochi",
+        contact_no: ["+91 484 2396918", "+91 7034022631", "+91 8589009305"],
+        email: "oel@koc.overnite-mail.com\ninfo@koc.overnite-mail.com",
+        address: "Kochi, Kerala, India",
+      },
+      {
+        city: "Kolkata",
+        contact_no: [
+          "+91 33 22878012",
+          "+91 33 22878013",
+          "+91 33 22878014",
+          "+91 33 30274200",
+          "+91 33 22901039",
+          "+91 33 22870819",
+          "+91 8336974760",
+          "+91 8336974752",
+        ],
+        email: "oel@kol.overnite-mail.com",
+        address: "Kolkata, West Bengal, India",
+      },
+      {
+        city: "Ludhiana",
+        contact_no: [
+          "+91 161 3007770",
+          "+91 161 3007771",
+          "+91 161 3007772",
+          "+91 161 3007773",
+          "+91 161 3007774",
+          "+91 161 3007775",
+          "+91 8558836550",
+        ],
+        email: "oel@ldh.overnite-mail.com",
+        address: "Ludhiana, Punjab, India",
+      },
+      {
+        city: "Mumbai",
+        contact_no: [
+          "+91 22 26853101",
+          "+91 22 26853102",
+          "+91 22 26853103",
+          "+91 22 26853104",
+          "+91 22 33023000",
+          "+91 9619894217",
+        ],
+        email: "oel@mum.overnite-mail.com",
+        address: "Mumbai, Maharashtra, India",
+      },
+      {
+        city: "Nagpur",
+        contact_no: [
+          "+91 712 3021256",
+          "+91 712 3021257",
+          "+91 712 2789439",
+          "+91 7066038008",
+        ],
+        email: "oel@nag.overnite-mail.com",
+        address: "Nagpur, Maharashtra, India",
+      },
+      {
+        city: "New Delhi",
+        contact_no: [
+          "+91 11 26782218",
+          "+91 11 26782219",
+          "+91 11 26782220",
+          "+91 11 26782221",
+          "+91 11 26782221",
+          "+91 11 23510131",
+          "+91 11 23510132",
+          "+91 11 23510133",
+          "+91 11 23510134",
+          "+91 11 23510135",
+          "+91 11 26782222",
+          "+91 9015040000",
+          "+91 9711610687",
+        ],
+        email: "oel@del.overnite-mail.com",
+        address:
+          "Overnite House, 11099-C, East Park Road, New Delhi, Delhi, India - 110005",
+      },
+      {
+        city: "Patna",
+        contact_no: [
+          "+91 612 3095600",
+          "+91 612 2323266",
+          "+91 7808938305",
+          "+91 7808938306",
+          "+91 7808938306",
+        ],
+        email: "oel@pat.overnite-mail.com\ninfo@pat.overnite-mail.com",
+        address: "Patna, Bihar, India",
+      },
+      {
+        city: "Pune",
+        contact_no: [
+          "+91 20 32416641",
+          "+91 20 32416642",
+          "+91 20 26685744",
+          "+91 9371259421",
+          "+91 20 32416639",
+          "+91 7767814011",
+          "+91 9371259421",
+        ],
+        email: "oel@pnq.overnite-mail.com",
+        address: "Pune, Maharashtra, India",
+      },
+      {
+        city: "Lucknow",
+        contact_no: [
+          "+91 522 4257100",
+          "+91 522 4257101",
+          "+91 522 3054500",
+          "+91 522 3054509",
+          "+91 75 7100 9366",
+        ],
+        email: "oel@lkw.overnite-mail.com",
+        address: "Lucknow, Uttar Pradesh, India",
+      },
+    ],
+  },
+  {
+    name: "pickrr-courier-tracking",
+    contact_info: [
+      {
+        city: "Gurgaon",
+        contact_no: [],
+        email: "info@pickrr.com",
+        address:
+          "3rd & 4th floor, Enkay Square, 448-A, Udyog Vihar Phase V, Gurgaon, Haryana, India - 122022",
+      },
+    ],
+  },
+  {
+    name: "pitney-bowes-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 11 0999"],
+        email: "",
+        address: "United States",
+      },
+    ],
+  },
+  {
+    name: "polar-express-tracking",
+    contact_info: [
+      {
+        city: "Wilmington",
+        contact_no: ["732-446-6722"],
+        email: "info@polexp.com",
+        address:
+          "Polar Express Llc, 314 Robinson Lane, Wilmington, Delaware, United States - 19805",
+      },
+      {
+        city: "Toronto",
+        contact_no: ["+1 (416) 661-5775"],
+        email: "canada@polexp.com",
+        address:
+          "Polar Express Ca, Unit 2, 401 Magnetic Drive, Toronto, Ontario, Canada - M3J 3H9",
+      },
+    ],
+  },
+  {
+    name: "poslaju-tracking",
+    contact_info: [
+      {
+        city: "Kuala Lumpur",
+        contact_no: ["03-2263 2626", "03-7628-0082"],
+        email: "care@pos.com.my",
+        address:
+          "POS LAJU KUALA LUMPUR Jalan Tun Sambathan, Kuala Lumpur, Malaysia - 50470",
+      },
+      {
+        city: "Kuala Lumpur",
+        contact_no: ["03-6263 2420"],
+        email: "care@pos.com.my",
+        address:
+          "No 5, Jalan IDA 1A, Perindustrian Desa Aman, Kepong,, Kuala Lumpur, Selangor, Malaysia - 52200",
+      },
+      {
+        city: "Kuala Lumpur",
+        contact_no: ["03-9283 2459", "03-9282 5463"],
+        email: "care@pos.com.my",
+        address:
+          "No 5 & 7, Jalan 12/91A, Taman Shamelin Perkasa, Batu 3 1/2 Cheras, Kuala Lumpur, Selangor, Malaysia - 68100",
+      },
+      {
+        city: "Batu Caves",
+        contact_no: ["03 6185 1593", "03 6185 1592"],
+        email: "care@pos.com.my",
+        address:
+          "No. 31& 33, (Lot B2B-P2-7 & Lot B2B –P2-8), Jalan DBP 1, Dolomite Business Park, Batu Caves, Selangor, Malaysia - 68100",
+      },
+      {
+        city: "Kuala Lumpur",
+        contact_no: [],
+        email: "care@pos.com.my",
+        address:
+          "No 12A, Jalan Udang Harimau, Medan Niaga Kepong, Kuala Lumpur, Selangor, Malaysia - 51200",
+      },
+      {
+        city: "Kuala Lumpur",
+        contact_no: [],
+        email: "care@pos.com.my",
+        address:
+          "No 1, Jln 8/91, Taman Perindustrian Shamelin Perkasa, Kuala Lumpur, Selangor, Malaysia - 56100",
+      },
+    ],
+  },
+  {
+    name: "poste-italiane-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: [
+          "803.160",
+          "800.003.322",
+          "160",
+          "800.316.181",
+          "800.131.811",
+          "0546 660058",
+        ],
+        email: "",
+        address: "ITALY",
+      },
+      {
+        city: "",
+        contact_no: ["0546 660058"],
+        email: "",
+        address: "Via Piero Della Francesca 5 - Faenza (Ra), ITALY - 48018",
+      },
+    ],
+  },
+  {
+    name: "professional-courier-kuwait-tracking",
+    contact_info: [
+      {
+        city: "Kuwait",
+        contact_no: [
+          "+965 9961 8475",
+          "+965 2475 8283",
+          "+965 9722 8624",
+          "+965 9725 8018",
+        ],
+        email: "info@tpckw.com",
+        address:
+          "Farwaniya: Al Yousifi Complex, Best Showroom, Behind Farwaniya Police Station 6Th Floor - Block No. 4 - Farwaniya, Kuwait, Kuwait",
+      },
+      {
+        city: "Kuwait",
+        contact_no: ["+965 9722 8624", "+965 9725 1236"],
+        email: "info@tpckw.com",
+        address:
+          "Jleeb: Abdul Rahman Complex, Office No. 62 & 63, Mezanine Floor, Jleeb Al Shuyoukh, Kuwait, Kuwait",
+      },
+      {
+        city: "Kuwait",
+        contact_no: ["+965 2209 3610", "+965 9725 7901"],
+        email: "info@tpckw.com",
+        address:
+          "Dajee: Sixth Ring Road, Building 8 - Ground Floor, Office No. 5 – Dajeej, Kuwait, Kuwait",
+      },
+    ],
+  },
+  {
+    name: "professional-courier-singapore-tracking",
+    contact_info: [
+      {
+        city: "Singapore",
+        contact_no: ["+65 62910900"],
+        email: "customercare@tpcglobe.sg\nsin@tpcglobe.com",
+        address:
+          "30 Race Course Lane, #01-03 City Studios, Singapore - 218745, Singapore, Singapore",
+      },
+    ],
+  },
+  {
+    name: "professional-courier-srilanka-tracking",
+    contact_info: [
+      {
+        city: "Colombo",
+        contact_no: ["+94 112 727 799"],
+        email: "cmb@tpcglobe.com",
+        address: "No.26B, 2nd Floor, Retreet Road, Colombo, Sri Lanka",
+      },
+    ],
+  },
+  {
+    name: "professional-courier-uae-tracking",
+    contact_info: [
+      {
+        city: "Dubai",
+        contact_no: [
+          "+971 50 456 1844",
+          "+971 52 559 7300",
+          "+971 52 559 7301",
+        ],
+        email: "info@tpcuae.com",
+        address: "P.O. Box No: 35200, Dubai, UAE",
+      },
+    ],
+  },
+  {
+    name: "professional-courier-usa-tracking",
+    contact_info: [
+      {
+        city: "Jamaica",
+        contact_no: ["+1 718-723-0014"],
+        email: "nyc@tpcglobe.com",
+        address:
+          "161-15 Rockaway Blvd, Suite # 107, Jamaica, New York, United States - 11434",
+      },
+    ],
+  },
+  {
+    name: "procure-logistics-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 47440000"],
+        email: "reachus@procurelogistics.com",
+        address:
+          "#C-49, DDA Shed, Near Okhla Police Station, Okhla Industrial Area, Phase - I, New Delhi, Delhi, India - 110020",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 65023100", "+91 22 65032100"],
+        email: "csmumbai@procurelogistics.com",
+        address:
+          "Telli Galli Cross Lane, Dhobighat, Opp Gulnar Building, Andheri East, Mumbai, Maharashtra, India - 400069",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 44 42028483"],
+        email: "cschennai@procurelogistics.com",
+        address:
+          "#28B, Ground Floor, Sait Colony 1st Street, Egmore, Chennai, Tamil Nadu, India - 600008",
+      },
+    ],
+  },
+  {
+    name: "purolator-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1-888-744-7123", "1-888-302-8819"],
+        email: "",
+        address: "United States",
+      },
+    ],
+  },
+  {
+    name: "rl-carriers-tracking",
+    contact_info: [
+      {
+        city: "Wilmington",
+        contact_no: ["800 543 5589"],
+        email: "",
+        address: "600 Gillam Rd., Wilmington, Ohio, United States - 45177",
+      },
+    ],
+  },
+  {
+    name: "road-runners-courier-tracking",
+    contact_info: [
+      {
+        city: "Cuyahoga Falls",
+        contact_no: ["(330) 920-4100"],
+        email: "CLVCUSTSER@RRTS.COM",
+        address:
+          "89 Cuyahoga Falls Industrial Parkway, Cuyahoga Falls, Ohio, United States - 44264",
+      },
+      {
+        city: "Los Angeles",
+        contact_no: ["(323) 780-3488"],
+        email: "COMCUSTSER@RRTS.COM",
+        address:
+          "4501 E Washington Blvd, Ste 2, Los Angeles, California, United States - 90040",
+      },
+      {
+        city: "Humble",
+        contact_no: ["(281) 318-4949"],
+        email: "HOUCUSTSER@RRTS.COM",
+        address:
+          "8411 Humble Westfield Rd, Humble, Texas, United States - 77338",
+      },
+      {
+        city: "Miami",
+        contact_no: ["(855) 216-3171"],
+        email: "MIACUSTSER@rrts.com",
+        address: "12250 Nw 28Th Ave, Miami, Florida, United States - 33167",
+      },
+      {
+        city: "Springfield",
+        contact_no: ["(855) 428-8355"],
+        email: "BOSCUSTSER@rrts.com",
+        address:
+          "345 Rocus Street, Springfield, Massachusetts, United States - 01104",
+      },
+      {
+        city: "Livermore",
+        contact_no: ["(925) 373-1625"],
+        email: "SFSCUSTSER@RRTS.COM",
+        address:
+          "7600 Patterson Pass Rd, Livermore, California, United States - 94550",
+      },
+      {
+        city: "Downers Grove",
+        contact_no: ["(414) 615-1500"],
+        email: "",
+        address:
+          "Roadrunner Corporate Headquarters, 1431 Opus Place Ste 530, Downers Grove, Illinois, United States - 60515",
+      },
+    ],
+  },
+  {
+    name: "rivigo-courier-tracking",
+    contact_info: [
+      {
+        city: "Bengaluru",
+        contact_no: ["+91 9108920707"],
+        email: "",
+        address:
+          "64, Katamnallur Gate Flyover, Sannatammanahalli, Bengaluru, Karnataka, India - 560067",
+      },
+      {
+        city: "Coimbatore",
+        contact_no: ["+91 7823918433"],
+        email: "",
+        address: "Neelambur, Coimbatore, Tamil Nadu, India - 641062",
+      },
+      {
+        city: "Gurugram",
+        contact_no: ["+91 124 4354300, 1800 123 243"],
+        email: "service@rivigo.com\ninfo@rivigo.com",
+        address: "Plot No. 90, Sector 44, Gurugram, Haryana, India - 122003",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["1800 12 3243"],
+        email: "",
+        address:
+          "90, Phears Ln, Terita Bazar, Poddar Court, Kolkata, West Bengal, India - 700012",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 76220 52775"],
+        email: "",
+        address:
+          "Odyssey IT Park, Road No 9, Wagle Industrial Estate, Thane, Mumbai, Maharashtra, India - 400604",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 40523910"],
+        email: "",
+        address: "1/9, Asaf Ali Road, New Delhi, Delhi, India - 110002",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 8433988249"],
+        email: "",
+        address:
+          "Near Shell Petrol Pump, Chimbli Phata, Pune, Maharashtra, India - 410501",
+      },
+    ],
+  },
+  {
+    name: "safexpress-india-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 26781481"],
+        email: "track@safexpress.com",
+        address: "NH 8, Mahipalpur Extension, New Delhi, Delhi, India - 110037",
+      },
+      {
+        city: "Surat",
+        contact_no: [],
+        email: "",
+        address:
+          "No-107-110, Royal township, Pona-Kumbharia road, Saroli, Surat, Gujarat, India - 394305",
+      },
+      {
+        city: "Chennai",
+        contact_no: [],
+        email: "",
+        address:
+          "Adayalm Pattu, Vanagaram, Ambattur Road, Chennai, Tamil Nadu, India - 600001",
+      },
+    ],
+  },
+  {
+    name: "safexpress-courier-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 26781481"],
+        email: "track@safexpress.com",
+        address: "NH 8, Mahipalpur Extension, New Delhi, Delhi, India - 110037",
+      },
+      {
+        city: "Surat",
+        contact_no: [],
+        email: "",
+        address:
+          "No-107-110, Royal township, Pona-Kumbharia road, Saroli, Surat, Gujarat, India - 394305",
+      },
+      {
+        city: "Chennai",
+        contact_no: [],
+        email: "",
+        address:
+          "Adayalm Pattu, Vanagaram, Ambattur Road, Chennai, Tamil Nadu, India - 600001",
+      },
+    ],
+  },
+  {
+    name: "sagawa-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+81 0120-18-9595"],
+        email: "",
+        address: "Japan",
+      },
+    ],
+  },
+  {
+    name: "saia-courier-tracking",
+    contact_info: [
+      {
+        city: "Johns Creek",
+        contact_no: ["+1-800-765-7242"],
+        email: "customerservice@saia.com",
+        address:
+          "11465 Johns Creek Parkway, Suite 400, Johns Creek, GA, United States - 30097",
+      },
+      {
+        city: "Houma",
+        contact_no: ["+1-800-765-7242"],
+        email: "customerservice@saia.com",
+        address: "104 Woodlawn Ranch Road, Houma, LA, United States - 70363",
+      },
+      {
+        city: "Nampa",
+        contact_no: ["+1-800-765-7242"],
+        email: "customerservice@saia.com",
+        address: "1551 11th Ave N Suite 200, Nampa, ID, United States - 83687",
+      },
+    ],
+  },
+  {
+    name: "sameday-courier-tracking",
+    contact_info: [
+      {
+        city: "Bucuresti",
+        contact_no: ["021 6370660", "021 6370661"],
+        email: "office@sameday.ro",
+        address:
+          "Splaiul Independentei 319 Cladirea OB17C, Sector 6, Bucuresti, Romania - 060044",
+      },
+    ],
+  },
+  {
+    name: "saudi-post-courier-tracking",
+    contact_info: [
+      {
+        city: "Riyadh",
+        contact_no: ["+96 92000 5700"],
+        email: "",
+        address: "Riyadh, Saudi Arabia",
+      },
+    ],
+  },
+  {
+    name: "shadowfax-courier-tracking",
+    contact_info: [
+      {
+        city: "Bengaluru",
+        contact_no: [""],
+        email: "care@shadowfax.in",
+        address:
+          "1st floor, Appek Building, 93/A, 4th B Cross Rd, 5th Block, Koramangala, Bengaluru, Karnataka, India - 560095",
+      },
+    ],
+  },
+  {
+    name: "shree-anjani-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 79 25461202", "+91 79 25450506"],
+        email: "",
+        address:
+          "Shree Anjani House 34, Old Lati Bazar Near ST Bus Stand, Raipur, Ahmedabad, Gujarat, India - 380022",
+      },
+      {
+        city: "Ambala",
+        contact_no: ["+91 171 4000498", "+91 8950014405", "+91 8950544441"],
+        email: "",
+        address:
+          "146-E Lal Kurti Bazar, Ambala Cantt, Ambala, Haryana, India - 133001",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["+91 80 22113211", "+91 9035000150"],
+        email: "",
+        address:
+          "58, 6th Cross, 6th Main, Sampangiramanagar, Bangalore, Karnataka, India - 560027",
+      },
+      {
+        city: "Baroda",
+        contact_no: ["+91 8490004579"],
+        email: "",
+        address:
+          "G/66, G/68, Indiabulls Mall Under Jetalpur Bridge Jetalpur, Baroda, Gujarat, India - 390005",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 4442046716"],
+        email: "",
+        address:
+          "E/4 Ground Floor, Gemini Parson Complex, Chennai, Tamil Nadu, India - 600034",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 8099531819", "+91 9347312838"],
+        email: "",
+        address:
+          "U11B, Mittal Chamber, M.G.Road, Beside UCO Bank, Secunderabad, Hyderabad, Andhra Pradesh, India - 500003",
+      },
+      {
+        city: "Indore",
+        contact_no: ["+91 731 4048851"],
+        email: "",
+        address:
+          "UC-23, Silver Mall, 8-A, Rabindranath Tagore Marg, Below Bank Of India, Indore, Madhya Pradesh, India - 302016",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["+91 141 4910570", "+91 8233980906"],
+        email: "",
+        address:
+          "D-89 A, Mira Marg, Behind Collectorate Office, Near Collector Circle, Bani Park, Jaipur, Rajasthan, India - 302016",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 8902900552"],
+        email: "",
+        address:
+          "9, Lal Bazar Street, Mercantile Building, A Block, 2nd Floor, Kolkata, West Bengal, India - 700001",
+      },
+      {
+        city: "Mehsana",
+        contact_no: ["+91 2762 230080", "+91 2762 325680", "+91 9376329888"],
+        email: "",
+        address:
+          "G-2, Guru Dutt Shopping Centre, Opposite A B Patel Tower, Modhera Char Rasta, NH8, Mehsana, Gujarat, India - 384002",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 24157537", "+91 22 24106708"],
+        email: "",
+        address:
+          "1 G/F, Mistri Building, 96, Dada Saheb Phalke Road, Dadar (East), Mumbai, Maharashtra, India - 400014",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 28759580", "+91 9312191983"],
+        email: "",
+        address:
+          "1011, Ground Floor Faiz Road, Karol Bagh, New Delhi, Delhi, India - 110005",
+      },
+    ],
+  },
+  {
+    name: "shree-mahavir-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["022-24154501", "+91 9320202155"],
+        email: "service@shreemahavircourier.co.in",
+        address:
+          "Shop No 15 Sansar Samachar Compund, Near Chitra Cinema, 208. DR.B.A.Road, Dadar [E], Mumbai, Maharashtra, India - 400014",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["022-28382066", "022-28382065"],
+        email: "service@shreemahavircourier.co.in",
+        address:
+          "Jigar Enterprise, Raja Market Ground Floor, Shop No.07, New Nagardas Road, Near Metro Gate No.1, Near Siesta Hotel - Andheri (East), Mumbai, Maharashtra, India - 400069",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["080-22222201", "9945156306"],
+        email: "service@shreemahavircourier.co.in",
+        address:
+          "Door.26, 5Th Cross, 5Th Main, S.R.Nagar Bangalore, Bangalore, Karnataka, India - 560027",
+      },
+      {
+        city: "Delhi",
+        contact_no: ["011-28757949", "09289650655", "9999853844", "9999369949"],
+        email: "service@shreemahavircourier.co.in",
+        address:
+          "16/6 New Rohtak Road, Karol Bagh, Delhi, Delhi, India - 110005",
+      },
+      {
+        city: "Chennai",
+        contact_no: [],
+        email: "service@shreemahavircourier.co.in",
+        address:
+          "Shop No.A9/1, Basement Front Side, Parsn Commercial Complex. No.1, Kudambaknan High Road, Chennai, Tamil Nadu, India - 600006",
+      },
+    ],
+  },
+  {
+    name: "shree-tirupati-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 79 25471036"],
+        email: "",
+        address:
+          "8/B, Bharat Society, Parsi Agiyari, Ved Mandir Road, Ahmedabad, Gujarat, India - 380043",
+      },
+      {
+        city: "Baroda",
+        contact_no: ["+91 265 2330878"],
+        email: "",
+        address:
+          "8/9, Welcome Flat 2, Urmi Dinesh Mills Road, Near Verai Mata Temple, Akota, Baroda, Gujarat, India - 390020",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 44 48579978"],
+        email: "stcsmaaro@gmail.com",
+        address:
+          "No.14, 40 Feet Scheme Road, Kamdar Nagar, Opposite Ayyappan Aarch, Mahalingapuram, Chennai, Tamil Nadu, India - 600034",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 40 49540071", "+91 8801452525"],
+        email: "stcshydro500003@gmail.com",
+        address:
+          "B-12, Ground Floor, Indian Airlines Colony, Begumpet, Hyderabad, Telangana, India - 500016",
+      },
+      {
+        city: "Indore",
+        contact_no: ["+91 731 2525460", "+91 731 2525461"],
+        email: "",
+        address:
+          "UB-29, Silver Mall, Rabindra Nath Tagore Marg, Opposite Old University,, Indore, Madhya Pradesh, India - 452001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["+91 141 2202373"],
+        email: "",
+        address:
+          "B-5, Arco Palace, Opposite Sindhi Camp, Behind Metro Station, Jaipur, Rajasthan, India - 302006",
+      },
+      {
+        city: "Mehsana",
+        contact_no: ["+91 2762 252202"],
+        email: "",
+        address:
+          "G/7, Krishna Complex, Radhanpur Char Rasta, Mehsana, Gujarat, India - 384002",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 24113838", "+91 22 24173131"],
+        email: "stcsmumbairo@gmail.com",
+        address:
+          "31, Ghaswala House ange Naigaon, Dadar(E), Mumbai, Maharashtra, India - 400014",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 45038369"],
+        email: "bhaveshjoshi21188@gmail.com",
+        address:
+          "882, Basement, East Park Road, Near Ajmal Khan Park, Karol Bagh, New Delhi, Delhi, India - 110005",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 20 24499978"],
+        email: "",
+        address:
+          "205 G/F, Satav Wada, Narayan Peth, Opposite Z Bridge, Near Manse Karyalaya, Pune, Maharashtra, India - 411030",
+      },
+      {
+        city: "Rajkot",
+        contact_no: ["+91 9879204558"],
+        email: "",
+        address:
+          "17, Atul Complex, Opposite Bombay Hotel, Gondal Road, Rajkot, Gujarat, India - 360001",
+      },
+      {
+        city: "Surat",
+        contact_no: ["+91 261 2601030", "+91 261 3911030"],
+        email: "",
+        address:
+          "L/12, Swati Chamber, Galemandi Road, Near Delhi Gate Char Rasta, Surat, Gujarat, India - 395003",
+      },
+    ],
+  },
+  {
+    name: "skyman-courier-tracking",
+    contact_info: [
+      {
+        city: "Noida",
+        contact_no: ["+91 120 4273363", "+91 9810846860"],
+        email: "csd@skymanairexpress.com",
+        address:
+          "216, 2nd Floor, Harbans Market, Atta, Sector 27, (Near Sec-18 Metro Station), Noida, Uttar Pradesh, India - 201301",
+      },
+    ],
+  },
+  {
+    name: "skynet-worldwide-express-tracking",
+    contact_info: [
+      {
+        city: "London",
+        contact_no: ["02085696767", "02085729926"],
+        email: "info@skynetworldwide.com",
+        address:
+          "SkyNet House, 18 -21 Pulborough Way, Hounslow, London, United Kingdom - TW4 6DE",
+      },
+      {
+        city: "Birmingham",
+        contact_no: ["01213279555", "01213279599"],
+        email: "Birmingham@skynetworldwide.com",
+        address:
+          "Unit 4, Metro Triangle, Mount Street, Nechells, Birmingham, United Kingdom - B7 5QT",
+      },
+      {
+        city: "Bristol",
+        contact_no: ["01179668899", "01179537804"],
+        email: "Bristol@skynetworldwide.com",
+        address:
+          "Unit 2, St. Catherines Industrial Estate, Whitehouse Lane, Bedminster, Bristol, United Kingdom - BS3 4DJ",
+      },
+      {
+        city: "Cardiff",
+        contact_no: ["02920490700", "02920490450"],
+        email: "Cardiff@skynetworldwide.com",
+        address:
+          "Unit 14, Pacific Way Business Park, Pacific Road, Cardiff, United Kingdom - CF24 5HJ",
+      },
+      {
+        city: "Leeds",
+        contact_no: ["01132381919", "01132526321"],
+        email: "Leeds@skynetworldwide.com",
+        address:
+          "Unit 1, Ashley Industrial Estate, Elmfield Road, Morley, Leeds, United Kingdom - LS27 0EL",
+      },
+      {
+        city: "Manchester",
+        contact_no: ["01619454332", "01619460587"],
+        email: "Manchester@skynetworldwide.com",
+        address:
+          "International House, Ledson Road Wythenshawe, Manchester, United Kingdom - NE15 8SG",
+      },
+      {
+        city: "Newcastle",
+        contact_no: ["01912676330", "01912676339"],
+        email: "Newcastle@skynetworldwide.com",
+        address:
+          "Unit 25, Riverside Court, Newburn Haugh Industrial Estate, Lemington, Newcastle, United Kingdom - NE15 8SG",
+      },
+      {
+        city: "Nottingham",
+        contact_no: ["01159706737", "01159787773"],
+        email: "Nottingham@skynetworldwide.com",
+        address:
+          "Unit 2, Rawson Street, New Basford, Nottingham, United Kingdom - NG7 7FR",
+      },
+      {
+        city: "Southampton",
+        contact_no: ["01794 512117", "01794 511615"],
+        email: "Southampton@skynetworldwide.com",
+        address:
+          "Office D, Fernacre House, Budds lane, Romsey, Hampshire, Southampton, United Kingdom - SO51 0HA",
+      },
+      {
+        city: "London",
+        contact_no: ["07973872527", "01932788920"],
+        email: "sunbury@skynetworldwide.com",
+        address:
+          "Unit E4, Brooklands Close, Sunbury, London, United Kingdom - TW16 7DX",
+      },
+    ],
+  },
+  {
+    name: "skynet-australia-tracking",
+    contact_info: [
+      {
+        city: "Alexandria",
+        contact_no: ["+61 2 83378892", "+61 2 96695670"],
+        email: "skynet@igateway.com.au",
+        address: "2-4 Bradford Street, Alexandria, NSW, Australia - 2015",
+      },
+    ],
+  },
+  {
+    name: "skynet-germany-tracking",
+    contact_info: [
+      {
+        city: "Frankfurt",
+        contact_no: ["0049 69885555", "0049 6980866"],
+        email: "info@skynetworldwide.com",
+        address: "Adam-Opel-Strasse 14, Offenbach, Frankfurt, Germany - 60386",
+      },
+      {
+        city: "Planegg, Munich",
+        contact_no: ["+49 (0)89/ 745 575-0", "+49 (0)89/ 745 575-99"],
+        email: "info@skynet-muc.de",
+        address:
+          "Sky Network International, Courier Service GmbH, Behringstr. 10, Planegg, Munich, Bavaria, Germany - 82152",
+      },
+      {
+        city: "Cologne",
+        contact_no: ["+49 (0)221/ 29 23 53 83", "+49 (0)221/ 29 23 53 66"],
+        email: "info@skynet-cgn.de",
+        address: "Mathias-Brüggen-Strasse 122, Cologne, Germany - 50829",
+      },
+    ],
+  },
+  {
+    name: "skynet-india-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91124 4718919", "18001036354", "+91124 4623227"],
+        email: "import@skynetworldwide.in",
+        address:
+          "Gala 5/6, New Tej Park Indl Estate, Behind Lathia Rubber, Off Saki Naka - Kurla Road, Opp Maharaja Hotel, Saki Naka, Mumbai, Maharashtra, India - 400072",
+      },
+    ],
+  },
+  {
+    name: "skynet-malaysia-tracking",
+    contact_info: [
+      {
+        city: "Petaling Jaya",
+        contact_no: ["+603 7948 5000", "+603 7783 3186"],
+        email: "sr-sky@sure-reach.com",
+        address:
+          "40, Jalan Penchala, Petaling Jaya, Selangor, Malaysia - 46050",
+      },
+    ],
+  },
+  {
+    name: "skynet-mexico-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1107-7508", "1107–7466"],
+        email: "customerservices@skynet.net",
+        address:
+          "Av. Insurgentes Sur 1647, San José Insurgentes, 039000 Ciudad de México, CDMX, Mexico",
+      },
+    ],
+  },
+  {
+    name: "skynet-nigeria-tracking",
+    contact_info: [
+      {
+        city: "Anifowoshe Ikeja",
+        contact_no: ["+234(0)9090159000", "+234(0)9090159001"],
+        email: "info@skynetworldwide.com.ng",
+        address:
+          "19/21 Balogun street, Anifowoshe Ikeja, Lagos, Nigeria - 100282",
+      },
+    ],
+  },
+  {
+    name: "skynet-pakistan-tracking",
+    contact_info: [
+      {
+        city: "Karachi",
+        contact_no: ["+92 21 111 759 111", "+92 21 3460 4289"],
+        email: "khi@skynet.pk",
+        address:
+          "Suite No. 318, Panorama Centre II, Raja Ghazfar Ali Road, Karachi, Sindh, Pakistan - 75530",
+      },
+      {
+        city: "Lahore",
+        contact_no: ["+92 42 111 759 111", "+92 42 3571 6843"],
+        email: "lhe@skynet.pk",
+        address: "253 A1, Gurmangat Road Gulbery-III, Lahore, Punjab, Pakistan",
+      },
+      {
+        city: "Faisalabad",
+        contact_no: ["+92 41 261 1370"],
+        email: "fsd@skynetpk.com",
+        address: "P-14 Kotwali Road, Faisalabad, Punjab, Pakistan",
+      },
+    ],
+  },
+  {
+    name: "skynet-philippines-tracking",
+    contact_info: [
+      {
+        city: "PARANAQUE",
+        contact_no: ["+632 820 2920, +632 820 2925", "+632 820 2917"],
+        email: "mnlcustomerservice@raf.ph",
+        address:
+          "Bldg. 2, Units 3 & 4, Oyster Ind'L. Complex, Naia Avenue, San Dionisio, PARANAQUE, Philippines - 1700",
+      },
+    ],
+  },
+  {
+    name: "skynet-singapore-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+65 69 08 02 10", "+65 6214 3676"],
+        email: "csasia@gemworldwide.com\nsingapore@skynetasiapacific.com",
+        address:
+          "9 Changi South Street 3 Cargo Lift One, Level 2, Singapore - 486361",
+      },
+    ],
+  },
+  {
+    name: "skynet-uae-tracking",
+    contact_info: [
+      {
+        city: "DUBAI",
+        contact_no: ["+971 4 2826555", "+971 4 2822201"],
+        email: "info@skynet.ae",
+        address:
+          "SKYNET ME.NA.SA REGION HQ.DUBAI AIRPORT ROAD SHOWROOM # 2, DUBAI, UAE - 8523",
+      },
+    ],
+  },
+  {
+    name: "skynet-usa-tracking",
+    contact_info: [
+      {
+        city: "Doral",
+        contact_no: ["+1 786-265-4830", "+1 786-265-9406"],
+        email: "customerservices@skynet.net",
+        address: "8601 NW 27th Street, Doral, Florida, United States - 33122",
+      },
+      {
+        city: "Jamaica",
+        contact_no: ["+ 1 (718) 470-2126"],
+        email: "customerservices@skynet.net",
+        address:
+          "153-40 Rockaway Blvd, Jamaica, New York, United States - 11434",
+      },
+    ],
+  },
+  {
+    name: "skynet-yemen-tracking",
+    contact_info: [
+      {
+        city: "Dubai",
+        contact_no: ["+97142826555", "+97142822201"],
+        email: "info@skynet.ae",
+        address:
+          "SKYNET ME.NA.SA REGION HQ.DUBAI AIRPORT ROAD SHOWROOM # 2, Dubai, UAE - 8523",
+      },
+    ],
+  },
+  {
+    name: "spee-dee-delivery-tracking",
+    contact_info: [
+      {
+        city: "Saint Cloud",
+        contact_no: ["+1 320-251-6697", "+1 800 862 5578"],
+        email: "",
+        address:
+          "4101 Clearwater Road, Saint Cloud, Minnesota, United States - 56301",
+      },
+    ],
+  },
+  {
+    name: "speed-post-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["079-25505424", "25505275"],
+        email: "cpmg_guj@indiapost.gov.in",
+        address: "Khanpur, Ahmedabad, Gujarat, India - 380001",
+      },
+      {
+        city: "Ambala",
+        contact_no: ["0171-2603100", "2603736"],
+        email: "cpmg_hry@indiapost.gov.in",
+        address:
+          "107, The Mall Road, Ambala Cant, Ambala, Haryana, India - 133001",
+      },
+      {
+        city: "Bhubaneswar",
+        contact_no: ["0674-2392000", "2394790"],
+        email: "cpmg_ori@indiapost.gov.in",
+        address: "Bhubaneswar, Orissa, India - 751001",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["080-22392523", "22202607"],
+        email: "cpmg_kar@indiapost.gov.in​",
+        address: "Beaulieu, Palace Road, Bengaluru, Karnataka, India - 560001",
+      },
+      {
+        city: "Bhopal",
+        contact_no: ["0755-2550838", "2556547"],
+        email: "cpmg_mp@indiapost.gov.in",
+        address: "Bhopal, Madhya Pradesh, India - 462012",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: ["0172-2706700", "2721670"],
+        email: "cpmg_pun@indiapost.gov.in",
+        address:
+          "Sandesh Bhawan, Sector - 17/E, Chandigarh, Punjab, India - 160017",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["044-28520367", "285221199"],
+        email: "cpmg_tn@indiapost.gov.in",
+        address: "Anna Road, Chennai, Tamil Nadu, India - 600002",
+      },
+      {
+        city: "Dehradun",
+        contact_no: ["0135-2658396", "2650065"],
+        email: "cpmg_utr@indiapost.gov.in",
+        address: "Dehradun, Uttarakhand, India - 248001",
+      },
+      {
+        city: "Guwahati",
+        contact_no: ["9435503177", "2544838"],
+        email: "cpmg_asm@indiapost.gov.in",
+        address:
+          "4th Floor, Meghdoot Bhawan, Panbazar, Guwahati, Assam, India - 781001",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["040-23463636"],
+        email: "cpmg_tlg@indiapost.gov.in",
+        address: "Dak Sadan, Abids, Hyderabad, Telangana, India - 500001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["0141-2372020", "2366151"],
+        email: "cpmg_raj@indiapost.gov.in",
+        address: "Sardar Patel Marg, Jaipur, Rajasthan, India - 302007",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["033-22120070", "22120811"],
+        email: "cpmg_wb@indiapost.gov.in",
+        address:
+          "Yogayog Bhawan, P-36, C.R. Avenue, Kolkata, West Bengal, India - 700012",
+      },
+      {
+        city: "Lucknow",
+        contact_no: ["0522-2622000", "2616855"],
+        email: "cpmg_up@indiapost.gov.in",
+        address: "4, Hazratganj, Lucknow, Uttar Pradesh, India - 226001",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["1800 228 030", "22620829"],
+        email: "cpmg_mah@indiapost.gov.in",
+        address: "Mumbai, Maharashtra, India - 400001",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["011-23620144", "23627114"],
+        email: "cpmg_del@indiapost.gov.in",
+        address: "Meghdoot Bhawan, Link Road, New Delhi, Delhi, India - 110001",
+      },
+      {
+        city: "Patna",
+        contact_no: ["0612-2230082", "2220207", "2225011"],
+        email: "cpmg_bhr@indiapost.gov.in",
+        address: "Patna GPO Complex, Patna, Bihar, India - 800001",
+      },
+      {
+        city: "Raipur",
+        contact_no: ["0771-2233400", "2233194"],
+        email: "cpmg_chh@indiapost.gov.in",
+        address: "Raipur, Chhattisgarh, India - 492001",
+      },
+      {
+        city: "Ranchi",
+        contact_no: ["0651-2482345", "2480153"],
+        email: "cpmg_jha@indiapost.gov.in",
+        address: "Doranda Ho Complex, Ranchi, Jharkhand, India - 834019",
+      },
+      {
+        city: "Shillong",
+        contact_no: ["0364-2223800", "2223034"],
+        email: "cpmg_ne@indiapost.gov.in",
+        address: "Shillong, Meghalaya, India - 793001",
+      },
+      {
+        city: "Shimla",
+        contact_no: ["0177-2629000", "2620351"],
+        email: "cpmg_hpr@indiapost.gov.in",
+        address: "Kaithu, Shimla, Himachal Pradesh, India - 171009",
+      },
+      {
+        city: "Srinagar",
+        contact_no: [
+          "0191-2542878",
+          "0194-2452528",
+          "0191-2561746",
+          "0194-2452036",
+        ],
+        email: "cpmg_jnk@indiapost.gov.in",
+        address:
+          "Gpo Complex, Residency Road, Srinagar, Jammu & Kashmir, India - 190001",
+      },
+      {
+        city: "Thiruvananthapuram",
+        contact_no: ["0471-2308300", "2306500"],
+        email: "cpmg_ker@indiapost.gov.in",
+        address: "Thiruvananthapuram, Kerala, India - 695033",
+      },
+      {
+        city: "Vijayawada",
+        contact_no: ["0866-2429854", "24747282"],
+        email: "cpmg_apr@indiapost.gov.in",
+        address:
+          "O/O Cpmg, AP Circle, PSD Complex, Besides Door Darshan Quarters, Krishnalanka, Vijayawada,​Andhra Pradesh, India - 520013",
+      },
+    ],
+  },
+  {
+    name: "smsa-express-tracking",
+    contact_info: [
+      {
+        city: "Riyadh",
+        contact_no: ["+966 11 2187777"],
+        email: "info@smsaexpress.com",
+        address:
+          "Prince Abdullaziz Ibn Masa'ad Ibn Julawi (Dhabab) St., P.O.Box 63529, Riyadh, Riyadh, Saudi Arabia - 11526",
+      },
+    ],
+  },
+  {
+    name: "tci-express-courier-tracking",
+    contact_info: [
+      {
+        city: "Gurgaon",
+        contact_no: [
+          "1800 2000 977",
+          "+91 124 2384090",
+          "+91 124 2384091",
+          "+91 124 2384092",
+          "+91 124 2384093",
+          "+91 124 2384094",
+        ],
+        email: "info@tcsxps.in",
+        address:
+          "TCI House, 69, Institutional Area Sector-32, Gurgaon, Haryana, India - 122207",
+      },
+    ],
+  },
+  {
+    name: "swiss-post-tracking",
+    contact_info: [
+      {
+        city: "Bern",
+        contact_no: ["+41 848 888 888"],
+        email: "",
+        address:
+          "Post CH Ltd, Swiss Post Contact Center, Wankdorfallee 4, Bern, Switzerland - 3030",
+      },
+    ],
+  },
+  {
+    name: "tci-freight-courier-tracking",
+    contact_info: [
+      {
+        city: "Gurgaon",
+        contact_no: [
+          "+91 124 2381603",
+          "+91 124 2381604",
+          "+91 124 2381605",
+          "+91 124 2381606",
+          "+91 124 2381607",
+          "+91 124 2381611",
+        ],
+        email: "care@tcifreight.in\nmktg.tcrp@tcifreight.in",
+        address:
+          "TCI House, 69, Institutional Area Sector-32, Gurgaon, Haryana, India - 122207",
+      },
+      {
+        city: "",
+        contact_no: ["+91 11 27836762", "+91 11 27836763", "+91 11 27836764"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "tcs-courier-tracking",
+    contact_info: [
+      {
+        city: "London",
+        contact_no: ["+44 208 8495600"],
+        email: "",
+        address:
+          "1000 Great West Road, Brentford, Middlesex, London, UK - TW8 9HH",
+      },
+      {
+        city: "Karachi",
+        contact_no: ["+92 21 111-123-456"],
+        email: "customercare@tcs.com.pk",
+        address:
+          "Iqbal Avenue, Jinnah International Airport, Karachi, Sindh, Pakistan - 75202",
+      },
+      {
+        city: "Karachi",
+        contact_no: ["+92 21-32414641"],
+        email: "customercare@tcs.com.pk",
+        address:
+          "GOB-4, Mehar sons Estate,Talpur Road,Near nbp Head office Cross The Railway Phatak, Karachi, Sindh, Pakistan",
+      },
+      {
+        city: "Dubai",
+        contact_no: ["+971 600565651"],
+        email: "",
+        address:
+          "Abduallah Saif Building, Umm Ramool, Rashidya, Dubai, UAE - 29575",
+      },
+    ],
+  },
+  {
+    name: "tci-xps-courier-tracking",
+    contact_info: [
+      {
+        city: "Gurgaon",
+        contact_no: [
+          "1800 2000 977",
+          "+91 124 2384090",
+          "+91 124 2384091",
+          "+91 124 2384092",
+          "+91 124 2384093",
+          "+91 124 2384094",
+        ],
+        email: "info@tcsxps.in",
+        address:
+          "TCI House, 69, Institutional Area Sector-32, Gurgaon, Haryana, India - 122207",
+      },
+    ],
+  },
+  {
+    name: "tirupati-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 9879204561"],
+        email: "",
+        address:
+          "8/B, Bharat Society, Parsi Agiyari, Ved Mandir Road, Ahmedabad, Gujarat, India - 380043",
+      },
+      {
+        city: "Baroda",
+        contact_no: ["+91 9879204563"],
+        email: "",
+        address:
+          "8/9, Welcome Flat 2, Urmi Dinesh Mills Road, Near Verai Mata Temple, Akota, Baroda, Gujarat, India - 390020",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 9962589978"],
+        email: "stcsmaaro@gmail.com",
+        address:
+          "No-14, 40 Feet Scheme Road, Kamdar Nagar, Opposite Ayyappan Aarch, Mahalingapuram, Chennai, Tamil Nadu, India - 600034",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 9640572572"],
+        email: "stcshydro500003@gmail.com",
+        address:
+          "B-12, Ground Floor, Indian Airlines Colony, Begumpet, Hyderabad, Telangana, India - 500016",
+      },
+      {
+        city: "Indore",
+        contact_no: ["+91 9300525460"],
+        email: "",
+        address:
+          "UB-29, Silver Mall, Rabindra Nath Tagore Marg, Opposite Old University,, Indore, Madhya Pradesh, India - 452001",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["+91 8529570339"],
+        email: "",
+        address:
+          "B-5, Arco Palace, Opposite Sindhi Camp, Behind Metro Station, Jaipur, Rajasthan, India - 302006",
+      },
+      {
+        city: "Mehsana",
+        contact_no: ["+91 9879204568"],
+        email: "",
+        address:
+          "G/7, Krishna Complex, Radhanpur Char Rasta, Mehsana, Gujarat, India - 384002",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 9833075096"],
+        email: "stcsmumbairo@gmail.com",
+        address:
+          "31, Ghaswala House ange Naigaon, Dadar(E), Mumbai, Maharashtra, India - 400014",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 23637132"],
+        email: "bhaveshjoshi21188@gmail.com",
+        address:
+          "882, Basement, East Park Road, Near Ajmal Khan Park, Karol Bagh, New Delhi, Delhi, India - 110005",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 9850553867"],
+        email: "",
+        address:
+          "205 G/F, Satav Wada, Narayan Peth, Opposite Z Bridge, Near Manse Karyalaya, Pune, Maharashtra, India - 411030",
+      },
+      {
+        city: "Surat",
+        contact_no: ["+91 9879204564"],
+        email: "",
+        address:
+          "L/12, Swati Chamber, Galemandi Road, Near Delhi Gate Char Rasta, Surat, Gujarat, India - 395003",
+      },
+    ],
+  },
+  {
+    name: "tnt-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 425 9999", "1800 208 9999", "+31 88 393 9390"],
+        email: "",
+        address: "1100 KG Amsterdam, The Netherlands - 13000",
+      },
+      {
+        city: "",
+        contact_no: ["+60 3 79622900", "1300 882 882"],
+        email: "",
+        address: "Malaysia",
+      },
+    ],
+  },
+  {
+    name: "tnt-reference-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["1800 425 9999", "1800 208 9999", "+31 88 393 9390"],
+        email: "",
+        address: "1100 KG Amsterdam, The Netherlands - 13000",
+      },
+      {
+        city: "",
+        contact_no: ["+60 3 79622900", "1300 882 882"],
+        email: "",
+        address: "Malaysia",
+      },
+    ],
+  },
+  {
+    name: "tnt-uk-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+44 800 100 600"],
+        email: "",
+        address: "UK",
+      },
+    ],
+  },
+  {
+    name: "trackon-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 7940242100"],
+        email: "",
+        address:
+          "G-1.2, 3 Ashirwad Complex Near Aditaya Building, Opp Sardar Patel Seva Samaj Hall, Ahmedabad, Gujarat, India - 380006",
+      },
+      {
+        city: "Ambala",
+        contact_no: ["+91 1714007170", "+91 7206006170"],
+        email: "",
+        address:
+          "Bldg No 113/2 Cross Road No 10 Idgah Road, Ambala Cantt, Ambala, Punjab, India - 133001",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["+91 8028567030", "+91 8028567040"],
+        email: "",
+        address:
+          "No 212/34/9, Kogilu Main Road, Next To Canopy Crest Apartment, Yelahanka, Bangalore, Karnataka, India - 560064",
+      },
+      {
+        city: "Bhopal",
+        contact_no: ["+91 7554011777", "+91 7554949909"],
+        email: "",
+        address:
+          "Plot No 156, Mp Nagar Zone 1, Near Fortune Builder, Bhopal, Madhya Pradesh, India - 462011",
+      },
+      {
+        city: "Bhubaneswar",
+        contact_no: ["+91 18008913773", "+91 8908012400"],
+        email: "",
+        address:
+          "Plot No-73, Ground Floor, Bhaskar Tower, Kharvela Nagar Bbsr, Opp Durga Mandav, Bhubaneswar, Odisha, India - 751001",
+      },
+      {
+        city: "Chandigarh",
+        contact_no: ["+91 1722657627", "+91 9914213359"],
+        email: "",
+        address:
+          "Plot No.120, Phase 1, Industrial Area, Near Hommtel Hotel, Chandigarh, Chandigarh, India - 160002",
+      },
+      {
+        city: "",
+        contact_no: ["+91 4446617710", "+91 4446617712"],
+        email: "",
+        address:
+          "C14 Tiruvika Indl Estate Guindy, Guindy, Tamil Nadu, India - 600032",
+      },
+      {
+        city: "Cochin",
+        contact_no: ["+91 7025280000", "+91 7025280000"],
+        email: "",
+        address:
+          "71/993A, A1, A2 Thanikkal-Keerthi Nagar, Keerthi Nagar, Elamakkara, Cochin, Kerala, India - 682026",
+      },
+      {
+        city: "Dehradun",
+        contact_no: ["+91 1354067658", "+91 8448085064"],
+        email: "",
+        address:
+          "36 Araghar Race Course, Opp Gareebdass Kouthi Near Bhura Chicken, Dehradun, Uttarakhand, India - 248001",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 1145593500", "+91 8448011011"],
+        email: "",
+        address:
+          "A-64 Naraina Ind.Area, Phase-1 Naraina, New Delhi, Delhi, India - 110028",
+      },
+      {
+        city: "Panjim",
+        contact_no: ["+91 8326631003", "+91 9527005688"],
+        email: "",
+        address:
+          "Shop. No. 09/10/11 Kamakshi Prasad Buld, Near Goa Tourism Dept. Patto-Panjim, Panjim, Goa, India - 403401",
+      },
+      {
+        city: "Guwahati",
+        contact_no: ["+91 7099276312"],
+        email: "",
+        address:
+          "House No.19, Jana Path Lane, G.S Road, Ulubari, Near Hotel Priya Place, Guwahati, Assam, India - 781007",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 4068362201", "+91 6309333508"],
+        email: "",
+        address:
+          "Plot No.C-14, Ida, Uppal, Hyderabad, Telangana, India - 500039",
+      },
+      {
+        city: "Jaipur",
+        contact_no: ["+91 1414622300", "+91 1414622300"],
+        email: "",
+        address:
+          "D-96, Tulsi Marg, Madho Singh Circle, Bani Park, Jaipur, Rajasthan, India - 302006",
+      },
+      {
+        city: "Jammu",
+        contact_no: ["+91 1912431561", "+91 7303244337"],
+        email: "",
+        address:
+          "Shop No-109 Sec-4 Shivaji Chowk Near By Bharat Petrol Pump, Jammu, Jammu And Kashmir, India - 180004",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 8334043012", "+91 8334043012"],
+        email: "",
+        address:
+          "Village & Mouza Nazirabad/Karimpore Near New, Sanghati Sporting Club Po-Uccepota, P.S-Sonarpur, Kolkata, West Bengal, India - 700150",
+      },
+      {
+        city: "Lucknow",
+        contact_no: ["+91 5224951407", "+91 7704800043"],
+        email: "",
+        address:
+          "Trackon Coruier Pvt Ltd. 52 Wazir Hasan Raod Near Parag Dairy, Hazaratganj, Lucknow, Uttar Pradesh, India - 226001",
+      },
+      {
+        city: "Ludhiana",
+        contact_no: ["+91 1614630359", "+91 9781330060"],
+        email: "",
+        address:
+          "B-23/2581/10-A/1 Rk Road, Industrial Area, Ludhiana, Punjab, India - 141003",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 2243663071", "+91 2243663072"],
+        email: "",
+        address:
+          "Unit No 81, Plot No.-14, Marol Co-Operative Indust, Off-Andheri Kurla Road, Andheri(E), Mumbai, Maharashtra, India - 400059",
+      },
+      {
+        city: "Nagpur",
+        contact_no: ["+91 7028018528", "+91 7276030886"],
+        email: "",
+        address:
+          "1G & 1H Ground Floor, Nishigandha Apartment, Beside Fci Godown, Prashant Nagar, Nagpur, Maharashtra, India - 440015",
+      },
+      {
+        city: "Patna",
+        contact_no: ["+91 7870043815", "+91 7870043806"],
+        email: "",
+        address:
+          "Basudev Commercial Complex Behind Dps School, Near Kumrar Park, Kankarbagh, Patna, Bihar, India - 800027",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 2026453600", "+91 2026453601"],
+        email: "",
+        address:
+          "Hidaytullha Complex Shop No 1-5, New Modikhana, Opp. Shanker Sheth Road Near Poona Colleage, Pune, Maharashtra, India - 411001",
+      },
+      {
+        city: "Raipur",
+        contact_no: ["+91 7714017867", "+91 7389267882"],
+        email: "",
+        address:
+          "Choube Colony, Behind State Bank Of India, Kalibadi, Raipur, Chhattisgarh, India - 492001",
+      },
+      {
+        city: "Ranchi",
+        contact_no: ["+91 9709087111"],
+        email: "",
+        address: "172 Old AG Colony, Kadru, Ranchi, Jharkhand, India - 834002",
+      },
+    ],
+  },
+  {
+    name: "ups-courier-tracking",
+    contact_info: [
+      {
+        city: "Coarsegold",
+        contact_no: ["+1 800 742 5877", "1-888-742-5877", "1-866-782-7892"],
+        email: "totaltrack@ups.com\ntotaltrack.gb-eng@ups.com",
+        address:
+          "Mountain Side Mini Storage 46262 Rd 415 #9530, Coarsegold, California, United States - 93614",
+      },
+      {
+        city: "New York",
+        contact_no: ["2128100834"],
+        email: "",
+        address:
+          "The UPS Store, 14 Murray Street, New York, NY, United States - 10007",
+      },
+    ],
+  },
+  {
+    name: "v-xpress-courier-tracking",
+    contact_info: [
+      {
+        city: "Chennai",
+        contact_no: ["+91 9344016664"],
+        email: "bictambaram@vxpress.in",
+        address:
+          "3/2E ponniamman koil street, pallavaram, Chennai, Tamil Nadu, India - 600043",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: ["+91 9310281600"],
+        email: "bicghaziabad@vxpress.in",
+        address:
+          "Mr.Vijendra Negi, S-53, Harsha Compound Site 2, Loni Road Industrial Area, Mohan Nagar, Ghaziabad, Uttar Pradesh, India - 201007",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 9312425172", "+91 9313970304", "+91 9312856580"],
+        email: "sultanmusanna@vxpress.in",
+        address:
+          "B-50 Okhla Ind.Estate Phase-1, New Delhi, Delhi, India - 110020",
+      },
+      {
+        city: "Rajkot",
+        contact_no: ["+91 9376939608"],
+        email: "bicbhaktinagar@vxpress.in",
+        address:
+          "50/B, G.I.D.C., Udyognagar, Bhaktinagar Industrial Estate, Bhaktinagar, Rajkot, Gujarat, India - 360002",
+      },
+      {
+        city: "Navi Mumbai",
+        contact_no: ["+91 22 27594444", "+91 22 61040700"],
+        email: "peaceofmind@vxpress.in",
+        address:
+          "1001, 10th Floor, Casablanca, Plot No. 45, Sector No. 11, CBD Belapur (East), Navi Mumbai, Maharashtra, India - 400614",
+      },
+    ],
+  },
+  {
+    name: "vichare-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: [
+          "+91 22 2860 2148",
+          "+91 22 2860 2149",
+          "+91 22 2867 6086",
+          "+91 22 2860 1354",
+        ],
+        email: "response@vichare.com\ndeodhar@vichare.com",
+        address:
+          "1st Floor, Plot No. 137-CD, Government Industrial Estate, B/h Associate Capsule Company, Charkop, Kandivali, Mumbai, Maharashtra, India - 400067",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 2869 98 01"],
+        email: "deodhar@vichare.com",
+        address:
+          "407 / 408, Kesar Plaza, 4th Floor, Plot NO. 239, RDP-6 , B/h Fish Market, Charkop, Kandivali, Mumbai, Maharashtra, India - 400067",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 20 2605 2074", "+91 20 2605 2075"],
+        email: "pune@vichare.com",
+        address:
+          "Shop No.12, Shantai Vihar Complex, CTS. No. 10 / 3, Rasta Peth, Near Hotel Shantai, Pune, Maharashtra, India - 411011",
+      },
+    ],
+  },
+  {
+    name: "vrl-logistics-courier-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 79 2546681"],
+        email: "",
+        address:
+          "608, 6th Floor, P.B Towers, Opposite Vanijaya Bhuvan, Near Deewan Ballu Bhai School, Ahmedabad, Gujarat, India - 380022",
+      },
+      {
+        city: "Bengaluru",
+        contact_no: ["+91 80 26992525", "+91 80 26992626"],
+        email: "sbcmo@vrllogistics.com",
+        address:
+          "Sri Sai Ram Towers, No.24, 4th Floor, 5th Main Road Chamarajpet, Bengaluru, Karnataka, India - 560018",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 44 28262645", "+91 44 35326111", "+91 44 35326555"],
+        email: "cnivpoffice@vrllogistics.com",
+        address:
+          "Parsn Manere Complex, Plot No: 10, C Wing, 4th Floor, No: 602, Mount Road, Chennai, Tamil Nadu, India - 600006",
+      },
+      {
+        city: "Hubballi",
+        contact_no: ["+91 836 2237511", "+91 836 2237512", "+91 836 2256612"],
+        email: "headoffice@vrllogistics.com",
+        address:
+          "Giriraj Annexe, Circuit House Road, Hubballi, Karnataka, India - 580029",
+      },
+      {
+        city: "Hubballi",
+        contact_no: ["+91 836 2237610", "+91 836 2237613", "+91 836 2237614"],
+        email: "varurho@vrllogistics.com",
+        address: "Bengaluru Road, Varur, Hubballi, Karnataka, India - 581207",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["+91 9346538108"],
+        email: "hydmo@vrllogistics.com",
+        address:
+          "Plot No. 18, Phase-I, Paigah Colony, Behind Anand Cinema, S.P.Road, Secunderabad, Hyderabad, Andhra Pradesh, India - 500003",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["+91 33 22266186"],
+        email: "cltro@vrllogistics.com",
+        address:
+          "Flat No. 101 Parvati Kunj, 413/A-153, Daulatram Mandir Road, Mukund Nagar, Gultekadi, Kolkata, West Bengal, India - 700071",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 27832752", "+91 22 27832754", "+91 22 27832755"],
+        email: "mbimo@vrllogistics.com",
+        address:
+          "Unit No.7 & 8, 1st Floor, Banaking Commercial Complex - II, Near APMC Market, Vashi, Mumbai, Maharashtra, India - 400705",
+      },
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 23634031", "+91 11 23634032"],
+        email: "dlimo@vrllogistics.com",
+        address:
+          "No 40, Rani Jhansi Road, Ground Floor, Opposite Mata Mandir Jhendewalan, New Delhi, Delhi, India - 110055",
+      },
+      {
+        city: "Pune",
+        contact_no: ["+91 7767811375", "+91 9372284046"],
+        email: "punemarketing@vrllogistics.com",
+        address:
+          "Flat No. 101 Parvati Kunj, 413/A-153, Daulatram Mandir Road, Pune, Maharashtra, India - 411037",
+      },
+    ],
+  },
+  {
+    name: "vtrans-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: [
+          "9870 140 141",
+          "022-6736 9999",
+          "022-25220423",
+          "022 25220424",
+          "022 25220425",
+          "022 25220426",
+        ],
+        email: "",
+        address: "info@vtransgroup.com, Mumbai, Maharashtra, India - 400071",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["022-41703333"],
+        email: "csaomum@vtransgroup.com",
+        address:
+          "Dakshna Building, Ground Floor, Plot No. 2, Sector No. 11, Near Raigad Bhavan, C.B.D. Belapur, Mumbai, Maharashtra, India - 400614",
+      },
+      {
+        city: "Ghaziabad",
+        contact_no: ["8882930339"],
+        email: "ghaziabad@vtransgroup.com",
+        address:
+          "Khasra No- 1136/1137, Opp.- Delhi Public School, Meerut Rd, Ghaziabad (U.P.), Ghaziabad, Uttar Pradesh, India - 201003",
+      },
+      {
+        city: "Butibori",
+        contact_no: ["7498717088"],
+        email: "buttibori@vtransgroup.com",
+        address:
+          "Plot No.P-53 Dubey Plaza Near Midc Garden Midc Main Road, Butibori, Nagpur 441122 (Mh), Butibori, Maharashtra, India - 441122",
+      },
+    ],
+  },
+  {
+    name: "winit-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["400-996-0766"],
+        email: "inquiry@winit.com.cn",
+        address: "China",
+      },
+    ],
+  },
+  {
+    name: "xpressbees-courier-tracking",
+    contact_info: [
+      {
+        city: "Pune",
+        contact_no: ["020-49116100"],
+        email: "customercare@xpressbees.com",
+        address:
+          "3rd and 4th Floor, Rajashree Business Park, Plot No 114, Survey No 338, Tadiwala Road, Nr. Sohrab Hall, Pune, Maharashtra, India - 411001",
+      },
+    ],
+  },
+  {
+    name: "yamato-japan-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+81 0120-17-9625", "+81 03-6757-1061"],
+        email: "",
+        address: "Japan",
+      },
+      {
+        city: "Tokyo",
+        contact_no: ["03-6757-0088", "03-6757-0089"],
+        email: "",
+        address:
+          "Forcast Kayabacho Bldg. 3F, 1-10-14 Shinkawa, Chuo-Ku, Tokyo, Japan - 104-0033",
+      },
+      {
+        city: "",
+        contact_no: ["(1)201-583-9706"],
+        email: "",
+        address:
+          "80 Seaview Drive, Secaucus, New Jersey, United States - 07094",
+      },
+      {
+        city: "",
+        contact_no: ["(44)208-427-3538"],
+        email: "",
+        address:
+          "Unit 9, Waverley Industrial Park, Hailsheim Drive Harrow, Middlesex, England - HA1 4TR",
+      },
+    ],
+  },
+  {
+    name: "yrc-freight-courier-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["800 610 6500"],
+        email: "customer.service@yrcfreight.com",
+        address: "United States",
+      },
+      {
+        city: "",
+        contact_no: ["877-330-3321"],
+        email: "customer.service@yrcfreight.com",
+        address: "Canada",
+      },
+    ],
+  },
+  {
+    name: "yun-express-tracking",
+    contact_info: [
+      {
+        city: "",
+        contact_no: ["+86 400-0262-126"],
+        email: "",
+        address: "",
+      },
+    ],
+  },
+  {
+    name: "zto-express-tracking",
+    contact_info: [
+      {
+        city: "Taizhou",
+        contact_no: [
+          "13175870008",
+          "0576-89923513",
+          "0576-89923518",
+          "0576-87473366",
+        ],
+        email: "",
+        address:
+          "Lutong Logistics Park, Lupu Industrial Zone, Yuhuan, Taizhou, Zhejiang, China",
+      },
+    ],
+  },
 ];
