@@ -438,7 +438,7 @@ export const courierProviders = [
   { name: "DHL Global Mail", link: "dhl-global-mail-tracking" },
   { name: "DHL Express PieceId", link: "dhl-express-pieceid-tracking" },
   { name: "Diacom Canada", link: "diacom-canada-tracking" },
-  { name: "Digital Courier ", link: "digital-courier-tracking" },
+  { name: "Digital Delivery ", link: "digital-delivery-courier-tracking" },
   { name: "Dinland Courier", link: "dinland-courier-tracking" },
   {
     name: "Direct Freight Express Courier",

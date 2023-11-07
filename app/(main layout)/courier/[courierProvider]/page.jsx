@@ -15,12 +15,9 @@ export async function generateMetadata({ params, searchParams }) {
 
   return {
     title: courierName,
-    description: `Track your ${courierName.replace(
-      " Tracking",
-      ``
-    )} package with ease on trackcourier.co. Just enter your ${courierName
-      .replace(" Tracking", ``)
-      .toLowerCase()} tracking number and get real-time updates of ${courierName
+    description: `Experience the simplicity of tracking your ${courierName
+      .replace(" Tracking", "")
+      .toLowerCase()} package on TrackCourier.co. Just enter your ${courierName.toLowerCase()} number and get real-time updates of ${courierName
       .replace(" Tracking", ``)
       .toLowerCase()} shipment, delivery date, and estimated arrival time. Our dedicated ${courierName.toLowerCase()} page is the perfect tool to help you stay informed about your package. Discover the latest updates about your shipment, including any delays or issues that may affect its delivery`,
     keywords: keywords.courierProviderPage.map((keyword) => {
@@ -33,7 +30,7 @@ export async function generateMetadata({ params, searchParams }) {
       }
     }),
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/courier/${courierProvider}`,
+      canonical: `https://trackcourier.co/courier/${courierProvider}`,
       // languages: {
       //   'en-US': '/en-US',
       //   'de-DE': '/de-DE',
@@ -84,13 +81,13 @@ const CourierProvider = ({ params }) => {
       />
       <div className={`${styles.description} ${styles.section}`}>
         <p>
-          Track your <strong>{courierName.replace("Tracking", "")}</strong>{" "}
-          packages, shipments, parcels, courier and consignments with ease using{" "}
-          <Link href="/">TrackCourier.co's</Link> state-of-the-art tracking
-          tool. Stay updated with real-time delivery status and receive timely
-          courier updates. Access comprehensive tracking information
+          Track your <strong>{courierName.replace("Tracking", "")}</strong>
+          packages, shipments, parcels, courier, and consignments with ease
+          using TrackCourier.co's state-of-the-art {courierName} tool. Stay
+          updated with real-time delivery status and receive timely{" "}
+          {courierName} updates. Access comprehensive tracking information
           effortlessly and enjoy the convenience of our user-friendly platform.
-          Simplify your tracking experience and never lose sight of your
+          Simplify your {courierName} experience and never lose sight of your
           valuable shipments again.
         </p>
       </div>

@@ -5442,4 +5442,244 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "cci-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai:",
+        contact_no: ["+91-226691 / 2947"],
+        email: "",
+        address:
+          "CCI Logistics Ltd. 202 B, Corporate Center, Andheri Kurla Road, Andheri(East), Mumbai, India",
+      },
+      {
+        city: "Delhi",
+        contact_no: ["(+91-11) 3250 7176 / 2506 0530 / 531 / 532 / 533."],
+        email: "",
+        address:
+          "47/16 Anand Vihar Bakarwala Marg, Najfgarh Nangloi Road, Near Sudansu Jee Ashram, Bakar Wala, New Delhi-110 043",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["(+91-80) 2357 4768 / 65 / 67"],
+        address:
+          "A – 26, Devaraj Urs Truck Terminal, Industrial Suburb, Yeshwanthpur, Banglore – 560 022",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["(+91-44) 2836 4182 / 83 / 84"],
+        email: "",
+        address: "7 D Doshi Towers, 156 P.H Road, Kilpauk, Chennai – 600 010",
+      },
+      {
+        city: "Kolkata",
+        contact_no: ["(+91-33) 3257 0033 / 0034"],
+        email: "",
+        address: "P – 4, Black Burn Lane, Kolkata – 700 012.",
+      },
+      {
+        city: "Cochin",
+        contact_no: ["(+91-484) 3206 905"],
+        email: "",
+        address:
+          "42/403,mukkath Blg, K.K.Pabmanathan Road,Power house Junction, Cochin-682018.",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["(+91-40) 2781 4588 / 3637"],
+        email: "",
+        address:
+          "Plot No 49,Shena Co.Op.Hos.Ltd, Old Bowen Pally ,Secunderabad 500011.",
+      },
+      {
+        city: "Pune",
+        contact_no: ["(+91-20) 2712 5171 / 5081"],
+        email: "",
+        address:
+          '309 - 310 "B" Wing, Sagar Complex, Nashik Phata, Kasarwadi, Pune - 411 034.',
+      },
+      {
+        city: "Ahmedabad",
+        contact_no: ["(+91-2718) 261 788"],
+        email: "",
+        address:
+          "132- Transport Nagar, Opposite Ashok Lyland, Near Prathay Hotel, Aslali, Ahmedabad -382427",
+      },
+      {
+        city: "Ankleshwar",
+        contact_no: ["(+91-2646) 235 452"],
+        email: "",
+        address:
+          "A -1 ,1st Floor, Bhavna Farm, Opp Patel Nagar, Rajpipla Road, Ankleshwar - 393002",
+      },
+      {
+        city: "Aurangabad",
+        contact_no: ["(+91-240) 2352 128"],
+        email: "",
+        address:
+          "W - 2, Vardhaman Complex, Mondha Road, Zaffer gate, Aurangabad - 431001",
+      },
+      {
+        city: "Bellary",
+        contact_no: ["(+91-8392) 329 834"],
+        email: "",
+        address:
+          "10, Shanti Arcade, Gandhi Nagar, 1st Cross, Women College Rd., Bellary - 583 103",
+      },
+    ],
+  },
+  {
+    name: "corporate-express-tracking",
+    contact_info: [
+      {
+        city: "Goa",
+        contact_no: ["(0832)6634777-81"],
+        email: "",
+        address: "Rani Pramila Arcade, 18 June Road, Panjim, Goa",
+      },
+      {
+        city: "Goa",
+        contact_no: ["(0832)6632777-81"],
+        email: "",
+        address: "Kamat Tower Shop No 8, EDC Complex Patto, Panjim, Goa",
+      },
+
+      {
+        city: "Goa",
+        contact_no: ["(0832)6632777-81"],
+        email: "",
+        address: "Pelican Apartment, 2nd Floor, Opp Lohia Maidan, Margo",
+      },
+      {
+        city: "Goa",
+        contact_no: ["(0832)6632777-81"],
+        email: "",
+        address: "Kazi Building, Ponda, Goa",
+      },
+      {
+        city: "Goa",
+        contact_no: ["(0832)6626777-81"],
+        email: "",
+        address: "Apna Bazaar, 1st Floor, Vasco, Goa",
+      },
+      {
+        city: "",
+        contact_no: ["022-72940010", "0922570677"],
+        email: "",
+        address:
+          "329, Badam Wadi, Kalbadevi Road, Opp Swadeshi Market, Mumbai - 400002",
+      },
+      {
+        city: "Pune",
+        contact_no: ["09225932777"],
+        email: "",
+        address:
+          "1089 Shukrawar Peth, Shivaji Road Opp Sushil Hotel, Swargate Corner, Pune 411002",
+      },
+      {
+        city: "Belgaum",
+        contact_no: ["0831-2435874"],
+        email: "",
+        address: "1767. Salgaonkar Bldg, Kirloskar Road, Belgaum",
+      },
+      {
+        city: "Hubli",
+        contact_no: ["836-2253498"],
+        email: "",
+        address:
+          "Shop No 33, 1st Floor, Swimming Pool Complex, P. B. Road, Hubli",
+      },
+    ],
+  },
+  {
+    name: "bpl-cargo-courier-tracking",
+    contact_info: [
+      {
+        city: "DAMMAM HEAD OFFICE",
+        contact_no: [
+          "+966138326868",
+          "+966138328701",
+          "+966539400245",
+          "+966539400246",
+          "+966138326868",
+          "+966558432156",
+        ],
+        email: "",
+        address: "King Saud Street, P.O. Box 63007, Dammam 31516.",
+      },
+      {
+        city: "Al KHOBAR",
+        contact_no: ["Tel: 0138693350", "0500142806"],
+        email: "",
+        address: "Al Janubiyah, Subekha street 34611",
+      },
+      {
+        city: "MUBARAZ",
+        contact_no: ["0506572225"],
+        email: "",
+        address: "Near Post office- Gold Souk Road",
+      },
+      {
+        city: "AL HASSA(-HOFUF)",
+        contact_no: ["Tel: 0135851326", "0554449351"],
+        email: "",
+        address: "Old Islamic Center Road, Al Kooth Street",
+      },
+      {
+        city: "RIYADH ISTAMBUL",
+        contact_no: ["0547549573/ 0547567473"],
+        email: "",
+        address: "Near Mina hypermarket",
+      },
+      {
+        city: "SEIKO BRANCH",
+        contact_no: ["0530334223"],
+        email: "",
+        address: "Behind Garden Masjid, Opp Hassa Taxi stand , Dammam",
+      },
+      {
+        city: "AL JUBAIL",
+        contact_no: ["+966133639602", "+0503867390", "+0530786679"],
+        email: "",
+        address:
+          "King Abdulaziz Street, Jubail 31951,\nPO Box 7962, Saudi Arabia.",
+      },
+      {
+        city: "RIYADH BATHA",
+        contact_no: ["0532737335"],
+        email: "",
+        address: "OPP Classic restaurant",
+      },
+      {
+        city: "RIYADH SHIFA",
+        contact_no: ["056027373"],
+        email: "",
+        address: "Near Mina hypermarket",
+      },
+    ],
+  },
+  {
+    name: "delnet-express-tracking",
+    contact_info: [
+      {
+        city: "Delhi",
+        contact_no: [" 011-45561319"],
+        email: "info@delnetconnect.com",
+        address:
+          "Delnet Connect LLP, Khasra No 52, Basement, 837 Main Old Delhi, Gurgaon Road, Kapashera, New Delhi – 110037",
+      },
+    ],
+  },
+  {
+    name: "air-star-xpress-courier-tracking",
+    contact_info: [
+      {
+        city: "Jaipur",
+        contact_no: ["0141-2360998", "2361575,5106865"],
+        email: "info@airstarexpress.com",
+        address:
+          "B-2, Anukampa Tower, Church Road, M.I., Road,Jaipur-302004 (Rajasthan)",
+      },
+    ],
+  },
 ];
