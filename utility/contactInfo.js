@@ -5245,4 +5245,201 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "akash-ganga-courier-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: [" 011 2351 4471"],
+        email: "",
+        address:
+          "Address: 784-785, Ground Floor, Faiz Road Chowk, Desh Bandhu Gupta Rd, Block A, Karol Bagh, New Delhi, DL 110005",
+      },
+      {
+        city: "Andhra Pradesh",
+        contact_no: [" 040 3239 3688"],
+        email: "",
+        address:
+          "Address: 3-11-46/3, Ramanthapur, Laxminarayana Colony, Ramanthapur, Hyderabad, Andhra Pradesh 500039",
+      },
+      {
+        city: "Bangalore",
+        contact_no: [" 080 2248 4031"],
+        email: "",
+        address:
+          "Address: 57 H.M.S Complex, Cubbenpet, Ashwath Nagar, Sampangi Rama Nagar, Bangalore, Karnataka 560002",
+      },
+      {
+        city: "Surat",
+        contact_no: [" 0261 233 8114"],
+        email: "",
+        address:
+          "Address: G-25, Ring Road, Jay Prakash Narayan Marg, Reshamwala Market, Begampura, Surat, Gujarat 395002",
+      },
+      {
+        city: "Bikaner",
+        contact_no: [" 0151-3292790,2202349"],
+        email: "",
+        address:
+          "Address: K-9, 1st Floor, Khajanchi Market, Kem Road, Bikaner, Rajasthan, India.",
+      },
+    ],
+  },
+  {
+    name: "airwings-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 4005 1717", "+91-22-40051717", "+91-22-40056400"],
+        email: "nair@airwingsindia.com",
+        address:
+          "106/107, Nahar & Seth Industrial Estate, Cardinal Gracious Road, Chakala, Andheri (E), Mumbai - 400099",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["+91 9845346824", "+91-80-22249132", "+91-80-22249131"],
+        email: "blr@airwingsindia.com",
+        address: "No.6, 1st Cross, Sampangiramanagar, Bangalore - 560 027",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["+91 9840738044", "+91-44-28283377", "+91-44-28283376"],
+        email: "maa@airwingsindia.com",
+        address:
+          "A-11, Basement, Gemini Parsn Commercial Complex, 1 Kodambakkam High Road, Chennai - 600006",
+      },
+      {
+        city: "Cochin",
+        contact_no: ["+91 9349263107", "+91-2354104"],
+        Email: "cok@airwingsindia.com",
+        address: "Surabhi Building, First Floor, Pullepady, Cochin - 682 018",
+      },
+    ],
+  },
+  {
+    name: "bombino-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: [":91 22 6640 0000", "91 22 6640 0117"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Corporate Centre B, 1 & 2, Ground Floor,Marol Pipe Line, Andheri Kurla Road, Mumbai - 400 059",
+      },
+      {
+        city: "Hyderabad",
+        contact_no: ["91 (40) 66689409 / 66259409"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Shop #1 Jamuna Mansion Opposite Nandini High School Chirag Ali Lane Hyderabad 500044",
+      },
+      {
+        city: "Bangalore",
+        contact_no: ["080 41127758 / 41128890"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Nos.10/2 & 10/7.Situated At 6th Cross, Victoria Layout, Bangalore - 560 047 Land Mark Behind Vijaya Bank",
+      },
+      {
+        city: "Chennai",
+        contact_no: ["Tel. :9841749286 / 9841749289"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "5/42, Labour Colony, I Floor, Thiru Vi Ka Indl. Estate, Guindy, Chennai 600 032",
+      },
+      {
+        city: "Delhi",
+        contact_no: ["91-11-4204 0001 / 4204 0021", "+91-11-4204 0003"],
+        email: "bombino@bombinoexp.com",
+        address: "E- 196 Narayana Vihar New Delhi 110028",
+      },
+      {
+        city: "Bharuch",
+        contact_no: ["(02642) 244155/(02642) 251318,9825040213"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Nobal International Air Courier,kotapore Bazar,bharuch-392001",
+      },
+      {
+        city: "Surat",
+        contact_no: ["Tel. :0261-2426825 / 2427162"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "New Creation,1st Floor Janta Guest House,taj Chambers,sufi Baug,opp Railway Stn,surat",
+      },
+      {
+        city: "Ahmedabad",
+        contact_no: ["09727731752", "66400117"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Celler 2 Ashwamegh Complex Near Helmet House Nera Mithakali Underbridge Navrangpura, Gujarat ,india",
+      },
+      {
+        city: "Navi Mumbai",
+        contact_no: ["64561110", "66400117"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "24, Balaji Tower, Shantiniketan Chs, Sector 30a, Sanpada, Vashi, Maharashtra ,india",
+      },
+      {
+        city: "Pune",
+        contact_no: ["020 - 46779027", "+919028287644", "66400117"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Shop No. 41, East Street Galeria, East Street, Pune - 411001, India",
+      },
+      {
+        city: "Mumbai",
+        contact_no: [
+          "91 (22) 22841598, 22845188, 22046187",
+          " 91 (22) 22046469.",
+        ],
+        email: "bombino@bombinoexp.com",
+        address: "42, Veer Nariman Road Opp Akbarally's Fort 400001",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["91 (22) 2490 8880/249 88880/40040339"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Brijwasi Bldg,grd Flr, Sunmill Compound,oppparvati Ind'l Estate,lower Parel-w,mumbai-400 013",
+      },
+      {
+        city: "Jaipur",
+        contact_no: [
+          "91 (0141) 2365646 / 2374862 / 5131317",
+          " 91 (0141) 2366794",
+        ],
+        email: "bombino@bombinoexp.com",
+        address:
+          "International Express C-46 Sarojani Marg C-scheme 302001, Rajhasthan ,india",
+      },
+      {
+        city: "Kolkatta",
+        contact_no: ["91 (33) 2413060/2414334/22191866", "91 (33) 2414334"],
+        email: "bombino@bombinoexp.com",
+        address:
+          "Continental Overseas Couriers, 228a, Chittaranjan Avenue 700006 West Bengal,india",
+      },
+    ],
+  },
+  {
+    name: "bonds-courier-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["022 –26429780 / 26429781"],
+        email: "cs@bondslogistics.com",
+        address:
+          "44/2202, Gandhi Nagar,Off Estern Express highway,Bandra East, Mumbai – 400051",
+      },
+      {
+        city: "Bhiwandi",
+        contact_no: ["022 –26429780 / 26429781"],
+        email: "bhiwandi@bondslogistics.com",
+        address:
+          "B-8& 9, Mahavir Complex, Anjur Phata, Mankholi Road, Village Val,Dapoda, Bhiwandi-421302",
+      },
+    ],
+  },
 ];
