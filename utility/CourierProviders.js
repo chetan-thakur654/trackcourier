@@ -8,7 +8,10 @@ export const courierProviders = [
     link: "professional-courier-tracking",
   },
   { name: "Delhivery Courier", link: "delhivery-courier-tracking" },
-  { name: "Skynet Courier", link: "skynet-courier-tracking" },
+  {
+    name: "Skynet Worldwide express",
+    link: "skynet-worldwide-express-tracking",
+  },
   { name: "DTDC Courier ", link: "dtdc-courier-tracking" },
   {
     name: "17 Post Service Courier",
@@ -209,7 +212,6 @@ export const courierProviders = [
     link: "book-my-packet-courier-tracking",
   },
   { name: "Border Express", link: "border-express-tracking" },
-  { name: "Border Express ", link: "border-express-tracking" },
   { name: "Boxc Courier", link: "boxc-courier-tracking" },
   { name: "BPL Cargo Courier", link: "bpl-cargo-courier-tracking" },
   { name: "Bpost Courier", link: "bpost-courier-tracking" },
@@ -243,9 +245,6 @@ export const courierProviders = [
     link: "cambodia-post-courier-tracking",
   },
   { name: "Canada Post", link: "canada-post-tracking" },
-  { name: "Canada Post ", link: "canada-post-tracking" },
-  { name: "Canada Post Courier", link: "canada-post-courier-tracking" },
-  { name: "Canada Post Courier", link: "canada-post-courier-tracking" },
   { name: "Canpar Courier", link: "canpar-courier-tracking" },
   {
     name: "Canpar Courier Courier",
@@ -261,7 +260,7 @@ export const courierProviders = [
     name: "Central Freight Lines Courier",
     link: "central-freight-lines-courier-tracking",
   },
-  { name: "Ceva Courier", link: "ceva-courier-tracking" },
+  { name: "CEVA Logistics", link: "ceva-logistics-tracking" },
   {
     name: "Chetak Logistics Courier",
     link: "chetak-logistics-courier-tracking",
@@ -552,7 +551,10 @@ export const courierProviders = [
     name: "Eub shipping carrier",
     link: "eub-shipping-carrier-tracking",
   },
-  { name: "Evergreen Courier", link: "evergreen-courier-tracking" },
+  {
+    name: "Evergreen Line Container",
+    link: "evergreen-line-container-tracking",
+  },
   { name: "Exapaq Courier", link: "exapaq-courier-tracking" },
   { name: "Excellent Courier", link: "excellent-courier-tracking" },
   { name: "Expeditors Courier", link: "expeditors-courier-tracking" },

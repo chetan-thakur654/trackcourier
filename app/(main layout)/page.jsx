@@ -26,17 +26,14 @@ const Homepage = () => {
   return (
     <>
       <div className={styles.hero}>
-        <h1>
-          500+ Couriers, One Tracker: The Fastest Way to Track Your Courier
-          Online
-        </h1>
+        <h1>500+ Couriers, One Tracker: All-in-One Courier Tracking Online</h1>
       </div>
 
       <Form showSelect={true} />
       <div className={styles.description}>
         <p>
           "Welcome to TrackCourier.co - Your One-Stop Destination for Seamless
-          Courier Tracking!
+          Courier Tracking Online!
         </p>
         <p>
           At TrackCourier.co, we offer a comprehensive online courier tracking

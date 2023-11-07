@@ -5682,4 +5682,75 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "canada-post-tracking",
+    contact_info: [
+      {
+        city: "Canada",
+        contact_no: ["1-800-267-1177"],
+        email: "Not Available",
+        address: "PO BOX 90022 2701 RIVERSIDE DRIVE OTTAWA ON K1V 1J8",
+      },
+    ],
+  },
+  {
+    name: "dpd-courier-tracking",
+    contact_info: [
+      {
+        city: "Amsterdam",
+        contact_no: ["085-0022222"],
+        email: "marketing@dpd.nl",
+        address: "Hybrideweg 101 NL, 2141 DM Vijfhuizen",
+      },
+    ],
+  },
+  {
+    name: "yodel-courier-tracking",
+    contact_info: [
+      {
+        city: "Liverpool",
+        contact_no: ["+44 344 755 0117"],
+        email: "ceocomplaints@yodel.co.uk",
+        address:
+          "2nd Floor, Skyways Hub, Speke Road, Speke, Liverpool, L70 1AB",
+      },
+    ],
+  },
+  {
+    name: "ceva-logistics-tracking",
+    contact_info: [
+      {
+        city: "Gurgaon",
+        contact_no: ["+1-844-215-0640"],
+        email:
+          "Dwarkesh.Jhaveri@cevalogistics.com or HDSC@hd.cevalogistics.com",
+        address:
+          "Sewa Tower, Plot number 19, Sector 18, Maruti Industrial Complex, Udyog Vihar, Gurgaon Gurgaon HR IN 122015",
+      },
+    ],
+  },
+  {
+    name: "evergreen-line-container-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["91-22-61657900"],
+        email: "biz@evergreen-shipping.co.in",
+        address:
+          "MARATHON NEXTGEN INNOVA ‘A’, G – 01, OPP. PENINSULA CORPORATE PARK, OFF. GANPATRAO KADAM MARG, LOWER PAREL (WEST), MUMBAI, MAHARASHTRA, 400013",
+      },
+    ],
+  },
+  {
+    name: "skynet-worldwide-express-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["022 – 61986722/28"],
+        email: "csd@skynetindia.com",
+        address:
+          "21, Vasant, 2nd Floor, Above Regency Restaurant, Prof. N.S. Phadke Marg, Andheri (E), Mumbai-400069",
+      },
+    ],
+  },
 ];
