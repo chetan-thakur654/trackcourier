@@ -740,4 +740,31 @@ export const courierUrls = {
   "yrc-Frieght-tracking": "https://yrc.com/",
   "yun-express-tracking": "https://www.yunexpress.com/",
   "zto-express-tracking": "https://www.zto.com/",
+
+  "loadshare-networks-tracking": "https://www.loadshare.net/",
+  "zim-line-container-tracking": "https://www.zim.com/",
+  "mark-express-courier-tracking": "https://markexpress.co.in/",
+  "transworld-container-tracking":
+    "https://transworld-terminals.com/index.html",
+  "zapvi-order-tracking": "https://zapvi.in/",
+  "flipkart-order-tracking": "https://www.flipkart.com/",
+  "goldstar-line-container-tracking": "https://www.goldstarline.com/#/India",
+  "lbc-express-shipping-tracking": "https://www.lbcexpress.com/",
+  "msc-cargo-container-tracking": "https://www.msc.com/",
+  "yanwen-logistics-tracking": "https://www.yw56.com.cn/en/",
+  "purolator-canada-tracking": "https://www.purolator.com/en",
+  "great-india-roadways-tracking": "https://greatindia.net.in/",
+  "xpo-logistics-transport-tracking": "https://www.xpo.com/",
+  "hapag-lloyd-container-tracking": "https://www.hapag-lloyd.com/en/home.html",
+  "air-canada-cargo-tracking": "https://www.aircanada.com/cargo/",
+  "thai-airways-cargo-tracking": "https://www.thaicargo.com/en/main",
+  "air-france-cargo-tracking":
+    "https://www.afklcargo.com/IN/en/local/homepage/homepage.jsp",
+  "bhavna-roadways-transport-tracking": "https://bhavnaroadways.com/index.php",
+  "qatar-airways-cargo-tracking": "https://www.qrcargo.com/s/",
+  "rcl-container-tracking": "https://www.rclgroup.com/Default.aspx",
+  "hmm-container-tracking": "https://www.hmm21.com/company.do",
+  "indigo-air-cargo-tracking": "https://6ecargo.goindigo.in/",
+  "international-express-courier-tracking":
+    "http://www.internationalexp.com/Default.aspx",
 };

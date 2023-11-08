@@ -5753,4 +5753,296 @@ export const couriers = [
       },
     ],
   },
+  {
+    name: "loadshare-networks-tracking",
+    contact_info: [
+      {
+        city: "Bangalore",
+        contact_no: ["+91 8069510510"],
+        email: "info@loadshare.net",
+        address:
+          "LoadShare Networks Pvt. Ltd., Attic Space, 3rd Floor, Lotus, 80 Feet Road, Koramangala 4th Block, Bengaluru, 560034",
+      },
+    ],
+  },
+  {
+    name: "zim-line-container-tracking",
+    contact_info: [
+      {
+        city: "Kolkata",
+        contact_no: ["(91)33-40228581/570"],
+        email: "csc-starship-ccu.in@zim.com",
+        address:
+          "Azimganj House, 5TH Floor, 7 Camac Street, Kolkata, West Bengal 700017, India",
+      },
+    ],
+  },
+  {
+    name: "mark-express-courier-tracking",
+    contact_info: [
+      {
+        city: "Kolkata",
+        contact_no: ["+91 011-29544970/64/72"],
+        email: "kolkata.info@markexpress.co.in",
+        address:
+          "Gr Floor S-1 & S-2 58 Christopher RoadTopsia Kolkata – 700046 (WestBengal)",
+      },
+      {
+        city: "Mumbai",
+        contact_no: ["+91 011-29544970/64/72"],
+        email: "mumbai.info@markexpress.co.in",
+        address:
+          "No. of Office Ground Floor, NB1 and NB4, Sona Udyog Premises CS LTD. Andheri East, Mumbai, Parsi Panchayat Road, 400069",
+      },
+    ],
+  },
+  {
+    name: "transworld-container-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 66114210"],
+        email: "info@transworld-terminals.com",
+        address:
+          "802, Sai Samarth Comm. Prem. CHS Ltd., Deonar Village Road, Near Shah Industrial Estate, Deonar, Mumbai-400 088.",
+      },
+    ],
+  },
+  {
+    name: "zapvi-order-tracking",
+    contact_info: [
+      {
+        city: "Surat",
+        contact_no: ["6351212822"],
+        email: "help@zapvi.in",
+        address:
+          "23-24 4th Floor Girivar Industrial Park, Saniya Hemad Village, Near Saroli, Surat-Kadodara Road, Surat, Gujarat, 395006",
+      },
+    ],
+  },
+  {
+    name: "flipkart-order-tracking",
+    contact_info: [
+      {
+        city: "Bengaluru",
+        contact_no: ["044-45614700"],
+        email: "cs@flipkart.com",
+        address:
+          "Flipkart Internet Private Limited, Buildings Alyssa, Begonia and Clove Embassy Tech Village, Outer Ring Road, Devarabeesanahalli Village, Bengaluru, 560103, Karnataka, India",
+      },
+    ],
+  },
+  {
+    name: "goldstar-line-container-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 22 4252 4141"],
+        email: "inbom.cs@in.goldstarline.com",
+        address:
+          "3rd Floor, Raheja Center Point, 294 C.S.T Road, Kalina, Santacruz (East), Mumbai, 400 098, India",
+      },
+    ],
+  },
+  {
+    name: "lbc-express-shipping-tracking",
+    contact_info: [
+      {
+        city: "Pasay",
+        contact_no: ["220 55 731"],
+        email: "customercare@lbcexpress.com",
+        address:
+          "10th Floor Tower B, Two E-com Center Bayshore Ave. corner Harbor Drive, Mall of Asia Complex, Pasay, Metro Manila, Philippines",
+      },
+    ],
+  },
+  {
+    name: "msc-cargo-container-tracking",
+    contact_info: [
+      {
+        city: "Chennai",
+        contact_no: ["+91 4442252900 "],
+        email: "in363-comm.chennai@msc.com",
+        address:
+          "MSC Agency (India) Pvt. Ltd., 1st Floor, KGN Towers No. 62, Ethiraj Salai, Egmore, IN, India",
+      },
+    ],
+  },
+  {
+    name: "yanwen-logistics-tracking",
+    contact_info: [
+      {
+        city: "Beijing",
+        contact_no: ["15838021677"],
+        email: "marketing@yw56.com.cn",
+        address:
+          "Yanwen Logistics, No. 143, South Wangjiachang Village, Liqiao Town, Shunyi District, Beijing",
+      },
+    ],
+  },
+  {
+    name: "purolator-canada-tracking",
+    contact_info: [
+      {
+        city: "Mississauga",
+        contact_no: ["1-888-302-8819"],
+        email: "custserv@purolator.com",
+        address: "2727 Meadowpine Blvd., Mississauga, Ontario, Canada, L5N 0E1",
+      },
+    ],
+  },
+  {
+    name: "great-india-roadways-tracking",
+    contact_info: [
+      {
+        city: "Cuttack",
+        contact_no: ["0671 – 25479210671 – 25479220671 – 2547923"],
+        email: "support@greatindia.net.in, cuttack@greatindia.net.in",
+        address: "Jobra Canal Road Cuttack, 753003",
+      },
+    ],
+  },
+  {
+    name: "xpo-logistics-transport-tracking",
+    contact_info: [
+      {
+        city: "Greenwich",
+        contact_no: ["(800)-755-2728"],
+        email: "ltlccg@xpo.com",
+        address: "XPO, Inc. Five American Lane Greenwich, CT 06831",
+      },
+    ],
+  },
+  {
+    name: "oocl-cargo-container-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["(91) 22-665-11100"],
+        email: "ndhcsu@oocl.com",
+        address:
+          "OOCL (INDIA) PRIVATE LIMITED ICC Chambers, 05th Floor, Saki Vihar Road, Opp. Santogen Silk Mills, Powai, Mumbai-400 072",
+      },
+    ],
+  },
+  {
+    name: "hapag-lloyd-container-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 079 40029628"],
+        email: "infmhr@hlag.com",
+        address:
+          "Hapag-Lloyd India Pvt. Ltd., A1005 Sankalp Iconic Tower, Bopal Ambli Rd., Opp. Vikramnagr (ISRO Colony Iscon Cross Road, Bodakdev, 380054 Gujarat, India)",
+      },
+    ],
+  },
+  {
+    name: "air-canada-cargo-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 11 25654112-114"],
+        email: "aptdel@globalaviationindia.com",
+        address:
+          "Indira Gandhi International Airport 10-A, Import Building, III Cargo Complex, New Delhi, 110 037 India",
+      },
+    ],
+  },
+  {
+    name: "Thai Airways Cargo",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["91-11-47062921", "91-1147062920", "91-47036767"],
+        email: "abhay.m@thaiairways.co.in",
+        address:
+          "A-201 AND A-208, IIND FLOOR, DCSC BUILDING, CARGO TERMINAL-2, IGI AIRPORT, NEW DELHI",
+      },
+    ],
+  },
+  {
+    name: "air-france-cargo-tracking",
+    contact_info: [
+      {
+        city: "New Delhi",
+        contact_no: ["+91 124 454 1001"],
+        email: "servicedesk.del@afklcargo.com ",
+        address:
+          "Room No. 218 Export Building, gate no 3 Cargo Terminal, IGI Airport 110037, New Delhi",
+      },
+    ],
+  },
+  {
+    name: "bhavna-roadways-transport-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91 9699900066"],
+        email: "brbmy@bhavnaroadways.com",
+        address:
+          "Bhavna Roadways 101, A-Wing, 1st Floor, Jeewan Prabha Co-Op Society Limited, Chandavarkar Road, Above Standard Chartered Bank, Borivali (West), Mumbai: 400092.",
+      },
+    ],
+  },
+  {
+    name: "qatar-airways-cargo-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 7949117800 / 805 / 806"],
+        email: "askcargo@qatarairways.com.qa",
+        address:
+          "1904: A Wing, Safal Privilon, Iscon Ambli Road, 380058, INDIA",
+      },
+    ],
+  },
+  {
+    name: "rcl-container-tracking",
+    contact_info: [
+      {
+        city: "Chennai ",
+        contact_no: ["(91-44) 42961600"],
+        email: "rclmaa@rclgroup.com",
+        address:
+          "40, Rajaji Salai, 2nd Floor Post Box No. 1880 Chennai, 600 001",
+      },
+    ],
+  },
+  {
+    name: "hmm-container-tracking",
+    contact_info: [
+      {
+        city: "Mumbai",
+        contact_no: ["+91-22-62841111"],
+        email: "idjam@hmm21.com",
+        address:
+          "Leela Business Park,Unit No 302, 3rd Floor, Sir M. V. Road, Marol Pipe Line, Andheri Kurla Road, Andheri (East), Mumbai 400059.",
+      },
+    ],
+  },
+  {
+    name: "indigo-air-cargo-tracking",
+    contact_info: [
+      {
+        city: "Ahmedabad",
+        contact_no: ["+91 9870399297; +91 9870399298"],
+        email: "amd.cargo@goindigo.in",
+        address:
+          "Common User Domestic Cargo Terminal (CUDCT) Cargo Service Centre SVPI Airport, Terminal 3 Ahmedabad",
+      },
+    ],
+  },
+  {
+    name: "international-express-courier-tracking",
+    contact_info: [
+      {
+        city: "Jaipur",
+        contact_no: ["(+91) 141-4002150"],
+        email: "cs@internationalexp.com",
+        address:
+          "C 46, Sarojini Marg, C-Scheme, Jaipur, Rajasthan 302001 (India)",
+      },
+    ],
+  },
 ];

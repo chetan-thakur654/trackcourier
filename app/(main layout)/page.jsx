@@ -5,7 +5,7 @@ import styles from "@/style/page.module.css";
 import Head from "next/head";
 
 export const metadata = {
-  title: "TrackCourier.co | Courier Tracking",
+  title: "Courier Tracking | TrackCourier.co ",
   description:
     "Track your Fedex, DHL, USPS and 500+ couriers with ease using trackcourier.co's online courier tracking system. Enter your tracking id, select your courier provider and get real time delivery status, real time updates, and tracking information all in one place. We support package tracking, courier tracking, shipment tracking, cargo tracking and parcel tracking for various courier providers. Use our tracking tool for hassle-free courier tracking",
   keywords: keywords.homepage,
@@ -26,7 +26,7 @@ const Homepage = () => {
   return (
     <>
       <div className={styles.hero}>
-        <h1>500+ Couriers, One Tracker: All-in-One Courier Tracking Online</h1>
+        <h1>500+ Couriers, One Tracker : All-in-One Courier Tracking Online</h1>
       </div>
 
       <Form showSelect={true} />

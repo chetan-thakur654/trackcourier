@@ -899,7 +899,7 @@ export const courierProviders = [
     link: "om-logistics-courier-tracking",
   },
   { name: "Ondot Courier ", link: "ondot-courier-tracking" },
-  { name: "OOCL Courier", link: "oocl-courier-tracking" },
+  { name: "OOCL Cargo", link: "oocl-cargo-container-tracking" },
   {
     name: "Osm worldwide shipping",
     link: "osm-worldwide-shipping-tracking",
@@ -1187,4 +1187,120 @@ export const courierProviders = [
   { name: "YRC Freight Courier", link: "yrc-freight-courier-tracking" },
   { name: "Yun Express ", link: "yun-express-tracking" },
   { name: "ZTO Express", link: "zto-express-tracking" },
+
+  {
+    name: "Loadshare Networks",
+    link: "loadshare-networks-tracking",
+    url: "https://www.loadshare.net/",
+  },
+  {
+    name: "Zim Line Container",
+    link: "zim-line-container-tracking",
+    url: "https://www.zim.com/",
+  },
+  {
+    name: "Mark Express",
+    link: "mark-express-courier-tracking",
+    url: "https://markexpress.co.in/",
+  },
+  {
+    name: "Transworld Container",
+    link: "transworld-container-tracking",
+    url: "https://transworld-terminals.com/index.html",
+  },
+  {
+    name: "Zapvi",
+    link: "zapvi-order-tracking",
+    url: "https://zapvi.in/",
+  },
+  {
+    name: "Flipkart",
+    link: "flipkart-order-tracking",
+    url: "https://www.flipkart.com/",
+  },
+  {
+    name: "Goldstar Line Container",
+    link: "goldstar-line-container-tracking",
+    url: "https://www.goldstarline.com/#/India",
+  },
+  {
+    name: "LBC Express Shipping",
+    link: "lbc-express-shipping-tracking",
+    url: "https://www.lbcexpress.com/",
+  },
+  {
+    name: "MSC Cargo Container",
+    link: "msc-cargo-container-tracking",
+    url: "https://www.msc.com/",
+  },
+  {
+    name: "Yanwen Logistics",
+    link: "yanwen-logistics-tracking",
+    url: "https://www.yw56.com.cn/en/",
+  },
+  {
+    name: "Purolator Canada",
+    link: "purolator-canada-tracking",
+    url: "https://www.purolator.com/en",
+  },
+  {
+    name: "Great India Roadways",
+    link: "great-india-roadways-tracking",
+    url: "https://greatindia.net.in/",
+  },
+  {
+    name: "XPO Logistics",
+    link: "xpo-logistics-transport-tracking",
+    url: "https://www.xpo.com/",
+  },
+  {
+    name: "Hapag LLoyd",
+    link: "hapag-lloyd-container-tracking",
+    url: "https://www.hapag-lloyd.com/en/home.html",
+  },
+  {
+    name: "Air Canada Cargo",
+    link: "air-canada-cargo-tracking",
+    url: "https://www.aircanada.com/cargo/",
+  },
+  {
+    name: "Thai Airways Cargo",
+    link: "thai-airways-cargo-tracking",
+    url: "https://www.thaicargo.com/en/main",
+  },
+  {
+    name: "Air France Cargo",
+    link: "air-france-cargo-tracking",
+    url: "https://www.afklcargo.com/IN/en/local/homepage/homepage.jsp",
+  },
+  {
+    name: "Bhavna Roadways Transport",
+    link: "bhavna-roadways-transport-tracking",
+    url: "https://bhavnaroadways.com/index.php",
+  },
+  {
+    name: "Qatar Airways Cargo",
+    link: "qatar-airways-cargo-tracking",
+    url: "https://www.qrcargo.com/s/",
+  },
+  {
+    name: "RCL",
+    link: "rcl-container-tracking",
+    url: "https://www.rclgroup.com/Default.aspx",
+  },
+  {
+    name: "HMM",
+    link: "hmm-container-tracking",
+    url: "https://www.hmm21.com/company.do",
+  },
+  {
+    name: "Indigo Air Cargo",
+    link: "indigo-air-cargo-tracking",
+    url: "https://6ecargo.goindigo.in/",
+  },
+  {
+    name: "International Express Courier ",
+    link: "international-express-courier-tracking",
+    url: "http://www.internationalexp.com/Default.aspx",
+  },
 ];
