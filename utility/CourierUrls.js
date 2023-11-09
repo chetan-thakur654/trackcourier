@@ -327,7 +327,7 @@ export const courierUrls = {
   "falcon-courier-tracking": "http://www.falconcourier.net/track.html",
   "fanatics-order-tracking": "https://www.fanatics.com/track-order",
   "fastrak-services-courier-tracking": "https://fastcu.in/tracking.aspx",
-  "fedex-courier-tracking": "https://www.fedex.com/en-us/tracking.html",
+  "fedex-tracking": "https://www.fedex.com/en-us/tracking.html",
   "fedex-cross-border-tracking": "https://www.fedex.com/en-us/tracking.html",
   "fedex-freight-tracking": "https://www.fedex.com/en-us/tracking.html",
   "fedex-india-courier-tracking": "https://www.fedex.com/en-in/home.html",
