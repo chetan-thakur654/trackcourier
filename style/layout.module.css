@@ -37,9 +37,9 @@
 .main-section {
   flex-grow: 1;
   /* background-color: #ffffff; or any desired color */
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 3rem;
+  /* margin-left: 1rem; */
+  margin-bottom: 2rem;
+  margin-top: 5rem;
   flex-basis: 65%;
   padding: 0 3rem;
 }
