@@ -13,6 +13,19 @@ export const courierProviders = [
     link: "skynet-worldwide-express-tracking",
   },
   { name: "DTDC Courier ", link: "dtdc-courier-tracking" },
+  { name: "Digital Delivery ", link: "digital-delivery-courier-tracking" },
+
+  { name: "Anjani Courier", link: "anjani-courier-tracking" },
+  { name: "CNE Express Courier", link: "cne-express-courier-tracking" },
+  { name: "DTDC USA ", link: "dtdc-usa-tracking" },
+  { name: "St Courier ", link: "st-courier-tracking" },
+  { name: "Skyking Courer", link: "skyking-courier-tracking" },
+  { name: "Spee Dee Delivery ", link: "spee-dee-delivery-tracking" },
+
+  {
+    name: "Citi Network Courier",
+    link: "citi-network-courier-tracking",
+  },
   {
     name: "17 Post Service Courier",
     link: "17-post-service-courier-tracking",
@@ -105,7 +118,7 @@ export const courierProviders = [
   },
   { name: "AMS Courier", link: "ams-courier-tracking" },
   { name: "An Post Courier", link: "an-post-courier-tracking" },
-  { name: "Anjani Courier", link: "anjani-courier-tracking" },
+
   {
     name: "Apc Overnight Courier",
     link: "apc-overnight-courier-tracking",
@@ -275,10 +288,7 @@ export const courierProviders = [
     name: "Chronopost Portugal Courier",
     link: "chronopost-portugal-courier-tracking",
   },
-  {
-    name: "Citi Network Courier",
-    link: "citi-network-courier-tracking",
-  },
+
   { name: "Citipost Courier", link: "citipost-courier-tracking" },
   { name: "Citipost Courier ", link: "citipost-courier-tracking" },
   {
@@ -302,7 +312,6 @@ export const courierProviders = [
   { name: "CJ Packet", link: "cj-packet-tracking" },
   { name: "Classic Courier", link: "classic-courier-tracking" },
   { name: "CMA CGM Courier", link: "cma-cgm-courier-tracking" },
-  { name: "CNE Express Courier", link: "cne-express-courier-tracking" },
   { name: "Colis Privé Courier", link: "colis-privé-courier-tracking" },
   { name: "Colissimo Courier", link: "colissimo-courier-tracking" },
   { name: "Collect Courier", link: "collect-courier-tracking" },
@@ -437,7 +446,6 @@ export const courierProviders = [
   { name: "DHL Global Mail", link: "dhl-global-mail-tracking" },
   { name: "DHL Express PieceId", link: "dhl-express-pieceid-tracking" },
   { name: "Diacom Canada", link: "diacom-canada-tracking" },
-  { name: "Digital Delivery ", link: "digital-delivery-courier-tracking" },
   { name: "Dinland Courier", link: "dinland-courier-tracking" },
   {
     name: "Direct Freight Express Courier",
@@ -480,7 +488,6 @@ export const courierProviders = [
   },
   { name: "DTDC Singapore ", link: "dtdc-singapore-tracking" },
   { name: "DTDC UAE ", link: "dtdc-uae-tracking" },
-  { name: "DTDC USA ", link: "dtdc-usa-tracking" },
   { name: "Dtrans Courier", link: "dtrans-courier-tracking" },
   { name: "Durga Courier", link: "durga-courier-tracking" },
   { name: "DX Delivery Courier", link: "dx-delivery-courier-tracking" },
@@ -1042,10 +1049,6 @@ export const courierProviders = [
   { name: "Shiprocket Courier ", link: "shiprocket-courier-tracking" },
   { name: "Shoebuy", link: "shoebuy-order-tracking" },
   {
-    name: "Shree Anjani Courier",
-    link: "shree-anjani-courier-tracking",
-  },
-  {
     name: "Shree Balaji Courier",
     link: "shree-balaji-courier-tracking",
   },
@@ -1078,7 +1081,6 @@ export const courierProviders = [
     name: "Singpost registered mail",
     link: "singpost-registered-mail-tracking",
   },
-  { name: "Skyking Courer", link: "skyking-courier-tracking" },
   { name: "Skyman Courier ", link: "skyman-courier-tracking" },
   { name: "Skynet Australia ", link: "skynet-australia-tracking" },
   { name: "Skynet Germany ", link: "skynet-germany-tracking" },
@@ -1103,7 +1105,6 @@ export const courierProviders = [
     link: "south-african-post-courier-tracking",
   },
   { name: "Spain post", link: "spain-post-tracking" },
-  { name: "Spee Dee Delivery ", link: "spee-dee-delivery-tracking" },
   {
     name: "Speed & Safe Courier",
     link: "speed-&-safe-courier-tracking",
@@ -1119,7 +1120,6 @@ export const courierProviders = [
     link: "sportsmans-guide-tracking",
   },
   { name: "Spoton Courier", link: "spoton-courier-tracking" },
-  { name: "St Courier ", link: "st-courier-tracking" },
   { name: "Star Track Courier", link: "star-track-courier-tracking" },
   { name: "Store Viva Courier", link: "store-viva-courier-tracking" },
   {
