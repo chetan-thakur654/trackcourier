@@ -1303,4 +1303,1084 @@ export const courierProviders = [
     link: "international-express-courier-tracking",
     url: "http://www.internationalexp.com/Default.aspx",
   },
+  {
+    name: "Canada Post",
+    link: "canada-post-office-tracking",
+    url: "https://www.canadapost-postescanada.ca/cpc/en?name=tgt",
+  },
+  {
+    name: "Yun Express",
+    link: "yun-express-tracking",
+    url: "https://www.yunexpress.com/",
+  },
+  {
+    name: "DPD International",
+    link: "dpd-international-courier-tracking",
+    url: "https://www.dpd.com/nl/en/",
+  },
+  {
+    name: "Yodel UK",
+    link: "yodel-tracking-uk",
+    url: "https://www.yodel.co.uk/",
+  },
+  {
+    name: "SMSA Express",
+    link: "smsa-express-courier-tracking",
+    url: "https://www.smsaexpress.com/",
+  },
+  {
+    name: "CEVA Logistics",
+    link: "ceva-logistics-tracking",
+    url: "https://www.cevalogistics.com/en",
+  },
+  {
+    name: "Evergreen Line Container",
+    link: "evergreen-line-container-tracking",
+    url: "https://www.evergreen-marine.com/emc/",
+  },
+  {
+    name: "ABF Freight",
+    link: "abf-freight-tracking",
+    url: "https://arcb.com/",
+  },
+  {
+    name: "YRC Freight",
+    link: "yrc-freight-tracking",
+    url: "https://yrc.com/",
+  },
+  {
+    name: "UPS Courier India",
+    link: "ups-courier-tracking-india",
+    url: "https://www.ups.com/in/en/Home.page",
+  },
+  {
+    name: "Skynet Worldwide Express",
+    link: "skynet-worldwide-express-tracking",
+    url: "https://www.skynet.net/india",
+  },
+  {
+    name: "OOCL Cargo Container",
+    link: "oocl-cargo-container-tracking",
+    url: "https://www.oocl.com/india/eng/Pages/default.aspx",
+  },
+  {
+    name: "TCS Courier",
+    link: "tcs-courier-tracking",
+    url: "https://www.tcsexpress.com/",
+  },
+  {
+    name: "Spicejet Cargo",
+    link: "spicejet-cargo-tracking",
+    url: "https://www.spicexpress.com/",
+  },
+  {
+    name: "Finnair Cargo",
+    link: "finnair-cargo-tracking",
+    url: "https://cargo.finnair.com/en",
+  },
+  {
+    name: "ICEGATE Air IGM",
+    link: "icegate-air-igm-tracking",
+    url: "https://enquiry.icegate.gov.in/enquiryatices/airIgmEntry",
+  },
+  {
+    name: "Fastway Worldwide Express",
+    link: "fastway-worldwide-express-tracking",
+    url: "https://fastwayindia.com/",
+  },
+  {
+    name: "Sinokor",
+    link: "sinokor-tracking",
+    url: "http://www.sinokor.co.kr/en/index.html",
+  },
+  {
+    name: "ATS Courier",
+    link: "ats-courier-tracking",
+    url: "https://atscargo.in/index.aspx",
+  },
+  {
+    name: "Wan Hai Container",
+    link: "wan-hai-container-tracking",
+    url: "https://www.wanhai.com/views/Main.xhtml",
+  },
+  {
+    name: "Yang Ming Container",
+    link: "yang-ming-container-tracking",
+    url: "https://www.yangming.com/index.aspx",
+  },
+  {
+    name: "Pon Pure Logistics",
+    link: "pon-pure-logistics-tracking",
+    url: "https://www.ponpurelogistics.com/home",
+  },
+  {
+    name: "Vamaship",
+    link: "vamaship-tracking",
+    url: "https://www.vamaship.com/",
+  },
+  {
+    name: "Shipping Corporation of India",
+    link: "shipping-corporation-of-india-tracking",
+    url: "https://www.shipindia.com/",
+  },
+  {
+    name: "Ritco Logistics",
+    link: "ritco-logistics-tracking",
+    url: "https://www.rajdhaniinterstate.com/",
+  },
+  {
+    name: "XFAS",
+    link: "xfas-tracking",
+    url: "https://www.xfas.in/index.php",
+  },
+  {
+    name: "Shipco Transport",
+    link: "shipco-transport-tracking",
+    url: "https://www.shipco.com/",
+  },
+  {
+    name: "Stun Sign Logistics",
+    link: "stun-sign-logistics-tracking",
+    url: "https://www.sskerala.com/",
+  },
+  {
+    name: "Online Express Courier",
+    link: "online-express-courier-tracking",
+    url: "https://onlinexpress.co.in/",
+  },
+  {
+    name: "Seabreeze Cargo",
+    link: "seabreeze-cargo-tracking",
+    url: "https://www.seabreezecouriers.com/",
+  },
+  {
+    name: "MML Express Courier",
+    link: "mml-express-courier-tracking",
+    url: "http://mmlexpress.com/index.php",
+  },
+  {
+    name: "TAC Logistics",
+    link: "tac-logistics-tracking",
+    url: "http://taclogistics.in/index.html",
+  },
+  {
+    name: "Mudita Transport Courier",
+    link: "mudita-transport-courier-tracking",
+    url: "https://www.muditacargo.com/index.php",
+  },
+  {
+    name: "OxyZen Logistics",
+    link: "oxyzen-logistics-tracking",
+    url: "https://www.oxyzenexpress.com/#/",
+  },
+  {
+    name: "Navkar CFS Container",
+    link: "navkar-cfs-container-tracking",
+    url: "https://www.navkarcfs.com/a/index.php",
+  },
+  {
+    name: "Parveen Express",
+    link: "parveen-express-tracking",
+    url: "http://www.parveenexpress.com/",
+  },
+  {
+    name: "Falcon",
+    link: "falcon-courier-tracking",
+    url: "http://falconcourier.net/index.html",
+  },
+  {
+    name: "Ship Global",
+    link: "ship-global-tracking",
+    url: "https://shipglobal.in/",
+  },
+  {
+    name: "Kabra Express Logistics",
+    link: "kabra-express-logistics-tracking",
+    url: "http://www.kabraexpress.in/index.html",
+  },
+  {
+    name: "MPCL Courier",
+    link: "mpcl-courier-tracking",
+    url: "http://www.maxlogistic.com:8888/Maxlogistic/index.htm",
+  },
+  {
+    name: "Mehta Transport",
+    link: "mehta-transport-tracking",
+    url: "https://mehtatransportcorporations.com/",
+  },
+  {
+    name: "APEX",
+    link: "apex-tracking",
+    url: "http://www.apexcourier.in/index.php",
+  },
+  {
+    name: "EFC Logistics Container",
+    link: "efc-logistics-container-tracking",
+    url: "https://efclogistics.com/index.html",
+  },
+  {
+    name: "DR Courier Cargo",
+    link: "dr-courier-cargo-tracking",
+    url: "https://www.drcourierexp.com/",
+  },
+  {
+    name: "Blowhorn",
+    link: "blowhorn-tracking",
+    url: "https://blowhorn.com/",
+  },
+  {
+    name: "Primex Logistics",
+    link: "primex-logistics-tracking",
+    url: "http://www.primexglobal.in/",
+  },
+  {
+    name: "Corporate Courier",
+    link: "corporate-courier-tracking",
+    url: "http://www.corporatecourier.in/index.html",
+  },
+  {
+    name: "Orient Express",
+    link: "orient-express-tracking",
+    url: "http://www.orientexpindia.com/index.php",
+  },
+  {
+    name: "BNL Air Service Courier",
+    link: "bnl-air-service-courier-tracking",
+    url: "http://bnlair.in/index.html",
+  },
+  {
+    name: "TCCS",
+    link: "tccs-tracking",
+    url: "http://www.tccs.in/",
+  },
+  {
+    name: "ACE Express Courier",
+    link: "ace-courier-tracking",
+    url: "https://www.aceexpressindia.com/index.html",
+  },
+  {
+    name: "Bombax Courier",
+    link: "bombax-courier-tracking",
+    url: "https://bombax.in/",
+  },
+  {
+    name: "Quick Courier Logistics",
+    link: "quick-courier-logistics-tracking",
+    url: "https://quickcl.com/index.php",
+  },
+  {
+    name: "TSRTC Cargo",
+    link: "tsrtc-cargo-tracking",
+    url: "https://www.tsrtcparcel.in/",
+  },
+  {
+    name: "GMR Cargo",
+    link: "gmr-cargo-tracking",
+    url: "https://gmrhydcargo.in/",
+  },
+  {
+    name: "Aramex Courier",
+    link: "aramex-courier-tracking",
+    url: "https://www.aramex.com/in/en/home",
+  },
+  {
+    name: "Quick Mail Solutions",
+    link: "quick-mail-solutions-tracking",
+    url: "https://www.qmscourier.com/",
+  },
+  {
+    name: "SNGT",
+    link: "sngt-tracking",
+    url: "https://sngtgroup.com/",
+  },
+  {
+    name: "Prime Express",
+    link: "prime-express-tracking",
+    url: "http://www.primecrc.com/index.aspx",
+  },
+  {
+    name: "Shree Balaji Courier",
+    link: "shree-balaji-courier-tracking",
+    url: "https://balajicourier.com/",
+  },
+  {
+    name: "Shipyaari Courier",
+    link: "shipyaari-tracking",
+    url: "https://www.shipyaari.com/",
+  },
+  {
+    name: "CCF Logistics",
+    link: "ccf-logistics-tracking",
+    url: "http://www.ccflogistic.com/",
+  },
+  {
+    name: "Air Vistara Cargo",
+    link: "air-vistara-cargo-tracking",
+    url: "https://www.airvistara.com/",
+  },
+  {
+    name: "B4 Logistics",
+    link: "b4-logistics-tracking",
+    url: "https://b4logistic.com/",
+  },
+  {
+    name: "VRL Tracking",
+    link: "vrl-tracking",
+    url: "https://www.vrlgroup.in/",
+  },
+  {
+    name: "LDB Container",
+    link: "ldb-container-tracking",
+    url: "https://www.ldb.co.in/ldb/containersearch",
+  },
+  {
+    name: "Shree Azad Transport",
+    link: "shree-azad-transport-tracking",
+    url: "http://www.shreeazad.com/",
+  },
+  {
+    name: "ARC",
+    link: "associated-road-carriers-limited-tracking",
+    url: "https://www.arclimited.com/",
+  },
+  {
+    name: "Arihant Courier",
+    link: "arihant-courier-tracking",
+    url: "https://www.arihantcourier.com/",
+  },
+  {
+    name: "V3",
+    link: "v3-tracking",
+    url: "https://www.v3expresscargo.com/",
+  },
+  {
+    name: "Meghraj Express Courier",
+    link: "meghraj-express-courier-tracking",
+    url: "http://meghraj.co.in/",
+  },
+  {
+    name: "ACMES Tracking",
+    link: "acmes-tracking",
+    url: "https://www.acmes.in/Live/index.aspx",
+  },
+  {
+    name: "PCCS Tracking",
+    link: "pccs-tracking",
+    url: "http://www.pccscargo.com/index.aspx",
+  },
+  {
+    name: "DPGC Transport",
+    link: "dpgc-tracking",
+    url: "http://www.dpgconline.com/index.php",
+  },
+  {
+    name: "Shiprocket",
+    link: "shiprocket-tracking",
+    url: "https://www.shiprocket.in/",
+  },
+  {
+    name: "CMA CGM Tracking",
+    link: "cma-cgm-tracking",
+    url: "https://www.cma-cgm.com/",
+  },
+  {
+    name: "NBET Courier",
+    link: "nbet-tracking",
+    url: "https://www.nbet.in/Default.aspx",
+  },
+  {
+    name: "AR Logistics Courier",
+    link: "ar-logistics-tracking",
+    url: "https://arlogistics.in/index.html",
+  },
+  {
+    name: "FedEx Freight",
+    link: "fedex-tracking",
+    url: "https://www.fedex.com/en-in/home.html",
+  },
+  {
+    name: "Omni Tracking",
+    link: "omni-tracking",
+    url: "https://omniexpress.in/",
+  },
+  {
+    name: "HP Order",
+    link: "hp-order-tracking",
+    url: "https://hpcourier.com/",
+  },
+  {
+    name: "Nimbuspost Courier",
+    link: "nimbuspost-courier-tracking",
+    url: "https://nimbuspost.com/",
+  },
+  {
+    name: "Udaan Express Courier",
+    link: "udaan-express-courier-tracking",
+    url: "https://udaanexpress.com/",
+  },
+  {
+    name: "CriticaLog Tracking",
+    link: "criticalog-tracking",
+    url: "https://criticalog.com/",
+  },
+  {
+    name: "Pickdel Express",
+    link: "pickdel-tracking",
+    url: "https://pickdel.in/",
+  },
+  {
+    name: "Palande Courier",
+    link: "palande-courier-tracking",
+    url: "https://palandecourier.com/track.html",
+  },
+  {
+    name: "Ghatge Patil Transport",
+    link: "ghatge-patil-transport-tracking",
+    url: "https://www.ghatgepatiltransport.com/",
+  },
+  {
+    name: "Airways Courier",
+    link: "airways-courier-tracking",
+    url: "https://airwayscourier.co.in/",
+  },
+  {
+    name: "Kerry Indev Express",
+    link: "kerry-indev-express-tracking",
+    url: "https://kerryindevexpress.com/",
+  },
+  {
+    name: "K D Courier",
+    link: "k-d-courier-tracking",
+    url: "https://kdcourier.com/",
+  },
+  {
+    name: "Speed and Safe Courier",
+    link: "speed-and-safe-courier-tracking",
+    url: "https://www.gokulamspeedandsafe.com/",
+  },
+  {
+    name: "GDL Container",
+    link: "gdl-courier-tracking",
+    url: "https://www.gatewaydistriparks.com/",
+  },
+  {
+    name: "Navata Transport",
+    link: "navata-transport-tracking",
+    url: "https://www.navata.com/",
+  },
+  {
+    name: "DRTC Transport",
+    link: "drtc-tracking",
+    url: "https://www.drtctracking.com/",
+  },
+  {
+    name: "Saurashtra Roadways Bangalore",
+    link: "saurashtra-roadways-bangalore-tracking",
+    url: "https://srb.co.in/",
+  },
+  {
+    name: "Sahara Courier Tracking",
+    link: "sahara-courier-tracking",
+    url: "https://www.saharaexpress.com/",
+  },
+  {
+    name: "Kranthi Transport",
+    link: "kranthi-transport-tracking",
+    url: "https://www.krantiroadtransport.com/",
+  },
+  {
+    name: "Bullet Logistics",
+    link: "bullet-logistics-tracking",
+    url: "https://bulletlogistics.in/",
+  },
+  {
+    name: "Inland World Logistics",
+    link: "inland-world-logistics-tracking",
+    url: "https://www.inlandworldlogistics.com/",
+  },
+  {
+    name: "Sugam Parivahan",
+    link: "sugam-parivahan-tracking",
+    url: "https://www.sugamgroup.com/",
+  },
+  {
+    name: "ICL Tracking",
+    link: "icl-tracking",
+    url: "http://www.iclexpress.in/",
+  },
+  {
+    name: "APS Tracking",
+    link: "aps-tracking",
+    url: "http://www.apscargo.com/",
+  },
+  {
+    name: "ABT Parcel Services",
+    link: "abt-parcel-services-tracking",
+    url: "http://abtps.com/",
+  },
+  {
+    name: "Madhur Courier",
+    link: "madhur-courier-service",
+    url: "https://www.madhurcouriers.in/",
+  },
+  {
+    name: "HTPL Tracking",
+    link: "htpl-tracking",
+    url: "https://www.hindterminals.com/",
+  },
+  {
+    name: "Secure Tracking",
+    link: "secure-tracking",
+    url: "https://secureexp.com/",
+  },
+  {
+    name: "SRD Tracking",
+    link: "srd-tracking",
+    url: "https://srdlogistics.com/",
+  },
+  {
+    name: "Merchant Courier",
+    link: "merchant-courier-tracking",
+    url: "http://www.merchantscourier.in/",
+  },
+  {
+    name: "Pavan Courier",
+    link: "pavan-courier-tracking",
+    url: "http://pavancourierservice.com/",
+  },
+  {
+    name: "Globelink",
+    link: "globelink-tracking",
+    url: "http://www.globelinkww.com/",
+  },
+  {
+    name: "SM Tracking",
+    link: "sm-tracking",
+    url: "http://smexpresslogistics.com/",
+  },
+  {
+    name: "Countrywide Logistics",
+    link: "countrywide-logistics-tracking",
+    url: "http://www.countrywidelogistics.co.in/",
+  },
+  {
+    name: "Rathimeena Parcel",
+    link: "rathimeena-parcel-service-tracking",
+    url: "https://www.rathimeenaspeedparcel.com/",
+  },
+  {
+    name: "Garudavega",
+    link: "garudavega-tracking",
+    url: "https://www.garudavega.com/",
+  },
+  {
+    name: "Transit Point Logistics",
+    link: "tpl-tracking",
+    url: "http://www.transitpl.com/",
+  },
+  {
+    name: "BMPS Tracking",
+    link: "bmps-tracking",
+    url: "http://www.bmps.co.in/",
+  },
+  {
+    name: "SRMT Tracking",
+    link: "srmt-tracking",
+    url: "https://srmt.com/",
+  },
+  {
+    name: "KRS Tracking",
+    link: "krs-tracking",
+    url: "http://www.krs.co.in/",
+  },
+  {
+    name: "BSA Logistics",
+    link: "bsa-logistics-tracking",
+    url: "http://www.bsa.co.in/",
+  },
+  {
+    name: "Econship",
+    link: "econship-tracking",
+    url: "https://erp.econshipping.com/#/",
+  },
+  {
+    name: "EPSPL Tracking",
+    link: "epspl-tracking",
+    url: "https://epspl.co.in/",
+  },
+  {
+    name: "EPS Tracking",
+    link: "eps-tracking",
+    url: "https://epsworldwide.co.in/",
+  },
+  {
+    name: "Expert Tracking",
+    link: "expert-courier-tracking",
+    url: "https://www.expertcourier.co.in/",
+  },
+  {
+    name: "Jetline Courier",
+    link: "jetline-courier-tracking",
+    url: "https://www.jetlinecouriers.in/",
+  },
+  {
+    name: "Team Global",
+    link: "team-global-tracking",
+    url: "https://www.teamglobal.in/",
+  },
+  {
+    name: "Pushpak Courier",
+    link: "pushpak-courier-tracking",
+    url: "https://www.pushpakcourier.net/",
+  },
+  {
+    name: "Simply Tracking",
+    link: "simply-tracking",
+    url: "https://www.simplylogistics.in/",
+  },
+  {
+    name: "Mass Tracking",
+    link: "mass-tracking",
+    url: "https://meccargo.com/",
+  },
+  {
+    name: "Onpoint Express Courier",
+    link: "onpoint-tracking",
+    url: "https://onpoint.in/",
+  },
+  {
+    name: "Airstar Express",
+    link: "airstar-courier-tracking",
+    url: "https://airstarxpress.com/",
+  },
+  {
+    name: "V-Xpress",
+    link: "v-xpress-tracking",
+    url: "https://www.vxpress.in/",
+  },
+  {
+    name: "V-Trans Tracking",
+    link: "v-trans-tracking-india",
+    url: "https://vtransgroup.com/",
+  },
+  {
+    name: "TCI Express",
+    link: "tci-express-tracking",
+    url: "https://www.tciexpress.in/",
+  },
+  {
+    name: "DP World Container",
+    link: "dp-world-container-tracking",
+    url: "https://www.dpworld.com/india",
+  },
+  {
+    name: "Franch Express",
+    link: "franch-express-courier-tracking",
+    url: "http://www.franchexpress.com/",
+  },
+  {
+    name: "Bombino Tracking",
+    link: "bombino-tracking",
+    url: "https://www.bombinoexp.com/en-in/tracking",
+  },
+  {
+    name: "KPN Parcel Service",
+    link: "kpn-parcel-service-tracking",
+    url: "https://www.kpnparcel.in/",
+  },
+  {
+    name: "Shree Nandan Courier",
+    link: "shree-nandan-courier-tracking",
+    url: "http://www.shreenandancourier.com/",
+  },
+  {
+    name: "Smartr Logistics",
+    link: "smartr-logistics-tracking",
+    url: "https://smartr.in/",
+  },
+  {
+    name: "Maruti Air Courier",
+    link: "maruti-air-courier-tracking",
+    url: "https://www.marutiair.com/",
+  },
+  {
+    name: "Overseas Tracking",
+    link: "overseas-tracking",
+    url: "http://www.overseaslogistics.in/",
+  },
+  {
+    name: "Mettur Transport",
+    link: "mettur-transport-tracking",
+    url: "https://www.metturtransports.com/",
+  },
+  {
+    name: "GMS Courier",
+    link: "gms-courier-tracking",
+    url: "https://gmsworldwide.com/",
+  },
+  {
+    name: "ACPL Tracking",
+    link: "acpl-tracking",
+    url: "https://acplcargo.com/",
+  },
+  {
+    name: "Nitco Tracking",
+    link: "nitco-tracking",
+    url: "https://www.nitcologistics.com/",
+  },
+  {
+    name: "Jaipur Golden",
+    link: "jaipur-golden-tracking",
+    url: "https://jaipurgolden.in/",
+  },
+  {
+    name: "ECSSPL Tracking",
+    link: "ecsspl-tracking",
+    url: "http://www.ecsspl.com/",
+  },
+  {
+    name: "Akash Ganga Courier",
+    link: "akash-ganga-courier-tracking",
+    url: "http://www.akashganga.info/",
+  },
+  {
+    name: "RCPL Tracking",
+    link: "rcpl-tracking",
+    url: "http://www.rcpl.net.in/",
+  },
+  {
+    name: "Scorpion Tracking",
+    link: "scorpion-tracking",
+    url: "https://scorpiongroup.in/",
+  },
+  {
+    name: "Lalji Mulji",
+    link: "lalji-mulji-transport-tracking",
+    url: "https://lmtco.com/",
+  },
+  {
+    name: "World First Courier",
+    link: "world-first-courier-tracking",
+    url: "https://worldfirst.in/",
+  },
+  {
+    name: "Arco Transport Transport",
+    link: "arco-transport-tracking",
+    url: "https://www.arcoroadways.com/",
+  },
+  {
+    name: "Surat Ahmedabad Transport",
+    link: "surat-ahmedabad-transport-tracking",
+    url: "http://www.suratahmedabadtransport.com/",
+  },
+  {
+    name: "Pionexxco Tracking",
+    link: "pionexxco-tracking",
+    url: "http://www.pionexxco.net/",
+  },
+  {
+    name: "ATC Tracking",
+    link: "atc-tracking",
+    url: "https://atcls.net/",
+  },
+  {
+    name: "Vichare Courier",
+    link: "vichare-courier-tracking",
+    url: "https://vichare.com/",
+  },
+  {
+    name: "Atlantic Courier",
+    link: "atlantic-courier-tracking",
+    url: "https://atlanticcourier.net/",
+  },
+  {
+    name: "Avikam Tracking",
+    link: "avikam-tracking",
+    url: "http://avikamindia.com/",
+  },
+  {
+    name: "iThink Logistics",
+    link: "ithink-logistics-courier-tracking",
+    url: "https://www.ithinklogistics.com/",
+  },
+  {
+    name: "Sequel Courier",
+    link: "sequel-courier-tracking",
+    url: "https://sequelglobal.com/",
+  },
+  {
+    name: "The Professional Courier",
+    link: "the-professional-courier-tracking",
+    url: "https://www.tpcindia.com/",
+  },
+  {
+    name: "OnDot Courier",
+    link: "ondot-courier-tracking",
+    url: "http://ondotcouriers.co.in/",
+  },
+  {
+    name: "ICC Worldwide Courier",
+    link: "icc-worldwide-courier-tracking",
+    url: "http://iccworld.com/",
+  },
+  {
+    name: "United Express Courier",
+    link: "united-express-courier-tracking",
+    url: "https://unitedexpress.in/",
+  },
+  {
+    name: "Reliance Courier",
+    link: "reliance-courier-tracking",
+    url: "http://www.reliancecourier.in/",
+  },
+  {
+    name: "Rivigo Courier",
+    link: "rivigo-courier-tracking",
+    url: "https://www.rivigo.com/",
+  },
+  {
+    name: "Xspeed Logistics",
+    link: "xpeed-logistics-tracking",
+    url: "https://www.xpeed.in/",
+  },
+  {
+    name: "AKR Express Parcel",
+    link: "akr-tracking",
+    url: "https://akrexpress.com/",
+  },
+  {
+    name: "Mata Transport",
+    link: "mata-transport-tracking",
+    url: "https://matatransport.com/",
+  },
+  {
+    name: "Global India Express",
+    link: "global-india-express-tracking",
+    url: "https://www.globalindiaexpress.com/",
+  },
+  {
+    name: "Goodluck Courier",
+    link: "goodluck-courier-tracking",
+    url: "https://www.goodluckcourier.com/",
+  },
+  {
+    name: "Orange Cargo Carriers",
+    link: "orange-cargo-carriers-tracking",
+    url: "http://www.orangecargo.in/",
+  },
+  {
+    name: "Oxford Express",
+    link: "oxford-express-courier-tracking",
+    url: "http://oxfordexp.com/",
+  },
+  {
+    name: "Safexpress",
+    link: "safexpress-tracking",
+    url: "http://www.safexpress.com/",
+  },
+  {
+    name: "ST Courier",
+    link: "st-courier-tracking",
+    url: "http://stcourier.com/",
+  },
+  {
+    name: "Shree Anjani Courier",
+    link: "shree-anjani-courier-tracking",
+    url: "http://shreeanjanicourier.com/",
+  },
+  {
+    name: "Shree Mahavir",
+    link: "shree-mahavir-courier-tracking",
+    url: "http://shreemahavircourier.com/",
+  },
+  {
+    name: "AWCC Courier",
+    link: "awcc-courier-tracking",
+    url: "https://www.awcc.in/",
+  },
+  {
+    name: "Kalayatan Cargo",
+    link: "kalayatan-cargo-tracking",
+    url: "https://kalayatancargo.com/",
+  },
+  {
+    name: "Exzone Logistics",
+    link: "exzone-logistics-tracking",
+    url: "http://www.exzone.in/",
+  },
+  {
+    name: "Yes Courier",
+    link: "yes-courier-tracking",
+    url: "http://www.yescourier.in/",
+  },
+  {
+    name: "Jaydeep Logistics",
+    link: "jaydeep-logistics-tracking",
+    url: "https://jaydeeplogistic.com/",
+  },
+  {
+    name: "Skyman Air Express",
+    link: "skyman-air-express-courier-tracking",
+    url: "http://skymanairexpress.com/",
+  },
+  {
+    name: "Haulage Logistics",
+    link: "haulage-logistics-tracking",
+    url: "https://haulagelogistics.in/",
+  },
+  {
+    name: "Som Logistics Solution",
+    link: "som-logistics-tracking",
+    url: "https://www.slsindia.co.in/",
+  },
+  {
+    name: "Kesari Courier",
+    link: "kesari-courier-tracking",
+    url: "https://www.kesaricourier.com/",
+  },
+  {
+    name: "Gati Courier",
+    link: "gati-courier-tracking",
+    url: "https://www.gati.com/",
+  },
+  {
+    name: "Batco Transport Logistic",
+    link: "batco-transport",
+    url: "http://www.batco.in/",
+  },
+  {
+    name: "First Flight Courier",
+    link: "first-flight-courier-tracking",
+    url: "https://www.firstflight.net/",
+  },
+  {
+    name: "Suntek Axpress",
+    link: "suntek-axpress-tracking",
+    url: "https://suntekaxpress.in/",
+  },
+  {
+    name: "JK Transport",
+    link: "jk-transport-tracking",
+    url: "http://jktransport.co.in/",
+  },
+  {
+    name: "Relay Express",
+    link: "relay-express-tracking",
+    url: "https://www.relayexpress.in/",
+  },
+  {
+    name: "Airwings Courier India",
+    link: "airwings-courier-india-tracking",
+    url: "http://www.airwingsindia.com/",
+  },
+  {
+    name: "Shree Mahabali Courier",
+    link: "mahabali-courier-express-tracking",
+    url: "http://shreemahabaliexpress.com/",
+  },
+  {
+    name: "OBN Tracking",
+    link: "obn-courier-tracking",
+    url: "https://www.obnexpress.com/",
+  },
+  {
+    name: "Blue Sky Courier",
+    link: "blue-sky-courier-tracking",
+    url: "http://www.blueskycourier.co.in/",
+  },
+  {
+    name: "Yes Courier",
+    link: "yes-courier-tracking",
+    url: "http://www.yescourier.in/",
+  },
+  {
+    name: "Jaydeep Logistics",
+    link: "jaydeep-logistics-tracking",
+    url: "https://jaydeeplogistic.com/",
+  },
+  {
+    name: "Som Logistics",
+    link: "som-logistics-tracking",
+    url: "https://www.slsindia.co.in/",
+  },
+  {
+    name: "OnDot Courier",
+    link: "ondot-courier-tracking",
+    url: "http://ondotcouriers.co.in/",
+  },
+  {
+    name: "ICC Worldwide Courier",
+    link: "icc-worldwide-courier-tracking",
+    url: "http://iccworld.com/",
+  },
+  {
+    name: "Xspeed Logistics",
+    link: "xpeed-logistics-tracking",
+    url: "https://www.xpeed.in/",
+  },
+  {
+    name: "Orange Cargo",
+    link: "orange-cargo-carriers-tracking",
+    url: "http://www.orangecargo.in/",
+  },
+  {
+    name: "Vichare Courier",
+    link: "vichare-courier-tracking",
+    url: "https://vichare.com/",
+  },
+  {
+    name: "Pavan Courier",
+    link: "pavan-courier-tracking",
+    url: "http://pavancourierservice.com/",
+  },
+  {
+    name: "BMPS Tracking",
+    link: "bmps-tracking",
+    url: "http://www.bmps.co.in/",
+  },
+  {
+    name: "SRMT Tracking",
+    link: "srmt-tracking",
+    url: "https://srmt.com/",
+  },
+  {
+    name: "BSA Logistics",
+    link: "bsa-logistics-tracking",
+    url: "http://www.bsa.co.in/",
+  },
+  {
+    name: "Simply Tracking",
+    link: "simply-tracking",
+    url: "https://www.simplylogistics.in/",
+  },
+  {
+    name: "Mass Tracking",
+    link: "mass-tracking",
+    url: "https://meccargo.com/",
+  },
+  {
+    name: "Onpoint Express",
+    link: "onpoint-tracking",
+    url: "https://onpoint.in/",
+  },
+  {
+    name: "K D Courier",
+    link: "k-d-courier-tracking",
+    url: "https://kdcourier.com/",
+  },
+  {
+    name: "Speed and Safe Courier",
+    link: "speed-and-safe-courier-tracking",
+    url: "https://www.gokulamspeedandsafe.com/",
+  },
+  {
+    name: "DRTC Transport",
+    link: "drtc-tracking",
+    url: "https://www.drtctracking.com/",
+  },
+  {
+    name: "Inland World Logistics",
+    link: "inland-world-logistics-tracking",
+    url: "https://www.inlandworldlogistics.com/",
+  },
 ];

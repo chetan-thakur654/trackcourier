@@ -47,11 +47,6 @@
   background-color: #204060;
 }
 
-.form .track_button {
-  margin-right: 5px;
-  border: 2px solid red;
-}
-
 /* Form.module.css */
 
 .form-container .error {
