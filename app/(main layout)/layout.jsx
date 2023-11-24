@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Script from "next/script";
 import {
   FaFacebookF,
   FaInstagram,
@@ -32,66 +33,81 @@ const PrimaryLayout = ({ children }) => {
   }, [isOpen]);
 
   return (
-    <div className={styles["container"]}>
-      <header className={styles["header"]}>
-        <Navbar />
-      </header>
-      <aside>
-        <div
-          className={`${styles["sidebar-container"]} ${
-            isOpen ? styles["sidebar-container-open"] : ""
-          }`}
-        >
-          <Sidebar isOpen={isOpen} toggleDropdown={toggleDropdown} />
-        </div>
-        {isOpen && (
+    <>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-E6S2NPJ82S"
+      ></Script>
+      <Script>
+        {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E6S2NPJ82S');
+`}
+      </Script>
+      <div className={styles["container"]}>
+        <header className={styles["header"]}>
+          <Navbar />
+        </header>
+        <aside>
           <div
-            className={styles.sidebar__overlay}
-            onClick={toggleDropdown}
-          ></div>
-        )}
-      </aside>
-      <main className={styles["content"]}>
-        <div className={styles["main-section"]}>{children}</div>
-        <footer className={styles["footer"]}>
-          <div className={styles["footer-container"]}>
-            <div className={styles.row}>
-              <div className={styles["col-md-6"]}>
-                <p>TrackCourier.co &copy; 2023. All Rights Reserved.</p>
-              </div>
-              <div className={styles["col-md-6"]}>
-                <ul className={styles["social-media"]}>
-                  <li>
-                    <Link
-                      href="https://www.facebook.com/profile.php?id=100093927715098"
-                      target="blank"
-                    >
-                      <FaFacebookF />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://www.instagram.com/trackcourier.co/"
-                      target="blank"
-                    >
-                      <FaInstagram />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="https://twitter.com/trackcourier_co"
-                      target="blank"
-                    >
-                      <FaTwitter />
-                    </Link>
-                  </li>
-                </ul>
+            className={`${styles["sidebar-container"]} ${
+              isOpen ? styles["sidebar-container-open"] : ""
+            }`}
+          >
+            <Sidebar isOpen={isOpen} toggleDropdown={toggleDropdown} />
+          </div>
+          {isOpen && (
+            <div
+              className={styles.sidebar__overlay}
+              onClick={toggleDropdown}
+            ></div>
+          )}
+        </aside>
+        <main className={styles["content"]}>
+          <div className={styles["main-section"]}>{children}</div>
+          <footer className={styles["footer"]}>
+            <div className={styles["footer-container"]}>
+              <div className={styles.row}>
+                <div className={styles["col-md-6"]}>
+                  <p>TrackCourier.co &copy; 2023. All Rights Reserved.</p>
+                </div>
+                <div className={styles["col-md-6"]}>
+                  <ul className={styles["social-media"]}>
+                    <li>
+                      <Link
+                        href="https://www.facebook.com/profile.php?id=100093927715098"
+                        target="blank"
+                      >
+                        <FaFacebookF />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="https://www.instagram.com/trackcourier.co/"
+                        target="blank"
+                      >
+                        <FaInstagram />
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="https://twitter.com/trackcourier_co"
+                        target="blank"
+                      >
+                        <FaTwitter />
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </footer>
-      </main>
-    </div>
+          </footer>
+        </main>
+      </div>
+    </>
   );
 };
 
