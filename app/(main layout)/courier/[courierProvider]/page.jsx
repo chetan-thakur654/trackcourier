@@ -14,10 +14,7 @@ export async function generateMetadata({ params, searchParams }) {
     .replace(/\b\w/g, (c) => c.toUpperCase());
 
   return {
-    title: `${courierName} - Track ${courierName.replace(
-      " Tracking",
-      ""
-    )} Delivery Status Online  `,
+    title: `${courierName} | TrackCourier.co`,
     description: `Experience the simplicity of tracking your ${courierName
       .replace(" Tracking", "")
       .toLowerCase()} package on TrackCourier.co. Just enter your ${courierName.toLowerCase()} number and get real-time updates of ${courierName
