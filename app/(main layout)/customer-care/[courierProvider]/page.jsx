@@ -119,7 +119,7 @@ const CustomerCare = ({ params }) => {
         </p>
 
         {courierIndex >= 0 && (
-          <ul class={styles["courier-list"]}>
+          <ul className={styles["courier-list"]}>
             {selectedCourier.map((courier) => (
               <li>
                 <Link href={`/customer-care/${courier.name}`}>
