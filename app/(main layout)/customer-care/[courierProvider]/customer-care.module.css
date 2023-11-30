@@ -1,0 +1,58 @@
+.customer-care h1 {
+  margin-bottom: 30px;
+}
+
+.customer-care p {
+  margin-bottom: 15px;
+}
+
+.table {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #002244;
+  color: white;
+}
+
+.table th:nth-child(2) {
+  width: 25%;
+}
+
+.table tbody tr td a {
+  width: 100%;
+  display: inline-block;
+}
+
+.table table {
+  min-width: 792px;
+  width: 100%;
+}
+
+.courier-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.courier-list li {
+  margin-bottom: 10px;
+}

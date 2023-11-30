@@ -1,5 +1,5 @@
 // 'use client';
-import Form from "@/components/Form";
+import Form from "@/components/form/Form";
 import { keywords } from "@/utility/MetaKeyword";
 import styles from "@/style/page.module.css";
 import Head from "next/head";
@@ -7,7 +7,7 @@ import Head from "next/head";
 export const metadata = {
   title: "Courier Tracking | TrackCourier.co",
   description:
-    "Track your Fedex, DHL, USPS and 500+ couriers with ease using trackcourier.co's online courier tracking system. Enter your tracking id, select your courier provider and get real time delivery status, real time updates, and tracking information all in one place. We support package tracking, courier tracking, shipment tracking, cargo tracking and parcel tracking for various courier providers. Use our tracking tool for hassle-free courier tracking",
+    "Track over 500+ couriers with ease using trackcourier.co's online courier tracking system. Enter your tracking number, select your courier provider and get real time delivery status, real time updates, and tracking information all in one place. We support package tracking, courier tracking, shipment tracking, cargo tracking and parcel tracking for various courier providers. Use our tracking tool for hassle-free courier tracking",
   keywords: keywords.homepage,
 
   icons: {
@@ -37,10 +37,10 @@ const Homepage = () => {
         </p>
         <p>
           At TrackCourier.co, we offer a comprehensive online courier tracking
-          system that allows you to effortlessly track your FedEx, DHL, USPS,
-          and over 500 other couriers. With our user-friendly platform, you can
-          access real-time updates, delivery status, and tracking information
-          all in one convenient place.
+          system that allows you to effortlessly track over 500 couriers all
+          around the world. With our user-friendly platform, you can access
+          real-time updates, delivery status, and tracking information all in
+          one convenient place.
         </p>
         <p>
           Whether you're waiting for an important package or managing multiple

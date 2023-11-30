@@ -7,9 +7,9 @@ import {
   FaTwitter,
   FaLinkedinIn,
 } from "react-icons/fa";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar/Navbar";
 import styles from "@/style/layout.module.css";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "@/components/sidebar/Sidebar";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 

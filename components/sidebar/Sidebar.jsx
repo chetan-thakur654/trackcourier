@@ -2,7 +2,7 @@
 import React, { useState, useEffect, lazy, Suspense, useRef } from "react";
 import { FiChevronRight } from "react-icons/fi";
 import Link from "next/link";
-import styles from "@/style/Sidebar.module.css";
+import styles from "./Sidebar.module.css";
 import { courierProviders } from "@/utility/CourierProviders";
 // const CourierList = lazy(() => import('./CourierList').then(module => ({ default: module.CourierList })));
 

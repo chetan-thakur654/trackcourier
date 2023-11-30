@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { courierProviders } from "@/utility/CourierProviders";
 import { FaTruck, FaMapMarkerAlt } from "react-icons/fa";
-import styles from "@/style/Form.module.css";
+import styles from "./Form.module.css";
 
 const Form = ({
   showSelect,
@@ -56,14 +56,14 @@ const Form = ({
         <input
           type="text"
           name="trackingId"
-          placeholder={placeholderText || "Enter Tracking ID"}
+          placeholder={placeholderText || "Enter Tracking Number"}
           value={trackingId}
           onChange={handleTrackingIdChange}
           className={`${styles.input} ${trackingIdError ? styles.error : ""}`}
         />
         {trackingIdError && (
           <span className={styles["error-message"]}>
-            Please Enter Tracking ID.
+            Please Enter Tracking Number.
           </span>
         )}
         {showSelect && (
