@@ -3,7 +3,7 @@ import { courierScrapers } from "@/apiUtility/courierScrapers";
 import puppeteer from "puppeteer";
 
 // Launch a headless browser with Puppeteer
-const browserInstance = puppeteer.launch({ headless: false });
+const browserInstance = puppeteer.launch({ headless: true });
 
 export async function GET(NextRequest, { params }) {
   const { courier, trackingNo } = params;
