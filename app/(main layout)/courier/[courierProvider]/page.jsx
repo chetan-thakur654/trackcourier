@@ -14,7 +14,7 @@ export async function generateMetadata({ params, searchParams }) {
   const courierName = courierNameData(courierProvider);
 
   return {
-    title: `${courierName} Tracking | TrackCourier.co`,
+    title: `${courierName} Tracking`,
     description: `Track your ${courierName.toLowerCase()} delivery status on trackcourier.co. Just enter your ${courierName.toLowerCase()} tracking number and get real-time updates of ${courierName.toLowerCase()} tracking shipment, delivery date, and estimated arrival time. Our dedicated ${courierName.toLowerCase()} tracking page is the perfect tool to help you stay informed about your package. Discover the latest updates about your shipment, including any delays or issues that may affect its delivery`,
     keywords: keywords.courierProviderPage.map((keyword) => {
       if (courierName.includes("Courier")) {

@@ -171,6 +171,12 @@
   padding-right: 15px;
 }
 
+.error {
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .result-head {
     flex-direction: column;

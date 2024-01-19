@@ -72,7 +72,7 @@ const PrimaryLayout = ({ children }) => {
             <div className={styles["footer-container"]}>
               <div className={styles.row}>
                 <div className={styles["col-md-6"]}>
-                  <p>TrackCourier.co &copy; 2023. All Rights Reserved.</p>
+                  <p>TrackCourier.co &copy; 2024. All Rights Reserved.</p>
                 </div>
                 <div className={styles["col-md-6"]}>
                   <ul className={styles["social-media"]}>

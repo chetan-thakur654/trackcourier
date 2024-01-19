@@ -68,7 +68,9 @@ export const courierProviders = [
     name: "Accurate Freight Carrier",
     link: "accurate-freight-carrier-tracking",
   },
-  { name: "ACE Courier", link: "ace-courier-tracking" },
+  { name: "ACE Express India", link: "ace-express-tracking" },
+  { name: "ACE Courier India", link: "ace-courier-tracking" },
+  { name: "ACE Courier Canada", link: "ace-courier-canada-tracking" },
   { name: "ACS Courier", link: "acs-courier-tracking" },
   { name: "ACX Courier", link: "acx-courier-tracking" },
   {
@@ -1046,7 +1048,6 @@ export const courierProviders = [
     link: "shipdelight-courier-tracking",
   },
   { name: "Shiprocket Courier", link: "shiprocket-courier-tracking" },
-  { name: "Shiprocket Courier ", link: "shiprocket-courier-tracking" },
   { name: "Shoebuy", link: "shoebuy-order-tracking" },
   {
     name: "Shree Balaji Courier",
@@ -1164,9 +1165,9 @@ export const courierProviders = [
     name: "Vision International Cargo Courier",
     link: "vision-international-cargo-courier-tracking",
   },
-  { name: "Vrl Courier", link: "vrl-courier-tracking" },
+  { name: "VRL Courier", link: "vrl-courier-tracking" },
   {
-    name: "Vrl Logistics Courier",
+    name: "VRL Logistics Courier",
     link: "vrl-logistics-courier-tracking",
   },
   { name: "Vtrans Courier ", link: "vtrans-courier-tracking" },
