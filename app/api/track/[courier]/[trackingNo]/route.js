@@ -3,7 +3,10 @@ import { courierScrapers } from "@/apiUtility/courierScrapers";
 import puppeteer from "puppeteer";
 
 // Launch a headless browser with Puppeteer
-const browserInstance = puppeteer.launch({ headless: true });
+const browserInstance = puppeteer.launch({
+  headless: true,
+  args: ["--no-sandbox", "--disable-setuid-sandbox"],
+});
 
 export async function GET(NextRequest, { params }) {
   const { courier, trackingNo } = params;
