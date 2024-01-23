@@ -17,33 +17,30 @@ const Form = ({
   const [selectedCourierError, setSelectedCourierError] = useState(false);
   const router = useRouter();
 
-  const handleSubmit = useCallback(
-    (e) => {
-      e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-      // Validation
-      const isTrackingIdEmpty = trackingId.trim() === "";
-      const isSelectedCourierEmpty = selectedCourier.trim() === "";
+    // Validation
+    const isTrackingIdEmpty = trackingId.trim() === "";
+    const isSelectedCourierEmpty = selectedCourier.trim() === "";
 
-      // Update error states
-      setTrackingIdError(isTrackingIdEmpty);
-      setSelectedCourierError(isSelectedCourierEmpty);
+    // Update error states
+    setTrackingIdError(isTrackingIdEmpty);
+    setSelectedCourierError(isSelectedCourierEmpty);
 
-      // If form is invalid, stop
-      if (isTrackingIdEmpty || isSelectedCourierEmpty) {
-        return;
-      }
+    // If form is invalid, stop
+    if (isTrackingIdEmpty || isSelectedCourierEmpty) {
+      return;
+    }
 
-      // Navigate to the next page
-      router.push(`/track/${selectedCourier}/${trackingId}`);
-    },
-    [trackingId, selectedCourier, router]
-  );
+    // Navigate to the next page
+    router.push(`/track/${selectedCourier}/${trackingId}`);
+  };
 
-  const handleChange = useCallback((setter, errorSetter, e) => {
+  const handleChange = (setter, errorSetter, e) => {
     errorSetter(false);
     setter(e.target.value);
-  }, []);
+  };
 
   return (
     <div className={styles["form-container"]}>

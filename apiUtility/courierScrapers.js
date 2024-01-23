@@ -100,59 +100,59 @@ export const courierScrapers = {
     },
   },
   "professional-courier-tracking": {
-    // scrapeData: async (trackingId, page) => {
-    //   // Construct the URL for tracking information
-    //   const url = `https://www.tpcindia.com/track-info.aspx?id=${trackingId}`;
+    scrapeData: async (trackingId, page) => {
+      // Construct the URL for tracking information
+      const url = `https://www.tpcindia.com/track-info.aspx?id=${trackingId}`;
 
-    //   // Navigate to the tracking page and wait for it to load
-    //   await page.goto(url, { timeout: 120000, waitUntil: "load" });
+      // Navigate to the tracking page and wait for it to load
+      await page.goto(url, { timeout: 120000, waitUntil: "load" });
 
-    //   // Click on an element (replace 'your-selector' with the actual selector)
-    //   await page.click("#ContentPlaceHolderMid_ContentPlaceHolder2_Button8");
+      // Click on an element (replace 'your-selector' with the actual selector)
+      await page.click("#ContentPlaceHolderMid_ContentPlaceHolder2_Button8");
 
-    //   // Wait for a specific selector to appear in the page
-    //   await page.waitForSelector(
-    //     "#ContentPlaceHolderMid_ContentPlaceHolder2_content > p",
-    //     { timeout: 120000, waitUntil: "load" }
-    //   );
+      // Wait for a specific selector to appear in the page
+      await page.waitForSelector(
+        "#ContentPlaceHolderMid_ContentPlaceHolder2_content > p",
+        { timeout: 120000, waitUntil: "load" }
+      );
 
-    //   // Extract tracking information using Puppeteer's evaluate function
-    //   const trackingInfo = await page.evaluate(() => {
-    //     // Extract delivery status
-    //     const deliveryStatus = document.querySelector(
-    //       "#ContentPlaceHolderMid_ContentPlaceHolder2_Lbl_Status"
-    //     ).innerText;
+      // Extract tracking information using Puppeteer's evaluate function
+      const trackingInfo = await page.evaluate(() => {
+        // Extract delivery status
+        const deliveryStatus = document.querySelector(
+          "#ContentPlaceHolderMid_ContentPlaceHolder2_Lbl_Status"
+        ).innerText;
 
-    //     // Placeholder for scheduled delivery, update if applicable
-    //     let scheduledDelivery;
+        // Placeholder for scheduled delivery, update if applicable
+        let scheduledDelivery;
 
-    //     // Extract checkpoints information
-    //     const checkpoints = Array.from(
-    //       document.querySelectorAll(
-    //         "#ContentPlaceHolderMid_ContentPlaceHolder2_content > p"
-    //       )
-    //     ).map((checkpoint) => {
-    //       let dateTimeString = checkpoint.getAttribute("data-date");
-    //       // Split the date and time components
-    //       const [month, day, year, time] = dateTimeString.split(" ");
+        // Extract checkpoints information
+        const checkpoints = Array.from(
+          document.querySelectorAll(
+            "#ContentPlaceHolderMid_ContentPlaceHolder2_content > p"
+          )
+        ).map((checkpoint) => {
+          let dateTimeString = checkpoint.getAttribute("data-date");
+          // Split the date and time components
+          const [month, day, year, time] = dateTimeString.split(" ");
 
-    //       // Extract time components
-    //       const [hours, minutes] = time.split(":");
+          // Extract time components
+          const [hours, minutes] = time.split(":");
 
-    //       return {
-    //         date: `${month} ${day} ${year}`,
-    //         time: `${hours}:${minutes}`,
-    //         activity: checkpoint.querySelector("a").innerText,
-    //         courierName: "The Professional Courier",
-    //         location: checkpoint.querySelector("span").innerText,
-    //       };
-    //     });
+          return {
+            date: `${month} ${day} ${year}`,
+            time: `${hours}:${minutes}`,
+            activity: checkpoint.querySelector("a").innerText,
+            courierName: "The Professional Courier",
+            location: checkpoint.querySelector("span").innerText,
+          };
+        });
 
-    //     return { deliveryStatus, scheduledDelivery, checkpoints };
-    //   });
+        return { deliveryStatus, scheduledDelivery, checkpoints };
+      });
 
-    //   return trackingInfo;
-    // },
+      return trackingInfo;
+    },
     url: (trackingId) => {
       return `https://www.tpcindia.com/track-info.aspx?id=${trackingId}`;
     },

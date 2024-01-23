@@ -18,19 +18,19 @@
 }
 
 .click-here {
-  font-size: 20px;
+  /* font-size: 20px; */
   color: #777777;
   text-decoration: underline;
 }
 
 .courier-result a {
-  font-size: 30px;
+  font-size: 1.5em;
   margin: 0px 5px;
   color: #002244;
   font-weight: 700;
 }
 .courier-result span {
-  font-size: 30px;
+  font-size: 1.5em;
   margin: 0px 5px;
 }
 
@@ -184,6 +184,12 @@
   .result-head .scheduled-delivery {
     border: none;
     border-top: 2px solid #ecf0f1;
+  }
+  .courier-result a {
+    font-size: 1em;
+  }
+  .courier-result span {
+    font-size: 1em;
   }
 }
 

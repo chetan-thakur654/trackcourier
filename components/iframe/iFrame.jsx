@@ -7,8 +7,9 @@ const Frame = ({ url }) => {
   const [show, setShow] = useState(false);
 
   const handleLoad = () => {
-    console.log("loaded");
-    setShow(true);
+    setTimeout(() => {
+      setShow(true);
+    }, 15000);
   };
 
   return (
@@ -29,19 +30,9 @@ const Frame = ({ url }) => {
             <div></div>
           </div>
           <div class={styles["loader-text"]}>
-            Hold on tight, we're fetching your tracking data!
+            Hold on tight, It Will Take Few Seconds!
           </div>
         </div>
-        <iframe
-          id="myIframe"
-          src={url}
-          style={{ display: show ? "block" : "none" }}
-          frameBorder="0"
-          scrolling="no"
-          width="100%"
-          height="1380px"
-          onLoad={handleLoad}
-        />
         {show && (
           <div className={styles["courier-result"]}>
             <span className={styles["live-tracking"]}>
@@ -52,6 +43,16 @@ const Frame = ({ url }) => {
             </Link>
           </div>
         )}
+        <iframe
+          id="myIframe"
+          src={url}
+          style={{ display: show ? "block" : "none" }}
+          frameBorder="0"
+          scrolling="no"
+          width="100%"
+          height="1380px"
+          onLoad={handleLoad}
+        />
       </div>
     </>
   );
