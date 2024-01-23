@@ -5,7 +5,7 @@ import puppeteer from "puppeteer";
 // Launch a headless browser with Puppeteer
 const browserInstance = puppeteer.launch({
   headless: true,
-  args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  // args: ["--no-sandbox", "--disable-setuid-sandbox"],
 });
 
 export async function GET(NextRequest, { params }) {

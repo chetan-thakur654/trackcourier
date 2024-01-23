@@ -3,7 +3,7 @@ async function getTrackingResult(courierProvider, trackingId) {
   try {
     const response = await fetch(
       `http://localhost:3000/api/track/${courierProvider}/${trackingId}`,
-      { signal }
+      { signal, cache: "no-store" }
     );
 
     const data = await response.json();
