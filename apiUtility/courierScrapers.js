@@ -34,7 +34,7 @@ export const courierScrapers = {
     //   return trackingInfo;
     // },
     url: (trackingId) => {
-      return `//crm.markerp.in/Frm_DocTrackWeb.aspx?docno=${trackingId}`;
+      return `http://crm.markerp.in/Frm_DocTrackWeb.aspx?docno=${trackingId}`;
     },
   },
   "anjani-courier-tracking": {

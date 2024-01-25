@@ -7,14 +7,20 @@ const Frame = ({ url }) => {
   const [show, setShow] = useState(false);
 
   const handleLoad = () => {
-    setTimeout(() => {
-      setShow(true);
-    }, 15000);
+    setShow(true);
   };
 
   return (
     <>
       <div>
+        <div className={styles["courier-result"]}>
+          <span className={styles["live-tracking"]}>
+            If There is Any Error ! Track On Official Website -{" "}
+          </span>
+          <Link href={url} target="blank" className={styles["click-here"]}>
+            {url}
+          </Link>
+        </div>
         <div
           style={{ display: !show ? "block" : "none" }}
           className={styles["loader-container"]}
@@ -33,16 +39,7 @@ const Frame = ({ url }) => {
             Hold on tight, It Will Take Few Seconds!
           </div>
         </div>
-        {show && (
-          <div className={styles["courier-result"]}>
-            <span className={styles["live-tracking"]}>
-              If There is Any Error ! Track On Official Website -{" "}
-            </span>
-            <Link href={url} target="blank" className={styles["click-here"]}>
-              {url}
-            </Link>
-          </div>
-        )}
+
         <iframe
           id="myIframe"
           src={url}
