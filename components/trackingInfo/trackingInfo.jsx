@@ -3,17 +3,14 @@
 import { useEffect, useState } from "react";
 import styles from "../../app/(main layout)/track/[courier]/[trackingId]/courierresult.module.css";
 import { Loader } from "../loader/loader";
+import Link from "next/link";
 
-export const TrackingInfo = ({ trackingInfo }) => {
+export const TrackingInfo = ({ trackingInfo, url }) => {
   const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
-    if (trackingInfo) {
-      setTimeout(() => {
-        setShowResult(true);
-      }, 20000);
-    }
-  }, []);
+    setShowResult(true);
+  }, [trackingInfo]);
   return (
     <>
       {!showResult ? (
@@ -71,6 +68,14 @@ export const TrackingInfo = ({ trackingInfo }) => {
                 ))}
               </ul>
             </div>
+          </div>
+          <div className={styles["courier-result"]}>
+            <span className={styles["live-tracking"]}>
+              If There is Any Error ! Check Official Website -{" "}
+            </span>
+            <Link href={url} target="blank" className={styles["click-here"]}>
+              {url}
+            </Link>
           </div>
         </>
       )}

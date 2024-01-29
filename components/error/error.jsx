@@ -10,9 +10,7 @@ export const Error = ({ error, url }) => {
 
   useEffect(() => {
     if (error) {
-      setTimeout(() => {
-        setShowError(true);
-      }, 20000);
+      setShowError(true);
     }
   }, []);
 
@@ -23,14 +21,16 @@ export const Error = ({ error, url }) => {
       ) : (
         <>
           <p className={styles["error"]}>{`${error} `}</p>
-          <div className={styles["courier-result"]}>
-            <span className={styles["live-tracking"]}>
-              Track On Official Website -{" "}
-            </span>
-            <Link href={url} target="blank" className={styles["click-here"]}>
-              {url}
-            </Link>
-          </div>
+          {url && (
+            <div className={styles["courier-result"]}>
+              <span className={styles["live-tracking"]}>
+                Track On Official Website -{" "}
+              </span>
+              <Link href={url} target="blank" className={styles["click-here"]}>
+                {url}
+              </Link>
+            </div>
+          )}
         </>
       )}
     </>

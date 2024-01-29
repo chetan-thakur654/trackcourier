@@ -58,7 +58,12 @@ async function CourierResult({ params }) {
         {trackingInfo ? (
           <TrackingInfo trackingInfo={trackingInfo} url={url} />
         ) : !error && url ? (
-          <Frame url={url} />
+          <div className={styles["courier-result"]}>
+            <span className={styles["live-tracking"]}>Live Tracking- </span>
+            <Link href={url} target="blank" className={styles["click-here"]}>
+              {url}
+            </Link>
+          </div>
         ) : (
           <Error error={error} url={url} />
         )}
