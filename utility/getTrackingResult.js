@@ -2,7 +2,7 @@ async function getTrackingResult(courierProvider, trackingId) {
   const { signal } = new AbortController();
   try {
     const response = await fetch(
-      `https://api.trackcourier.co/api/track/${courierProvider}/${trackingId}`,
+      `http://142.93.180.76/api/track/${courierProvider}/${trackingId}`,
       { signal, next: { revalidate: 7200 } }
     );
 
