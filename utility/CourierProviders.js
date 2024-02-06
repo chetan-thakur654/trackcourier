@@ -265,7 +265,7 @@ export const courierProviders = [
     name: "Canpar Courier Courier",
     link: "canpar-courier-courier-tracking",
   },
-  { name: "Caper Courier", link: "caper-courier-tracking" },
+  { name: "Caper Courier India", link: "caper-courier-tracking" },
   {
     name: "CBL Logistics Courier",
     link: "cbl-logistics-courier-tracking",
@@ -481,7 +481,7 @@ export const courierProviders = [
     link: "dpex-worldwide-courier-tracking",
   },
   { name: "DRP Courier", link: "drp-courier-tracking" },
-  { name: "DRTC Courier", link: "drtc-courier-tracking" },
+  { name: "DRTC Courier", link: "drtc-tracking" },
   { name: "DSV Courier", link: "dsv-courier-tracking" },
   { name: "DTDC Australia ", link: "dtdc-australia-tracking" },
   {
@@ -859,7 +859,7 @@ export const courierProviders = [
     link: "metro-maruti-courier-tracking",
   },
   { name: "Mexico post", link: "mexico-post-tracking" },
-  { name: "Midland Courier", link: "midland-courier-tracking" },
+  { name: "Midland Transport", link: "midland-courier-tracking" },
   { name: "Mirakle Courier ", link: "mirakle-courier-tracking" },
   { name: "Misspap", link: "misspap-order-tracking" },
   { name: "MOL Courier", link: "mol-courier-tracking" },
@@ -1769,11 +1769,7 @@ export const courierProviders = [
     link: "navata-transport-tracking",
     url: "https://www.navata.com/",
   },
-  {
-    name: "DRTC Transport",
-    link: "drtc-tracking",
-    url: "https://www.drtctracking.com/",
-  },
+
   {
     name: "Saurashtra Roadways Bangalore",
     link: "saurashtra-roadways-bangalore-tracking",
@@ -2374,11 +2370,7 @@ export const courierProviders = [
     link: "speed-and-safe-courier-tracking",
     url: "https://www.gokulamspeedandsafe.com/",
   },
-  {
-    name: "DRTC Transport",
-    link: "drtc-tracking",
-    url: "https://www.drtctracking.com/",
-  },
+
   {
     name: "Inland World Logistics",
     link: "inland-world-logistics-tracking",

@@ -24,19 +24,21 @@ export const TrackingInfo = ({ trackingInfo, url }) => {
                 : ""
             }`}
           >
-            <div
-              className={`${styles["result-head-child"]} ${styles["courier-status"]}`}
-            >
-              {" "}
-              <span>{trackingInfo.deliveryStatus}</span>
-            </div>
-            {trackingInfo.scheduleDelivery && (
+            {trackingInfo?.deliveryStatus && (
+              <div
+                className={`${styles["result-head-child"]} ${styles["courier-status"]}`}
+              >
+                {" "}
+                <span>{trackingInfo?.deliveryStatus}</span>
+              </div>
+            )}
+            {trackingInfo?.from && (
               <div
                 className={`${styles["result-head-child"]} ${styles["scheduled-delivery"]}`}
               >
                 {" "}
                 <span>
-                  Scheduled Delivery: {trackingInfo?.scheduledDelivery}
+                  From : {trackingInfo?.from} - To : {trackingInfo?.to}
                 </span>
               </div>
             )}
@@ -44,7 +46,7 @@ export const TrackingInfo = ({ trackingInfo, url }) => {
           <div className={styles["result-body"]}>
             <div className={styles.checkpoints}>
               <ul className={styles.checkpoints__list}>
-                {trackingInfo.checkpoints.map((checkpoint) => (
+                {trackingInfo?.checkpoints?.map((checkpoint) => (
                   <li className={styles.checkpoint}>
                     <div className={styles.checkpoint__time}>
                       <strong>{checkpoint.date}</strong>
@@ -55,13 +57,13 @@ export const TrackingInfo = ({ trackingInfo, url }) => {
                     ></div>
                     <div className={styles.checkpoint__content}>
                       <strong>
-                        <span>{checkpoint.activity}</span>{" "}
+                        <span>{checkpoint?.activity}</span>{" "}
                         <span className={styles.checkpoint__couriername}>
-                          {checkpoint.courierName}
+                          {checkpoint?.courierName}
                         </span>{" "}
                       </strong>
                       <div className={styles["hint"]}>
-                        {checkpoint.location}
+                        {checkpoint?.location}
                       </div>
                     </div>
                   </li>
