@@ -12,7 +12,7 @@ export const courierProviders = [
     name: "Skynet Worldwide express",
     link: "skynet-worldwide-express-tracking",
   },
-  { name: "DTDC Courier ", link: "dtdc-courier-tracking" },
+  { name: "DTDC India Courier ", link: "dtdc-india-courier-tracking" },
   { name: "Digital Delivery ", link: "digital-delivery-courier-tracking" },
 
   { name: "Anjani Courier", link: "anjani-courier-tracking" },
