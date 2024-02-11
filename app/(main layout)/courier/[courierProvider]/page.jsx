@@ -7,6 +7,7 @@ import { keywords } from "@/utility/MetaKeyword";
 import { couriers } from "@/utility/contactInfo";
 import { courierNameData } from "@/utility/courierName";
 import Link from "next/link";
+import AdsenseComp from "@/components/ads/googleAds";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courierProvider } = params;
@@ -25,10 +26,6 @@ export async function generateMetadata({ params, searchParams }) {
     }),
     alternates: {
       canonical: `https://trackcourier.co/courier/${courierProvider}`,
-      // languages: {
-      //   'en-US': '/en-US',
-      //   'de-DE': '/de-DE',
-      // },
     },
   };
 }
@@ -62,7 +59,7 @@ const CourierProvider = ({ params }) => {
   );
 
   return (
-    <div>
+    <>
       <div className={styles.hero}>
         {/* <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="Courier Provider Logo" className="provider-logo" /> */}
         <h1>{`${courierName} Tracking`}</h1>
@@ -72,6 +69,8 @@ const CourierProvider = ({ params }) => {
         courierProvider={courierProvider}
         placeholderText={`Enter ${courierName} Tracking Number`}
       />
+      <AdsenseComp />
+
       <div className={`${styles.description} ${styles.section}`}>
         <p>
           Track your <strong>{courierName}</strong>
@@ -143,7 +142,7 @@ const CourierProvider = ({ params }) => {
       <div className={styles.section}>
         <h2>Frequently Asked Questions</h2>
       </div> */}
-    </div>
+    </>
   );
 };
 
