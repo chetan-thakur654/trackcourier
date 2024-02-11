@@ -2,10 +2,11 @@ import Link from "next/link";
 import Form from "@/components/form/Form";
 import styles from "./courierresult.module.css";
 import { keywords } from "@/utility/MetaKeyword";
-import Frame from "@/components/iframe/iFrame";
 import { TrackingInfo } from "@/components/trackingInfo/trackingInfo";
 import { Error } from "@/components/error/error";
 import getTrackingResult from "@/utility/getTrackingResult";
+import { Loader } from "@/components/loader/loader";
+import AdsenseComp from "@/components/ads/googleAds";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courier, trackingId } = params;
@@ -23,7 +24,7 @@ export async function generateMetadata({ params, searchParams }) {
       (keyword) => courierName.replace("Tracking", "").toLowerCase() + keyword
     ),
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_BASE_PATH}/courier/${courier}`,
+      canonical: `https://trackcourier.co/courier/${courier}`,
     },
   };
 }
@@ -42,7 +43,7 @@ async function CourierResult({ params }) {
         inputTrackingId={trackingId}
         courierProvider={courier}
       />
-
+      <AdsenseComp />
       <div className={`${styles.block}`}>
         <div className={styles["courier-result"]}>
           <div className={styles["tracking-info"]}>
@@ -55,6 +56,8 @@ async function CourierResult({ params }) {
             <span>- {trackingId}</span>
           </div>
         </div>
+        {!data && <Loader />}
+
         {trackingInfo ? (
           <TrackingInfo trackingInfo={trackingInfo} url={url} />
         ) : !error && url ? (
