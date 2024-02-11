@@ -56,7 +56,6 @@ async function CourierResult({ params }) {
             <span>- {trackingId}</span>
           </div>
         </div>
-        {!data && <Loader />}
 
         {trackingInfo ? (
           <TrackingInfo trackingInfo={trackingInfo} url={url} />
