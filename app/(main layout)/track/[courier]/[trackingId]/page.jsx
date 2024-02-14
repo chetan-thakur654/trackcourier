@@ -7,6 +7,8 @@ import { Error } from "@/components/error/error";
 import getTrackingResult from "@/utility/getTrackingResult";
 import { Loader } from "@/components/loader/loader";
 import AdsenseComp from "@/components/ads/googleAds";
+import smallGoogleAd from "@/components/ads/smallAd";
+import SmallGoogleAd from "@/components/ads/smallAd";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courier, trackingId } = params;
@@ -38,12 +40,14 @@ async function CourierResult({ params }) {
 
   return (
     <>
+      <SmallGoogleAd />
       <Form
         showSelect={true}
         inputTrackingId={trackingId}
         courierProvider={courier}
       />
-      <AdsenseComp />
+      <SmallGoogleAd />
+
       <div className={`${styles.block}`}>
         <div className={styles["courier-result"]}>
           <div className={styles["tracking-info"]}>
@@ -56,6 +60,7 @@ async function CourierResult({ params }) {
             <span>- {trackingId}</span>
           </div>
         </div>
+        <AdsenseComp />
 
         {trackingInfo ? (
           <TrackingInfo trackingInfo={trackingInfo} url={url} />
@@ -69,6 +74,7 @@ async function CourierResult({ params }) {
         ) : (
           <Error error={error} url={url} />
         )}
+        <AdsenseComp />
       </div>
     </>
   );

@@ -4,6 +4,7 @@ import { keywords } from "@/utility/MetaKeyword";
 import styles from "@/style/page.module.css";
 import Script from "next/script";
 import AdsenseComp from "@/components/ads/googleAds";
+import SmallGoogleAd from "@/components/ads/smallAd";
 
 export const metadata = {
   title: "Courier Tracking | TrackCourier.co",
@@ -22,6 +23,7 @@ export const metadata = {
 const Homepage = () => {
   return (
     <>
+      <SmallGoogleAd />
       <div className={styles.hero}>
         <h1>
           1500+ Couriers, One Tracker : All-in-One Courier Tracking Online
@@ -29,13 +31,15 @@ const Homepage = () => {
       </div>
 
       <Form showSelect={true} />
-      <AdsenseComp />
+      <SmallGoogleAd />
 
       <div className={styles.description}>
         <p>
           "Welcome to TrackCourier.co - Your One-Stop Destination for Seamless
           Courier Tracking Online!
         </p>
+        <AdsenseComp />
+
         <p>
           At TrackCourier.co, we offer a comprehensive online courier tracking
           system that allows you to effortlessly track over 1500 couriers all
@@ -50,6 +54,8 @@ const Homepage = () => {
           delivery again. Join thousands of satisfied users who rely on
           TrackCourier.co for reliable package tracking.
         </p>
+        <AdsenseComp />
+
         <p>
           Let us simplify your shipping experience and make tracking your
           parcels a breeze."
