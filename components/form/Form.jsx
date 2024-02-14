@@ -33,8 +33,14 @@ const Form = ({
       return;
     }
 
-    // Navigate to the next page
-    router.push(`/track/${selectedCourier}/${trackingId}`);
+    const targetUrl = `/track/${selectedCourier}/${trackingId}`;
+    // console.log(router.pathname);
+
+    // if (router.pathname !== targetUrl) {
+    router.push(targetUrl);
+    // } else {
+    // router.replace(targetUrl);
+    // }
   };
 
   const handleChange = (setter, errorSetter, e) => {

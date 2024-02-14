@@ -8,6 +8,7 @@ import { couriers } from "@/utility/contactInfo";
 import { courierNameData } from "@/utility/courierName";
 import Link from "next/link";
 import AdsenseComp from "@/components/ads/googleAds";
+import SmallGoogleAd from "@/components/ads/smallAd";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courierProvider } = params;
@@ -60,6 +61,7 @@ const CourierProvider = ({ params }) => {
 
   return (
     <>
+      <SmallGoogleAd />
       <div className={styles.hero}>
         {/* <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="Courier Provider Logo" className="provider-logo" /> */}
         <h1>{`${courierName} Tracking`}</h1>
@@ -69,7 +71,7 @@ const CourierProvider = ({ params }) => {
         courierProvider={courierProvider}
         placeholderText={`Enter ${courierName} Tracking Number`}
       />
-      <AdsenseComp />
+      <SmallGoogleAd />
 
       <div className={`${styles.description} ${styles.section}`}>
         <p>
@@ -88,6 +90,8 @@ const CourierProvider = ({ params }) => {
       {contactInfo && (
         <div className={styles.section}>
           <h2>{`${courierName} Customer Care Information`}</h2>
+          <AdsenseComp />
+
           <p>
             <Link href={`/customer-care/${courierProvider}`}>
               {`${courierName}'s customer care`}
@@ -96,6 +100,8 @@ const CourierProvider = ({ params }) => {
             information such as ${courierName} contact
             numbers, email addresses, and office locations.`}
           </p>
+          <AdsenseComp />
+
           <div className={styles.table}>
             <table>
               <thead>

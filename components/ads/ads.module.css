@@ -1,0 +1,24 @@
+.small_ad_container {
+  height: 100px;
+  margin: 1rem;
+}
+.customize_small_ad {
+  height: 100%;
+}
+
+.customize_bigger_ad {
+  margin: 1rem 0;
+}
+
+/* @media (max-width: 500px) {
+  .customize_ad {
+    width: 320px;
+    height: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .customize_ad {
+    width: 468px;
+    height: 60px;
+  }
+} */
