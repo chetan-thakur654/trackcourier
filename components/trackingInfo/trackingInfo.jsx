@@ -7,15 +7,14 @@ import { Error } from "../error/error";
 import getTrackingResult from "@/utility/getTrackingResult";
 import { useParams } from "next/navigation";
 
-const TrackingInfo = () => {
-  const { courier, trackingId } = useParams();
+const TrackingInfo = ({ fetchedData }) => {
+  // const { courier, trackingId } = useParams();
   const [isLoading, setIsLoading] = useState(true); // Initial loading state
   const [data, setData] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const fetchedData = await getTrackingResult(courier, trackingId);
         setData(fetchedData);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -26,7 +25,7 @@ const TrackingInfo = () => {
     };
 
     fetchData();
-  }, [courier, trackingId]);
+  }, [fetchedData]);
 
   const { trackingInfo, url, error } = data;
 
