@@ -2,15 +2,10 @@ import Link from "next/link";
 import Form from "@/components/form/Form";
 import styles from "./courierresult.module.css";
 import { keywords } from "@/utility/MetaKeyword";
-import { TrackingInfo } from "@/components/trackingInfo/trackingInfo";
-import { Error } from "@/components/error/error";
-import getTrackingResult from "@/utility/getTrackingResult";
-import { Loader } from "@/components/loader/loader";
+import TrackingInfo from "@/components/trackingInfo/trackingInfo";
 import AdsenseComp from "@/components/ads/googleAds";
-import smallGoogleAd from "@/components/ads/smallAd";
-import SmallGoogleAd from "@/components/ads/smallAd";
 
-export async function generateMetadata({ params, searchParams }) {
+export async function generateMetadata({ params }) {
   const { courier, trackingId } = params;
   const courierName = courier
     .replace(/-/g, " ")
@@ -34,47 +29,29 @@ export async function generateMetadata({ params, searchParams }) {
 async function CourierResult({ params }) {
   const { courier, trackingId } = params;
 
-  const data = await getTrackingResult(courier, trackingId);
-
-  const { trackingInfo, url, error } = data;
-
   return (
     <>
-      <SmallGoogleAd />
       <Form
         showSelect={true}
         inputTrackingId={trackingId}
         courierProvider={courier}
       />
-      <SmallGoogleAd />
 
-      <div className={`${styles.block}`}>
-        <div className={styles["courier-result"]}>
-          <div className={styles["tracking-info"]}>
-            <Link href={"/"}>
-              {courier
-                .replace(/-/g, " ")
-                .replace(/\b\w/g, (c) => c.toUpperCase())
-                .replace("Tracking", "")}
-            </Link>
-            <span>- {trackingId}</span>
-          </div>
+      <AdsenseComp />
+      <div className={styles["courier-result"]}>
+        <div className={styles["tracking-info"]}>
+          <Link href={"/"}>
+            {courier
+              .replace(/-/g, " ")
+              .replace(/\b\w/g, (c) => c.toUpperCase())
+              .replace("Tracking", "")}
+          </Link>
+          <span>- {trackingId}</span>
         </div>
-        <AdsenseComp />
-
-        {trackingInfo ? (
-          <TrackingInfo trackingInfo={trackingInfo} url={url} />
-        ) : !error && url ? (
-          <div className={styles["courier-result"]}>
-            <span className={styles["live-tracking"]}>Live Tracking- </span>
-            <Link href={url} target="blank" className={styles["click-here"]}>
-              {url}
-            </Link>
-          </div>
-        ) : (
-          <Error error={error} url={url} />
-        )}
-        <AdsenseComp />
+      </div>
+      <AdsenseComp />
+      <div className={`${styles.block}`}>
+        <TrackingInfo />
       </div>
     </>
   );

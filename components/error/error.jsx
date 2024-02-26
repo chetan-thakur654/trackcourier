@@ -6,32 +6,16 @@ import { Loader } from "../loader/loader";
 import Link from "next/link";
 
 export const Error = ({ error, url }) => {
-  const [showError, setShowError] = useState(false);
-
-  useEffect(() => {
-    if (error) {
-      setShowError(true);
-    }
-  }, []);
-
   return (
     <>
-      {!showError ? (
-        <Loader />
-      ) : (
-        <>
+      {url && (
+        <div className={styles["courier-url"]}>
           <p className={styles["error"]}>{`${error} `}</p>
-          {url && (
-            <div className={styles["courier-result"]}>
-              <span className={styles["live-tracking"]}>
-                Track On Official Website -{" "}
-              </span>
-              <Link href={url} target="blank" className={styles["click-here"]}>
-                {url}
-              </Link>
-            </div>
-          )}
-        </>
+          <span className={styles["live-tracking"]}>Live Tracking - </span>
+          <Link href={url} target="blank" className={styles["click-here"]}>
+            {url}
+          </Link>
+        </div>
       )}
     </>
   );

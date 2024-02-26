@@ -3,6 +3,7 @@ import { couriers } from "@/utility/contactInfo";
 import { courierNameData } from "@/utility/courierName";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import AdsenseComp from "@/components/ads/googleAds";
 
 export async function generateMetadata({ params, searchParams }) {
   const { courierProvider } = params;
@@ -70,6 +71,7 @@ const CustomerCare = ({ params }) => {
           dedicated customer care number, office addresses for a personalized
           visit, and email for any queries.
         </p>
+        <AdsenseComp />
         <div className={styles.table}>
           <table>
             <thead>

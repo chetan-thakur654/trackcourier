@@ -1,9 +1,10 @@
 "use client";
 import React, { useCallback, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 import { courierProviders } from "@/utility/CourierProviders";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import styles from "./Form.module.css";
+import { Spinner } from "../loader/spinner";
 
 const Form = ({
   showSelect,
@@ -15,32 +16,47 @@ const Form = ({
   const [selectedCourier, setSelectedCourier] = useState(courierProvider || "");
   const [trackingIdError, setTrackingIdError] = useState(false);
   const [selectedCourierError, setSelectedCourierError] = useState(false);
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
+  const currentPath = usePathname();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validation
-    const isTrackingIdEmpty = trackingId.trim() === "";
-    const isSelectedCourierEmpty = selectedCourier.trim() === "";
+    try {
+      // Validation
+      const isTrackingIdEmpty = trackingId.trim() === "";
+      const isSelectedCourierEmpty = selectedCourier.trim() === "";
 
-    // Update error states
-    setTrackingIdError(isTrackingIdEmpty);
-    setSelectedCourierError(isSelectedCourierEmpty);
+      // Update error states
+      setTrackingIdError(isTrackingIdEmpty);
+      setSelectedCourierError(isSelectedCourierEmpty);
 
-    // If form is invalid, stop
-    if (isTrackingIdEmpty || isSelectedCourierEmpty) {
+      // If form is invalid, stop
+      if (isTrackingIdEmpty || isSelectedCourierEmpty) {
+        throw new Error();
+      }
+
+      if (
+        currentPath == `/track/${courierProvider}/${trackingId}` &&
+        trackingId == currentPath.split("/")[3] &&
+        selectedCourier == currentPath.split("/")[2]
+      ) {
+        // No need to redirect, display a message or perform other actions
+        throw new Error("you are in the same page");
+      }
+      setLoading(true);
+
+      // Show loader
+
+      const targetUrl = `/track/${selectedCourier}/${trackingId}`;
+
+      router.push(targetUrl);
+    } catch (error) {
       return;
     }
 
-    const targetUrl = `/track/${selectedCourier}/${trackingId}`;
-    // console.log(router.pathname);
-
-    // if (router.pathname !== targetUrl) {
-    router.push(targetUrl);
-    // } else {
-    // router.replace(targetUrl);
-    // }
+    // Hide loader after navigation (optional)
   };
 
   const handleChange = (setter, errorSetter, e) => {
@@ -94,11 +110,23 @@ const Form = ({
           </span>
         )}
 
-        {/* Submit button */}
-        <button type="submit">
-          <FaMapMarkerAlt size={16} color="#ffff" />
-          Track
+        <button
+          style={{ opacity: loading ? 0.8 : 1 }}
+          type="submit"
+          disabled={loading}
+        >
+          {loading ? (
+            <Spinner />
+          ) : (
+            <>
+              <FaMapMarkerAlt size={16} color="#ffff" />
+              Track
+            </>
+          )}
         </button>
+        {/* <button type="submit" disabled={loading}>
+          <Spinner />
+        </button> */}
       </form>
     </div>
   );

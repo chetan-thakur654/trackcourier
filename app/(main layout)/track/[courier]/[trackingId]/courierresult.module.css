@@ -1,10 +1,15 @@
 .courier-result {
   text-align: center;
   padding: 20px 0px;
+  margin: 20px 0px;
+  border: 2px solid #ecf0f1;
+}
+.courier-url {
+  text-align: center;
+  padding: 20px 0px;
 }
 
 .tracking-info {
-  margin-bottom: 10px;
 }
 
 .live-tracking-info {
@@ -16,17 +21,16 @@
   margin-bottom: 5px;
 }
 
-.click-here {
-  /* font-size: 20px; */
-  color: #777777;
-  text-decoration: underline;
-}
-
-.courier-result a {
+.courier-result .tracking-info a {
   font-size: 1.5em;
   margin: 0px 5px;
   color: #002244;
   font-weight: 700;
+}
+.click-here {
+  font-size: 1em;
+  color: #002244;
+  text-decoration: underline;
 }
 .courier-result span {
   font-size: 1.5em;
@@ -35,7 +39,6 @@
 
 .block {
   border-radius: 5px;
-  margin-top: 2rem;
   border: 2px solid #ecf0f1;
 }
 

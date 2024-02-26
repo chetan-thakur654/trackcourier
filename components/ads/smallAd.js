@@ -12,7 +12,7 @@ const SmallGoogleAd = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setAds((ads) => !ads);
-    }, 15000); // Run the effect every three seconds (3000 milliseconds)
+    }, 20000); // Run the effect every three seconds (3000 milliseconds)
 
     // Clean up the interval to prevent memory leaks
     return () => clearInterval(intervalId);
@@ -27,7 +27,7 @@ const SmallGoogleAd = () => {
     <div className={styles["small_ad_container"]} key={ads}>
       <ins
         className={`adsbygoogle ${styles["customize_small_ad"]}`}
-        style={{ display: "block", width: "100%" }}
+        style={{ display: "block", height: "100px" }}
         data-ad-client="ca-pub-9178289074565401"
         data-ad-slot="1756083532"
         // data-ad-format="auto"
