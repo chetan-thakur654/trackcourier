@@ -61,7 +61,6 @@ const CourierProvider = ({ params }) => {
 
   return (
     <>
-      <SmallGoogleAd />
       <div className={styles.hero}>
         {/* <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="Courier Provider Logo" className="provider-logo" /> */}
         <h1>{`${courierName} Tracking`}</h1>
@@ -71,7 +70,7 @@ const CourierProvider = ({ params }) => {
         courierProvider={courierProvider}
         placeholderText={`Enter ${courierName} Tracking Number`}
       />
-      <SmallGoogleAd />
+      <AdsenseComp />
 
       <div className={`${styles.description} ${styles.section}`}>
         <p>
@@ -90,7 +89,6 @@ const CourierProvider = ({ params }) => {
       {contactInfo && (
         <div className={styles.section}>
           <h2>{`${courierName} Customer Care Information`}</h2>
-          <AdsenseComp />
 
           <p>
             <Link href={`/customer-care/${courierProvider}`}>
@@ -100,7 +98,6 @@ const CourierProvider = ({ params }) => {
             information such as ${courierName} contact
             numbers, email addresses, and office locations.`}
           </p>
-          <AdsenseComp />
 
           <div className={styles.table}>
             <table>

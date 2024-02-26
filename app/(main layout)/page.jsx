@@ -23,7 +23,6 @@ export const metadata = {
 const Homepage = () => {
   return (
     <>
-      <SmallGoogleAd />
       <div className={styles.hero}>
         <h1>
           1500+ Couriers, One Tracker : All-in-One Courier Tracking Online
@@ -38,7 +37,6 @@ const Homepage = () => {
           "Welcome to TrackCourier.co - Your One-Stop Destination for Seamless
           Courier Tracking Online!
         </p>
-        <AdsenseComp />
 
         <p>
           At TrackCourier.co, we offer a comprehensive online courier tracking
@@ -54,7 +52,6 @@ const Homepage = () => {
           delivery again. Join thousands of satisfied users who rely on
           TrackCourier.co for reliable package tracking.
         </p>
-        <AdsenseComp />
 
         <p>
           Let us simplify your shipping experience and make tracking your

@@ -527,7 +527,7 @@ export const courierProviders = [
     name: "Economy International Courier",
     link: "economy-international-courier-tracking",
   },
-  { name: "Ekart Courier ", link: "ekart-courier-tracking" },
+  { name: "Ekart Logistics ", link: "ekart-logistics-tracking" },
   { name: "Elbee Courier", link: "elbee-courier-tracking" },
   { name: "Elbex Courier ", link: "elbex-courier-tracking" },
   { name: "Elta Courier", link: "elta-courier-tracking" },
@@ -1520,8 +1520,8 @@ export const courierProviders = [
     url: "https://efclogistics.com/index.html",
   },
   {
-    name: "DR Courier Cargo",
-    link: "dr-courier-cargo-tracking",
+    name: "DR Courier Express",
+    link: "dr-courier-express-tracking",
     url: "https://www.drcourierexp.com/",
   },
   {
