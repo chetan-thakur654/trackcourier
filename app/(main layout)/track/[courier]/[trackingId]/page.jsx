@@ -4,6 +4,7 @@ import styles from "./courierresult.module.css";
 import { keywords } from "@/utility/MetaKeyword";
 import TrackingInfo from "@/components/trackingInfo/trackingInfo";
 import AdsenseComp from "@/components/ads/googleAds";
+import getTrackingResult from "@/utility/getTrackingResult";
 
 export async function generateMetadata({ params }) {
   const { courier, trackingId } = params;
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }) {
 
 async function CourierResult({ params }) {
   const { courier, trackingId } = params;
-
+  const fetchedData = await getTrackingResult(courier, trackingId);
   return (
     <>
       <Form
@@ -51,7 +52,7 @@ async function CourierResult({ params }) {
       </div>
       <AdsenseComp />
       <div className={`${styles.block}`}>
-        <TrackingInfo />
+        <TrackingInfo fetchedData={fetchedData} />
       </div>
     </>
   );
