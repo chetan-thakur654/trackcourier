@@ -38,7 +38,6 @@ async function CourierResult({ params }) {
         courierProvider={courier}
       />
 
-      <AdsenseComp />
       <div className={styles["courier-result"]}>
         <div className={styles["tracking-info"]}>
           <Link href={"/"}>
@@ -54,6 +53,7 @@ async function CourierResult({ params }) {
       <div className={`${styles.block}`}>
         <TrackingInfo fetchedData={fetchedData} />
       </div>
+      <AdsenseComp />
     </>
   );
 }
