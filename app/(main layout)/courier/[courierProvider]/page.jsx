@@ -35,12 +35,6 @@ const CourierProvider = ({ params }) => {
   const { courierProvider } = params;
 
   const courierName = courierNameData(courierProvider);
-  // const courierName = courierProvider
-  //   .replace(/-/g, " ")
-  //   .replace(/\b\w/g, (c) => c.toUpperCase());
-
-  // Initialize Next.js router
-  //  const router = useRouter();
 
   // Check if the courier provider is valid
   const isValidProvider = courierProviders.some(
