@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import styles from "../../app/(main layout)/track/[courier]/[trackingId]/courierresult.module.css";
 import { Loader } from "../loader/loader";
 import Link from "next/link";
@@ -10,7 +10,10 @@ import { useParams } from "next/navigation";
 const TrackingInfo = ({ fetchedData }) => {
   // const { courier, trackingId } = useParams();
   const [isLoading, setIsLoading] = useState(true); // Initial loading state
+  const [progress, setProgress] = useState(0);
   const [data, setData] = useState({});
+
+  const progressRef = useRef(0);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -20,7 +23,19 @@ const TrackingInfo = ({ fetchedData }) => {
         console.error("Error fetching data:", error);
         // Handle errors appropriately
       } finally {
-        setTimeout(() => setIsLoading(false), 15000); // Hide loader after data fetch or error
+        const progressInterval = setInterval(() => {
+          if (progressRef.current < 100) {
+            progressRef.current += 1;
+            setProgress(progressRef.current);
+          } else {
+            clearInterval(progressInterval); // Stop progress when complete
+          }
+        }, 150);
+
+        setTimeout(() => {
+          setIsLoading(false);
+          clearInterval(progressInterval); // Ensure progress stops
+        }, 15000);
       }
     };
 
@@ -32,7 +47,16 @@ const TrackingInfo = ({ fetchedData }) => {
   return (
     <>
       {isLoading ? (
-        <Loader />
+        <>
+          {/* <Loader /> */}
+          <div className={styles["progress-container"]}>
+            <div
+              className={styles["progress-bar"]}
+              style={{ width: `${progress}%` }}
+            ></div>
+            <span className={styles["progress-text"]}>Loading...</span>
+          </div>
+        </>
       ) : (
         <div>
           {trackingInfo ? (

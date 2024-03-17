@@ -32,16 +32,38 @@ export const CourierList = () => {
   //     setPageNumber((prevPageNumber) => prevPageNumber + 1);
   //   }
   // };
+  const [couriers, setCouriers] = useState(courierProviders);
+  // const [searchTerm, setSearchTerm] = useState("");
 
+  // const handleSearch = (event) => {
+  //   const newSearchTerm = event.target.value.toLowerCase();
+  //   setSearchTerm(newSearchTerm);
+
+  //   setCouriers(
+  //     courierProviders.filter((courier) =>
+  //       courier.name.toLowerCase().includes(newSearchTerm)
+  //     )
+  //   );
+  // };
   return (
     <>
-      <ul className={`${styles.sidebar__list}`}>
-        {courierProviders.map((provider, index) => (
-          <li key={index}>
-            <Link href={`/courier/${provider.link}`}>{provider.name}</Link>
-          </li>
-        ))}
-      </ul>
+      <div className={styles.sidebar__list}>
+        {/* <div className={styles.search_box}>
+          <input
+            type="text"
+            placeholder="Search  Courier"
+            value={searchTerm}
+            onChange={handleSearch}
+          />
+        </div> */}
+        <ul>
+          {couriers.map((provider, index) => (
+            <li key={index}>
+              <Link href={`/courier/${provider.link}`}>{provider.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 };

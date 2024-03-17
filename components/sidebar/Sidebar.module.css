@@ -88,6 +88,24 @@
   text-decoration: underline;
 }
 
+.search_box {
+  border-top: 1px solid #e1e1e1;
+}
+.search_box input {
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  outline: none;
+  border: 2px solid red;
+}
+
+.search_box input:hover {
+  background-color: rgb(220, 248, 239);
+}
+
 @media screen and (max-width: 768px) {
   .content {
     flex-direction: column;

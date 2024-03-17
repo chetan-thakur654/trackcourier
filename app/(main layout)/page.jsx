@@ -7,7 +7,7 @@ import AdsenseComp from "@/components/ads/googleAds";
 import SmallGoogleAd from "@/components/ads/smallAd";
 
 export const metadata = {
-  title: "Courier Tracking | TrackCourier.co",
+  title: "Worldwide Courier Tracking | TrackCourier.co",
   description:
     "Track over 1500+ couriers with ease using trackcourier.co's online courier tracking system. Enter your tracking number, select your courier provider and get real time delivery status, real time updates, and tracking information all in one place. We support package tracking, courier tracking, shipment tracking, cargo tracking and parcel tracking for various courier providers. Use our tracking tool for hassle-free courier tracking",
   keywords: keywords.homepage,

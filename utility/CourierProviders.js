@@ -360,8 +360,8 @@ export const courierProviders = [
   { name: "Cosmic Courier", link: "cosmic-courier-tracking" },
   { name: "Costco", link: "costco-order-tracking" },
   {
-    name: "Country Wide Courier",
-    link: "country-wide-courier-tracking",
+    name: "Country Wide Logistics",
+    link: "country-wide-logistics-tracking",
   },
   { name: "Courex Courier", link: "courex-courier-tracking" },
   { name: "Courier It Courier", link: "courier-it-courier-tracking" },
@@ -1106,10 +1106,7 @@ export const courierProviders = [
     link: "south-african-post-courier-tracking",
   },
   { name: "Spain post", link: "spain-post-tracking" },
-  {
-    name: "Speed & Safe Courier",
-    link: "speed-&-safe-courier-tracking",
-  },
+
   { name: "Speed Post ", link: "speed-post-tracking" },
   { name: "Speedex Courier", link: "speedex-courier-tracking" },
   {
@@ -1375,6 +1372,11 @@ export const courierProviders = [
     url: "https://www.spicexpress.com/",
   },
   {
+    name: "SpiceXpress",
+    link: "spiceXpress-tracking",
+    url: "https://www.spicexpress.com/",
+  },
+  {
     name: "Finnair Cargo",
     link: "finnair-cargo-tracking",
     url: "https://cargo.finnair.com/en",
@@ -1545,8 +1547,8 @@ export const courierProviders = [
     url: "http://www.orientexpindia.com/index.php",
   },
   {
-    name: "BNL Air Service Courier",
-    link: "bnl-air-service-courier-tracking",
+    name: "BNL Air Service ",
+    link: "bnl-air-service-tracking",
     url: "http://bnlair.in/index.html",
   },
   {
@@ -1936,8 +1938,8 @@ export const courierProviders = [
     url: "https://www.simplylogistics.in/",
   },
   {
-    name: "Mass Tracking",
-    link: "mass-tracking",
+    name: "Mass Cargo Tracking",
+    link: "mass-cargo-tracking",
     url: "https://meccargo.com/",
   },
   {
@@ -2045,9 +2047,15 @@ export const courierProviders = [
     link: "rcpl-tracking",
     url: "http://www.rcpl.net.in/",
   },
+
   {
     name: "Scorpion Tracking",
     link: "scorpion-tracking",
+    url: "https://scorpiongroup.in/",
+  },
+  {
+    name: "Om International Courier Cargo Tracking",
+    link: "om-international-courier-cargo-tracking",
     url: "https://scorpiongroup.in/",
   },
   {
@@ -2056,8 +2064,13 @@ export const courierProviders = [
     url: "https://lmtco.com/",
   },
   {
-    name: "World First Courier",
-    link: "world-first-courier-tracking",
+    name: "World First Internation Courier ",
+    link: "world-first-international-courier-tracking",
+    url: "https://worldfirst.in/",
+  },
+  {
+    name: "World First Domestic Courier ",
+    link: "world-first-domestic-courier-tracking",
     url: "https://worldfirst.in/",
   },
   {
@@ -2364,11 +2377,6 @@ export const courierProviders = [
     name: "K D Courier",
     link: "k-d-courier-tracking",
     url: "https://kdcourier.com/",
-  },
-  {
-    name: "Speed and Safe Courier",
-    link: "speed-and-safe-courier-tracking",
-    url: "https://www.gokulamspeedandsafe.com/",
   },
 
   {

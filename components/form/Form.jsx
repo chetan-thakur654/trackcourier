@@ -5,6 +5,7 @@ import { courierProviders } from "@/utility/CourierProviders";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import styles from "./Form.module.css";
 import { Spinner } from "../loader/spinner";
+import Select from "react-select";
 
 const Form = ({
   showSelect,
@@ -17,6 +18,8 @@ const Form = ({
   const [trackingIdError, setTrackingIdError] = useState(false);
   const [selectedCourierError, setSelectedCourierError] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [selectedOption, setSelectedOption] = React.useState(null);
+
   const router = useRouter();
   const currentPath = usePathname();
 
@@ -73,6 +76,7 @@ const Form = ({
           name="trackingId"
           placeholder={placeholderText || "Enter Tracking Number"}
           value={trackingId}
+          // onChange={(e) => handleChange(setTrackingId, setTrackingIdError, e)}
           onChange={(e) => handleChange(setTrackingId, setTrackingIdError, e)}
           className={`${styles.input} ${trackingIdError ? styles.error : ""}`}
         />
