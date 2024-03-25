@@ -254,7 +254,7 @@ export const courierProviders = [
   { name: "Budget Courier", link: "budget-courier-tracking" },
   { name: "Bulgarian posts", link: "bulgarian-posts-tracking" },
   { name: "Buylogic Courier", link: "buylogic-courier-tracking" },
-  { name: "C & T Courier", link: "c-&-t-courier-tracking" },
+  { name: "C & T Courier", link: "c-and-t-courier-tracking" },
   {
     name: "Cambodia Post Courier",
     link: "cambodia-post-courier-tracking",
@@ -1746,10 +1746,15 @@ export const courierProviders = [
     link: "airways-courier-tracking",
     url: "https://airwayscourier.co.in/",
   },
+
   {
     name: "Kerry Indev Express",
     link: "kerry-indev-express-tracking",
     url: "https://kerryindevexpress.com/",
+  },
+  {
+    name: "FastWay India",
+    link: "fastway-india-tracking",
   },
   {
     name: "K D Courier",
@@ -1949,7 +1954,7 @@ export const courierProviders = [
   },
   {
     name: "Airstar Express",
-    link: "airstar-courier-tracking",
+    link: "airstar- Express-courier-tracking",
     url: "https://airstarxpress.com/",
   },
   {
