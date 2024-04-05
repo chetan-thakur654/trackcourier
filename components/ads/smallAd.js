@@ -21,7 +21,7 @@ const SmallGoogleAd = () => {
   useEffect(() => {
     window.adsbygoogle = window.adsbygoogle || [];
     window.adsbygoogle.push({});
-  }, [currentPath, ads]);
+  }, [currentPath]);
 
   return (
     <div className={styles["small_ad_container"]}>
