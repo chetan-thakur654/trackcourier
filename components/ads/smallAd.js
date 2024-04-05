@@ -7,16 +7,16 @@ import styles from "./ads.module.css";
 
 const SmallGoogleAd = () => {
   const currentPath = usePathname();
-  const [ads, setAds] = useState(false);
+  // const [ads, setAds] = useState(false);
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setAds((ads) => !ads);
-    }, 20000); // Run the effect every three seconds (3000 milliseconds)
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setAds((ads) => !ads);
+  //   }, 20000); // Run the effect every three seconds (3000 milliseconds)
 
-    // Clean up the interval to prevent memory leaks
-    return () => clearInterval(intervalId);
-  });
+  //   // Clean up the interval to prevent memory leaks
+  //   return () => clearInterval(intervalId);
+  // });
 
   useEffect(() => {
     window.adsbygoogle = window.adsbygoogle || [];
@@ -24,7 +24,7 @@ const SmallGoogleAd = () => {
   }, [currentPath, ads]);
 
   return (
-    <div className={styles["small_ad_container"]} key={ads}>
+    <div className={styles["small_ad_container"]}>
       <ins
         className={`adsbygoogle ${styles["customize_small_ad"]}`}
         style={{ display: "block", height: "100px" }}

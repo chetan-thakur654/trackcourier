@@ -5,27 +5,27 @@ import { useRouter, usePathname } from "next/navigation";
 import styles from "./ads.module.css";
 
 const AdsenseComp = () => {
-  const [ads, setAds] = useState(false);
+  // const [ads, setAds] = useState(false);
 
   const currentPath = usePathname();
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setAds((ads) => !ads);
-    }, 20000); // Run the effect every three seconds (3000 milliseconds)
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setAds((ads) => !ads);
+  //   }, 20000); // Run the effect every three seconds (3000 milliseconds)
 
-    // Clean up the interval to prevent memory leaks
-    return () => clearInterval(intervalId);
-  });
+  //   // Clean up the interval to prevent memory leaks
+  //   return () => clearInterval(intervalId);
+  // });
 
   useEffect(() => {
     window.adsbygoogle = window.adsbygoogle || [];
     window.adsbygoogle.push({});
-  }, [currentPath, ads]);
+  }, [currentPath]);
 
   return (
     <>
-      <div className={styles["customize_bigger_ad"]} key={ads}>
+      <div className={styles["customize_bigger_ad"]}>
         <ins
           className="adsbygoogle"
           style={{ display: "block", height: "280px" }}
